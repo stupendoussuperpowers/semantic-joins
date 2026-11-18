@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# semjoin: regenerable data and run outputs (data/freyja is hand-labeled and committed)
+data/autofj/
+data/mapping/
+runs/

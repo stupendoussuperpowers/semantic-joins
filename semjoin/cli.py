@@ -1,0 +1,152 @@
+"""Command line entry point: ``semjoin <command>`` or ``python -m semjoin <command>``."""
+
+from __future__ import annotations
+
+import argparse
+import sys
+from datetime import datetime
+from pathlib import Path
+
+from semjoin.datasets import DATASETS, load_tasks
+from semjoin.splits import load_manifest, write_manifest
+
+
+def _csv(value: str) -> list[str]:
+    return [v.strip() for v in value.split(",") if v.strip()]
+
+
+def _matcher_list(value: str) -> list[str]:
+    # Matcher specs contain commas inside their arguments ("fuzzy:threshold=0.7,q=2"),
+    # so --matchers is separated by semicolons or given multiple times.
+    return [v.strip() for v in value.split(";") if v.strip()]
+
+
+def cmd_download_autofj(args: argparse.Namespace) -> int:
+    from semjoin.datasets import autofj
+
+    names = autofj.download(args.data_root / "autofj", args.names)
+    print(f"{len(names)} Auto-FuzzyJoin tasks in {args.data_root / 'autofj'}")
+    return 0
+
+
+def cmd_build_mapping(args: argparse.Namespace) -> int:
+    from semjoin.datasets import mapping
+
+    built = mapping.build(args.data_root / "mapping", seed=args.seed, sample_fraction=args.sample_fraction)
+    print(f"built {len(built)} mapping tasks in {args.data_root / 'mapping'}: {', '.join(built)}")
+    return 0
+
+
+def cmd_split(args: argparse.Namespace) -> int:
+    tasks = load_tasks(list(DATASETS), args.data_root)
+    assignment = write_manifest(args.manifest, tasks, seed=args.seed, dev_fraction=args.dev_fraction)
+    counts: dict[str, dict[str, int]] = {}
+    for key, split in assignment.items():
+        ds = key.split("/", 1)[0]
+        counts.setdefault(ds, {"dev": 0, "test": 0})[split] += 1
+    for ds, c in sorted(counts.items()):
+        print(f"{ds}: dev={c['dev']} test={c['test']}")
+    print(f"wrote {args.manifest}")
+    return 0
+
+
+def cmd_run(args: argparse.Namespace) -> int:
+    from semjoin.run import run
+
+    manifest = load_manifest(args.manifest)
+    split = None if args.split == "all" else args.split
+    tasks = load_tasks(args.datasets, args.data_root, manifest, split)
+    if args.tasks:
+        wanted = set(args.tasks)
+        tasks = [t for t in tasks if t.task_id in wanted or t.key in wanted]
+    if not tasks:
+        print("no tasks selected", file=sys.stderr)
+        return 1
+    matchers = [m for group in args.matchers for m in group]
+
+    if args.llm == "ollama":
+        from semjoin.llm import OllamaClient
+
+        llm_factory = lambda: OllamaClient(model=args.ollama_model, url=args.ollama_url)  # noqa: E731
+    else:
+        from semjoin.llm import FakeLLM
+
+        llm_factory = FakeLLM
+
+    out_dir = args.out or Path("runs") / datetime.now().strftime("%Y%m%d-%H%M%S")
+    config = {
+        "argv": sys.argv,
+        "datasets": args.datasets,
+        "split": args.split,
+        "llm": args.llm,
+        "ollama_model": args.ollama_model if args.llm == "ollama" else None,
+    }
+    run(tasks, matchers, llm_factory, out_dir, config)
+    print(f"results in {out_dir}")
+    if not args.no_summary:
+        from semjoin.summarize import summarize
+
+        print(summarize(out_dir))
+    return 0
+
+
+def cmd_summarize(args: argparse.Namespace) -> int:
+    from semjoin.summarize import summarize
+
+    if args.router and not args.strategies:
+        print("--router needs --strategies", file=sys.stderr)
+        return 2
+    strategies = [m for group in args.strategies or [] for m in group]
+    print(summarize(args.run_dir, args.router, strategies))
+    return 0
+
+
+def build_parser() -> argparse.ArgumentParser:
+    p = argparse.ArgumentParser(prog="semjoin", description=__doc__)
+    p.add_argument("--data-root", type=Path, default=Path("data"))
+    p.add_argument("--manifest", type=Path, default=Path("splits.json"))
+    sub = p.add_subparsers(dest="command", required=True)
+
+    s = sub.add_parser("download-autofj", help="download the Auto-FuzzyJoin benchmark")
+    s.add_argument("--names", type=_csv, help="comma-separated subset of task names")
+    s.set_defaults(func=cmd_download_autofj)
+
+    s = sub.add_parser("build-mapping", help="generate the mapping-table dataset")
+    s.add_argument("--seed", type=int, default=0)
+    s.add_argument("--sample-fraction", type=float, default=0.6)
+    s.set_defaults(func=cmd_build_mapping)
+
+    s = sub.add_parser("split", help="assign dev/test splits to new tasks in the manifest")
+    s.add_argument("--seed", type=int, default=0)
+    s.add_argument("--dev-fraction", type=float, default=0.3)
+    s.set_defaults(func=cmd_split)
+
+    s = sub.add_parser("run", help="run matchers on tasks")
+    s.add_argument("--datasets", type=_csv, default=list(DATASETS))
+    s.add_argument(
+        "--matchers",
+        type=_matcher_list,
+        action="append",
+        required=True,
+        help='matcher specs separated by ";", e.g. "exact;fuzzy:threshold=0.7"',
+    )
+    s.add_argument("--split", choices=["dev", "test", "all"], default="dev")
+    s.add_argument("--tasks", type=_csv, help="restrict to these task ids or dataset/task keys")
+    s.add_argument("--llm", choices=["fake", "ollama"], default="fake")
+    s.add_argument("--ollama-model", default=None, help="default: $SEMJOIN_OLLAMA_MODEL or qwen2.5:7b")
+    s.add_argument("--ollama-url", default=None, help="default: $SEMJOIN_OLLAMA_URL or http://localhost:11434")
+    s.add_argument("--out", type=Path, help="run directory (default: runs/<timestamp>)")
+    s.add_argument("--no-summary", action="store_true")
+    s.set_defaults(func=cmd_run)
+
+    s = sub.add_parser("summarize", help="aggregate a run directory")
+    s.add_argument("run_dir", type=Path)
+    s.add_argument("--router", help="matcher spec of the router to evaluate (RQ1)")
+    s.add_argument("--strategies", type=_matcher_list, action="append", help="strategy specs the router chooses between")
+    s.set_defaults(func=cmd_summarize)
+    return p
+
+
+def main(argv: list[str] | None = None) -> int:
+    args = build_parser().parse_args(argv)
+    return args.func(args)
