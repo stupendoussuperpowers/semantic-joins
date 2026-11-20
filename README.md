@@ -50,6 +50,16 @@ Each run writes `runs/<timestamp>/`:
 **Hard F1** counts only pairs whose values differ after normalization, i.e.
 the pairs a normalized equi-join cannot find.
 
+## Matchers
+
+Baselines: `exact`, `normalized`, `fuzzy`. Strategies: `autofj`, `transform`,
+`acronym`, `llm_gen`, `llm`, `cascade`, `pipeline`. Each strategy runs
+normalize → step → (optional) residual LLM pass; see `semjoin/matchers/` for details.
+
+```sh
+semjoin run --split dev --matchers "autofj;acronym:residual=true;pipeline:steps=transform+acronym"
+```
+
 ## Adding a matcher
 
 Implement `match(task, ctx) -> set[(left, right)]` and register it in

@@ -61,8 +61,12 @@ class FakeLLM:
 class OllamaClient:
     """Calls a local or remote Ollama server's /api/chat endpoint.
 
-    Defaults come from SEMJOIN_OLLAMA_URL and SEMJOIN_OLLAMA_MODEL.
-    Temperature is 0 so runs are as repeatable as the model allows.
+    Defaults come from SEMJOIN_OLLAMA_URL, SEMJOIN_OLLAMA_MODEL and
+    SEMJOIN_OLLAMA_NUM_CTX. Temperature is 0 so runs are as repeatable as the
+    model allows. ``num_ctx`` is set explicitly because Ollama's default
+    context window is small and it truncates longer prompts silently; the
+    shared-list and candidate prompts of the LLM matchers run to a few
+    thousand tokens.
     """
 
     def __init__(
@@ -71,11 +75,13 @@ class OllamaClient:
         url: str | None = None,
         timeout: float = 300.0,
         retries: int = 2,
+        num_ctx: int | None = None,
     ):
         self.model = model or os.environ.get("SEMJOIN_OLLAMA_MODEL", "qwen2.5:7b")
         self.url = (url or os.environ.get("SEMJOIN_OLLAMA_URL", "http://localhost:11434")).rstrip("/")
         self.timeout = timeout
         self.retries = retries
+        self.num_ctx = num_ctx or int(os.environ.get("SEMJOIN_OLLAMA_NUM_CTX", "8192"))
 
     def complete(self, prompt: str, *, system: str | None = None) -> LLMResponse:
         messages = [{"role": "system", "content": system}] if system else []
@@ -85,7 +91,7 @@ class OllamaClient:
                 "model": self.model,
                 "messages": messages,
                 "stream": False,
-                "options": {"temperature": 0},
+                "options": {"temperature": 0, "num_ctx": self.num_ctx},
             }
         ).encode()
         req = urllib.request.Request(

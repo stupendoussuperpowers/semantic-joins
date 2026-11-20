@@ -7,15 +7,29 @@ router) in ``MATCHERS``.
 
 from __future__ import annotations
 
+from functools import partial
 from typing import Any, Callable
 
 from semjoin.core import Matcher
 from semjoin.matchers.baselines import ExactMatcher, NormalizedMatcher, QgramFuzzyMatcher
+from semjoin.matchers.pipeline import Pipeline
 
 MATCHERS: dict[str, Callable[..., Matcher]] = {
+    # Baselines.
     "exact": ExactMatcher,
     "normalized": NormalizedMatcher,
     "fuzzy": QgramFuzzyMatcher,
+    # Routing-table strategies: normalize -> step [-> residual LLM with residual=true].
+    "autofj": partial(Pipeline, steps="autofj"),
+    "transform": partial(Pipeline, steps="transform"),
+    "acronym": partial(Pipeline, steps="acronym"),
+    "llm_gen": partial(Pipeline, steps="gen"),
+    # LLM on everything the normalized join misses.
+    "llm": partial(Pipeline, steps="", residual=True),
+    # Every cheap step in sequence, then the residual LLM pass.
+    "cascade": partial(Pipeline, steps="autofj+transform+acronym", residual=True),
+    # Any combination, e.g. "pipeline:steps=transform+acronym,residual=true".
+    "pipeline": Pipeline,
 }
 
 
