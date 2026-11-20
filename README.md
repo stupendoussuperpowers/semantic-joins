@@ -56,6 +56,13 @@ Baselines: `exact`, `normalized`, `fuzzy`. Strategies: `autofj`, `transform`,
 `acronym`, `llm_gen`, `llm`, `cascade`. Each strategy runs a normalized join, then
 its own method, then (with `residual=true`) an LLM pass on what's left; see `semjoin/matchers/`.
 
+Examples:
+```sh
+semjoin run --split dev --matchers "autofj"
+semjoin run --split dev --matchers "acronym:residual=true"
+semjoin run --split dev --matchers "cascade"
+```
+or string them together:
 ```sh
 semjoin run --split dev --matchers "autofj;acronym:residual=true;cascade"
 ```
