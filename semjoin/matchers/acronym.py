@@ -13,7 +13,9 @@ import re
 from collections import defaultdict
 from collections.abc import Sequence
 
-from semjoin.core import Pair, RunContext
+from semjoin.core import JoinTask, Pair, RunContext
+from semjoin.matchers.llm_residual import add_residual
+from semjoin.matchers.utils_matching import normalize_first
 from semjoin.normalize import normalize
 
 STOPWORDS = frozenset({"of", "and", "the", "for", "in", "on", "at", "to", "a", "an", "da", "de", "du", "del", "la", "le", "von", "van", "y", "et", "&"})
@@ -39,10 +41,21 @@ def short_key(value: str, max_len: int) -> str | None:
     return k if 2 <= len(k) <= max_len else None
 
 
-class AcronymStep:
-    def __init__(self, max_len: int = 8, unique: bool = True):
+class AcronymMatcher:
+    def __init__(self, max_len: int = 8, unique: bool = True, residual: bool = False):
         self.max_len = max_len
         self.unique = unique
+        self.residual = residual
+
+    def match(self, task: JoinTask, ctx: RunContext) -> set[Pair]:
+        pairs, remaining = normalize_first(task, ctx)
+        if remaining:
+            with ctx.stage("acronym"):
+                pairs |= self.find_pairs(task.left, remaining, ctx, pairs)
+        if self.residual:
+            pairs = add_residual(task, ctx, pairs)
+        ctx.annotate(strategy="acronym")
+        return pairs
 
     def _join(self, long_side: Sequence[str], short_side: Sequence[str]) -> list[tuple[str, str]]:
         by_acr: dict[str, set[str]] = defaultdict(set)
@@ -60,7 +73,7 @@ class AcronymStep:
             out.extend((l, s) for l in sorted(hits))
         return out
 
-    def propose(self, left: Sequence[str], right: Sequence[str], ctx: RunContext, seeds: set[Pair]) -> set[Pair]:
+    def find_pairs(self, left: Sequence[str], right: Sequence[str], ctx: RunContext, seeds: set[Pair]) -> set[Pair]:
         pairs = set(self._join(left, right))  # right is the acronym
         pairs |= {(l, r) for r, l in self._join(right, left)}  # left is the acronym
         return pairs

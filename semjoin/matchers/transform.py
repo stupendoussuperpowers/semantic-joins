@@ -19,7 +19,9 @@ from collections import defaultdict
 from itertools import product
 from collections.abc import Sequence
 
-from semjoin.core import Pair, RunContext
+from semjoin.core import JoinTask, Pair, RunContext
+from semjoin.matchers.llm_residual import add_residual
+from semjoin.matchers.utils_matching import normalize_first
 from semjoin.matchers.utils_similarity import Vectorizer, chunked_rows, row_top_k, similarity
 from semjoin.normalize import normalize
 
@@ -163,7 +165,7 @@ def _mutual_best(left: Sequence[str], right: Sequence[str], min_sim: float) -> l
     return [(l, r) for l, (r, _) in best_l.items() if best_r[r][0] == l]
 
 
-class TransformStep:
+class TransformMatcher:
     def __init__(
         self,
         example_sim: float = 0.5,
@@ -172,6 +174,7 @@ class TransformStep:
         max_examples: int = 300,
         bag_join: bool = True,
         max_collision: float = 0.1,
+        residual: bool = False,
     ):
         self.example_sim = example_sim
         self.min_support = min_support
@@ -179,8 +182,19 @@ class TransformStep:
         self.max_examples = max_examples
         self.bag_join = bag_join
         self.max_collision = max_collision
+        self.residual = residual
 
-    def propose(self, left: Sequence[str], right: Sequence[str], ctx: RunContext, seeds: set[Pair]) -> set[Pair]:
+    def match(self, task: JoinTask, ctx: RunContext) -> set[Pair]:
+        pairs, remaining = normalize_first(task, ctx)
+        if remaining:
+            with ctx.stage("transform"):
+                pairs |= self.find_pairs(list(task.left), remaining, ctx, pairs)
+        if self.residual:
+            pairs = add_residual(task, ctx, pairs)
+        ctx.annotate(strategy="transform")
+        return pairs
+
+    def find_pairs(self, left: Sequence[str], right: Sequence[str], ctx: RunContext, seeds: set[Pair]) -> set[Pair]:
         pairs: set[Pair] = set()
         if self.bag_join:
             by_bag: dict[tuple[str, ...], list[str]] = defaultdict(list)

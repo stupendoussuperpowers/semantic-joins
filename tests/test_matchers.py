@@ -6,7 +6,7 @@ from semjoin.core import JoinTask, RunContext
 from semjoin.llm import FakeLLM
 from semjoin.matchers import build_matcher
 from semjoin.matchers.acronym import initialisms
-from semjoin.matchers.pipeline import parse_json_object, pick_examples
+from semjoin.matchers.utils_matching import parse_json_object, pick_examples
 from semjoin.matchers.transform import learn_programs, run_program, tokens
 
 
@@ -138,7 +138,7 @@ def test_llm_gen_generates_and_joins():
     pairs, ctx = run("llm_gen:batch_size=4,fuzzy_threshold=0.5", task(COUNTRIES, right, gold), FakeLLM(respond))
     # "Germanyy" is resolved to Germany by the fuzzy fallback (a false positive here).
     assert pairs == gold | {("Germany", "XX")}
-    assert ctx.llm_calls == {"gen": 2}
+    assert ctx.llm_calls == {"llm_gen": 2}
 
 
 def test_cascade_sends_only_residual_to_llm():
@@ -150,16 +150,21 @@ def test_cascade_sends_only_residual_to_llm():
     assert pairs == gold
     assert ctx.llm_calls == {"llm_residual": 1}
     assert '"IT"' in llm.prompts[0] and '"UK"' not in llm.prompts[0].split("Column B values:")[1]
-    assert ctx.annotations["step_pairs"]["normalize"] == 1
+    assert ctx.annotations["pairs_added"]["normalize"] == 1
 
 
-def test_pipeline_kwarg_routing():
-    m = build_matcher("pipeline:steps=autofj+acronym,residual=true,autofj_target=0.8,acronym_max_len=5,llm_batch_size=7")
-    assert m.steps[0][1].target == 0.8 and m.steps[1][1].max_len == 5 and m.residual_step.batch_size == 7
-    assert build_matcher("autofj:target=0.7").steps[0][1].target == 0.7
-    with pytest.raises(ValueError, match="prefixed"):
-        build_matcher("cascade:target=0.8")
-    with pytest.raises(ValueError, match="unknown argument"):
+def test_matcher_args():
+    assert build_matcher("autofj:target=0.7").target == 0.7
+    assert build_matcher("acronym:residual=true,max_len=5").residual is True
+    with pytest.raises(TypeError):
         build_matcher("acronym:bogus=1")
-    with pytest.raises(ValueError, match="unknown step"):
-        build_matcher("pipeline:steps=nope")
+
+
+def test_residual_only_sees_unmatched_values():
+    left = ["New York", "Germany"]
+    right = ["NY", "DE"]
+    llm = FakeLLM(oracle_residual({"DE": "Germany", "NY": "New York"}))
+    pairs, ctx = run("acronym:residual=true", task(left, right, set()), llm)
+    assert pairs == {("New York", "NY"), ("Germany", "DE")}
+    assert '"DE"' in llm.prompts[0] and 'b1. "NY"' not in llm.prompts[0]
+    assert set(ctx.llm_calls) == {"llm_residual"}

@@ -26,9 +26,9 @@ import random
 from collections import defaultdict
 from collections.abc import Sequence
 
-from semjoin.core import Pair, RunContext
-from semjoin.matchers.llm_residual import _q
-from semjoin.matchers.pipeline import parse_json_object, pick_examples
+from semjoin.core import JoinTask, Pair, RunContext
+from semjoin.matchers.llm_residual import _q, add_residual
+from semjoin.matchers.utils_matching import normalize_first, parse_json_object, pick_examples
 from semjoin.matchers.utils_similarity import top_k
 from semjoin.normalize import normalize
 
@@ -38,7 +38,7 @@ SYSTEM = (
 )
 
 
-class LLMGenerateStep:
+class LLMGenerateMatcher:
     def __init__(
         self,
         batch_size: int = 20,
@@ -47,6 +47,7 @@ class LLMGenerateStep:
         fuzzy_threshold: float = 0.8,
         direction: str = "right_to_left",
         seed: int = 0,
+        residual: bool = False,
     ):
         if direction not in ("right_to_left", "left_to_right"):
             raise ValueError("direction must be right_to_left or left_to_right")
@@ -56,6 +57,7 @@ class LLMGenerateStep:
         self.fuzzy_threshold = fuzzy_threshold
         self.direction = direction
         self.seed = seed
+        self.residual = residual
 
     def prompt(self, inputs: Sequence[str], examples: list[tuple[str, str]], samples: Sequence[str]) -> str:
         parts = []
@@ -76,7 +78,17 @@ class LLMGenerateStep:
         parts.append('Answer as JSON mapping each number to the target value, e.g. {"1": "...", "2": null}.')
         return "\n\n".join(parts)
 
-    def propose(self, left: Sequence[str], right: Sequence[str], ctx: RunContext, seeds: set[Pair]) -> set[Pair]:
+    def match(self, task: JoinTask, ctx: RunContext) -> set[Pair]:
+        pairs, remaining = normalize_first(task, ctx)
+        if remaining:
+            with ctx.stage("llm_gen"):
+                pairs |= self.find_pairs(list(task.left), remaining, ctx, pairs)
+        if self.residual:
+            pairs = add_residual(task, ctx, pairs)
+        ctx.annotate(strategy="llm_gen")
+        return pairs
+
+    def find_pairs(self, left: Sequence[str], right: Sequence[str], ctx: RunContext, seeds: set[Pair]) -> set[Pair]:
         r2l = self.direction == "right_to_left"
         src, tgt = (right, left) if r2l else (left, right)
         if not src or not tgt:

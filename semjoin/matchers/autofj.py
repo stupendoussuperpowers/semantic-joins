@@ -16,7 +16,9 @@ from collections.abc import Sequence
 
 import numpy as np
 
-from semjoin.core import Pair, RunContext
+from semjoin.core import JoinTask, Pair, RunContext
+from semjoin.matchers.llm_residual import add_residual
+from semjoin.matchers.utils_matching import normalize_first
 from semjoin.matchers.utils_similarity import Vectorizer, chunked_rows, similarity
 
 # name -> (analyzer, weighting, measure)
@@ -90,9 +92,10 @@ def _tp_fp(join: np.ndarray, p: np.ndarray) -> tuple[float, float]:
     return float(p[m].sum()), float((1 - p[m]).sum())
 
 
-class AutoFuzzyJoinStep:
-    def __init__(self, target: float = 0.9, functions: str = "all"):
+class AutoFuzzyJoinMatcher:
+    def __init__(self, target: float = 0.9, functions: str = "all", residual: bool = False):
         self.target = target
+        self.residual = residual
         if functions == "all":
             self.functions = list(FUNCTIONS)
         else:
@@ -101,7 +104,17 @@ class AutoFuzzyJoinStep:
             if unknown:
                 raise ValueError(f"unknown functions {sorted(unknown)}; choose from {sorted(FUNCTIONS)}")
 
-    def propose(self, left: Sequence[str], right: Sequence[str], ctx: RunContext, seeds: set[Pair]) -> set[Pair]:
+    def match(self, task: JoinTask, ctx: RunContext) -> set[Pair]:
+        pairs, remaining = normalize_first(task, ctx)
+        if remaining:
+            with ctx.stage("autofj"):
+                pairs |= self.find_pairs(list(task.left), remaining, ctx, pairs)
+        if self.residual:
+            pairs = add_residual(task, ctx, pairs)
+        ctx.annotate(strategy="autofj")
+        return pairs
+
+    def find_pairs(self, left: Sequence[str], right: Sequence[str], ctx: RunContext, seeds: set[Pair]) -> set[Pair]:
         candidates = [c for f in self.functions for c in _configs_for(f, left, right) if (c.join >= 0).any()]
         join = np.full(len(right), -1)
         prec = np.zeros(len(right))

@@ -24,8 +24,8 @@ from __future__ import annotations
 from collections.abc import Sequence
 from typing import Any
 
-from semjoin.core import Pair, RunContext
-from semjoin.matchers.pipeline import parse_json_object, pick_examples
+from semjoin.core import JoinTask, Pair, RunContext
+from semjoin.matchers.utils_matching import normalize_first, parse_json_object, pick_examples, unmatched
 from semjoin.matchers.utils_similarity import top_k
 
 SYSTEM = (
@@ -59,7 +59,9 @@ def _as_indices(answer: Any) -> list[int]:
     return out
 
 
-class LLMResidualStep:
+class LLMMatcher:
+    """``llm``: normalized join, then this LLM pass on everything left unmatched."""
+
     def __init__(self, batch_size: int = 20, k: int = 10, full_list_max: int = 300, n_examples: int = 5):
         self.batch_size = batch_size
         self.k = k
@@ -95,7 +97,12 @@ class LLMResidualStep:
             + '\n\nAnswer as JSON mapping each id to a candidate number or null, e.g. {"b1": 2, "b2": null}.'
         )
 
-    def propose(self, left: Sequence[str], right: Sequence[str], ctx: RunContext, seeds: set[Pair]) -> set[Pair]:
+    def match(self, task: JoinTask, ctx: RunContext) -> set[Pair]:
+        pairs, _ = normalize_first(task, ctx)
+        ctx.annotate(strategy="llm")
+        return add_residual(task, ctx, pairs, self)
+
+    def find_pairs(self, left: Sequence[str], right: Sequence[str], ctx: RunContext, seeds: set[Pair]) -> set[Pair]:
         if not right or not left:
             return set()
         examples = pick_examples(seeds, self.n_examples)
@@ -119,3 +126,12 @@ class LLMResidualStep:
                         pairs.add((left[opts[n - 1]], r))
         ctx.annotate(llm_residual_mode="shared" if shared else "candidates")
         return pairs
+
+
+def add_residual(task: JoinTask, ctx: RunContext, pairs: set[Pair], llm: LLMMatcher | None = None) -> set[Pair]:
+    """Send the right values not in ``pairs`` to the LLM; ``pairs`` seed the few-shot examples."""
+    remaining = unmatched(task.right, pairs)
+    if not remaining:
+        return pairs
+    with ctx.stage("llm_residual"):
+        return pairs | (llm or LLMMatcher()).find_pairs(list(task.left), remaining, ctx, pairs)
