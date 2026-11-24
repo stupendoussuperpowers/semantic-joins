@@ -16,6 +16,7 @@ from semjoin.matchers.baselines import ExactMatcher, NormalizedMatcher, QgramFuz
 from semjoin.matchers.cascade import CascadeMatcher
 from semjoin.matchers.llm_gen import LLMGenerateMatcher
 from semjoin.matchers.llm_residual import LLMMatcher
+from semjoin.matchers.router import RouterMatcher
 from semjoin.matchers.transform import TransformMatcher
 
 MATCHERS: dict[str, Callable[..., Matcher]] = {
@@ -32,6 +33,8 @@ MATCHERS: dict[str, Callable[..., Matcher]] = {
     "llm": LLMMatcher,
     # autofj -> transform -> acronym -> LLM.
     "cascade": CascadeMatcher,
+    # Profiles the column pair and runs one routing-table strategy (RQ1, RQ2).
+    "router": RouterMatcher,
 }
 
 def _parse_value(raw: str) -> Any:
