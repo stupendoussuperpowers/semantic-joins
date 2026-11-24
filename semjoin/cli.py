@@ -101,6 +101,15 @@ def cmd_summarize(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_tune(args: argparse.Namespace) -> int:
+    from semjoin.tune import parse_grid, tune
+
+    strategies = [m for group in args.strategies or [] for m in group] or None
+    grid = parse_grid(args.grid) if args.grid else None
+    print(tune(args.run_dir, args.router, strategies, grid, args.objective, args.top))
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="semjoin", description=__doc__)
     p.add_argument("--data-root", type=Path, default=Path("data"))
@@ -144,6 +153,15 @@ def build_parser() -> argparse.ArgumentParser:
     s.add_argument("--router", help="matcher spec of the router to evaluate (RQ1)")
     s.add_argument("--strategies", type=_matcher_list, action="append", help="strategy specs the router chooses between")
     s.set_defaults(func=cmd_summarize)
+
+    s = sub.add_parser("tune", help="score other router thresholds on a finished run, without re-running it")
+    s.add_argument("run_dir", type=Path)
+    s.add_argument("--router", default="router", help="the router spec as it was run (default: router)")
+    s.add_argument("--strategies", type=_matcher_list, action="append", help="default: every strategy the router can pick")
+    s.add_argument("--grid", help='thresholds to try, e.g. "typo_cos=0.4,0.5;code_len=3,4" (default: a built-in grid)')
+    s.add_argument("--objective", choices=["macro_f1", "micro_f1", "accuracy", "regret"], default="macro_f1")
+    s.add_argument("--top", type=int, default=10, help="how many of the best settings to list")
+    s.set_defaults(func=cmd_tune)
     return p
 
 

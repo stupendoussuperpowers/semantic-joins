@@ -5,6 +5,7 @@ Writes into the run directory:
     summary.md / summary.csv   per (matcher, dataset), plus an ALL row
     by_type.csv                per (matcher, mismatch type)
     routing.md                 only with --router: RQ1 routing accuracy
+    routing.csv                only with --router: the same rows plus the router's profile
     cost_quality.png           F1 vs LLM calls, if matplotlib is installed
 """
 
@@ -81,11 +82,13 @@ def routing(records: list[dict[str, Any]], router: str, strategies: list[str]) -
             continue
         best_f1 = max(results[s]["f1"] for s in strategies)
         oracle = [s for s in strategies if results[s]["f1"] == best_f1]
-        chosen = results[router]["annotations"].get("strategy")
+        annotations = results[router]["annotations"]
+        chosen = annotations.get("strategy")
         rows.append(
             {
                 "task": key,
                 "chosen": chosen,
+                "rule": annotations.get("route_rule"),
                 "oracle": "|".join(oracle),
                 "correct": chosen in oracle,
                 "router_f1": results[router]["f1"],
@@ -97,6 +100,9 @@ def routing(records: list[dict[str, Any]], router: str, strategies: list[str]) -
         "tasks": len(rows),
         "accuracy": float(mean(r["correct"] for r in rows)) if rows else float("nan"),
         "mean_regret": mean(r["regret"] for r in rows) if rows else float("nan"),
+        # Macro F1 of the router and of perfect routing among the strategies (an upper bound).
+        "router_f1": mean(r["router_f1"] for r in rows) if rows else float("nan"),
+        "oracle_f1": mean(r["oracle_f1"] for r in rows) if rows else float("nan"),
         "rows": rows,
     }
 
@@ -160,10 +166,20 @@ def summarize(run_dir: Path, router: str | None = None, strategies: list[str] | 
         res = routing(records, router, strategies or [])
         routing_md = (
             f"## Routing: {router}\n\n"
-            f"tasks={res['tasks']} accuracy={_fmt(res['accuracy'])} mean_regret={_fmt(res['mean_regret'])}\n\n"
+            f"tasks={res['tasks']} accuracy={_fmt(res['accuracy'])} mean_regret={_fmt(res['mean_regret'])} "
+            f"router_f1={_fmt(res['router_f1'])} oracle_f1={_fmt(res['oracle_f1'])}\n\n"
             + to_markdown(res["rows"])
         )
         (run_dir / "routing.md").write_text(routing_md)
+        profiles = {
+            f"{r['dataset']}/{r['task_id']}": r["annotations"].get("profile", {}) for r in records if r["matcher"] == router
+        }
+        # Same columns on every row: a task the router failed on has no profile.
+        fields = list(dict.fromkeys(k for p in profiles.values() for k in p))
+        write_csv(
+            run_dir / "routing.csv",
+            [{**row, **{k: profiles.get(row["task"], {}).get(k) for k in fields}} for row in res["rows"]],
+        )
         report += "\n" + routing_md
     (run_dir / "summary.md").write_text(report)
     plot_cost_quality(run_dir / "cost_quality.png", ds_rows)
