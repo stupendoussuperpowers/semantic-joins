@@ -1,0 +1,12 @@
+{
+ "source": "wikidata",
+ "mismatch_type": "code",
+ "group": "airports",
+ "fetched_at": "2026-11-26T18:24:12+00:00",
+ "raw_sha256": "7d34cfe30fe098ec4ef9a322b90a146cb0bedabc7c0ef287f8cf6bf2949454a9",
+ "query_sha256": "239283c08c2442333c3cdd5fbfc93b1a5f92017916ab6eb3cc603a7730968552",
+ "endpoint": "wdqs",
+ "seed": 0,
+ "max_entities": 400,
+ "sample_fraction": 0.6
+}

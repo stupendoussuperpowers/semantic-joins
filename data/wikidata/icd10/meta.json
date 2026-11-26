@@ -1,0 +1,12 @@
+{
+ "source": "wikidata",
+ "mismatch_type": "code",
+ "group": "diseases",
+ "fetched_at": "2026-11-26T19:23:48+00:00",
+ "raw_sha256": "1dfb4726910a6fc09364e5170f9fa7b29155d1ccef0450d7f32b8939a3c02919",
+ "query_sha256": "ba03acb89b953dc66ab1d814deb12214cf350415125390c0e727228e98a9d0d6",
+ "endpoint": "qlever",
+ "seed": 0,
+ "max_entities": 400,
+ "sample_fraction": 0.6
+}

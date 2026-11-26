@@ -1,0 +1,13 @@
+{
+ "source": "nyc-open-data",
+ "datasets": [
+  "9nt8-h7nd"
+ ],
+ "gold_from": "same row",
+ "fetched_at": "2026-11-26T23:51:23+00:00",
+ "mismatch_type": "code",
+ "type_mix": {
+  "alias": 262
+ },
+ "type_tagger": "semjoin.datasets.tagging"
+}

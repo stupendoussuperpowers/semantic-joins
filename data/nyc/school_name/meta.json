@@ -1,0 +1,18 @@
+{
+ "source": "nyc-open-data",
+ "datasets": [
+  "f9bf-2cp4",
+  "zt9s-n5aj"
+ ],
+ "gold_from": "shared DBN, sharing a distinctive word",
+ "gold_dropped": 9,
+ "fetched_at": "2026-11-26T23:51:23+00:00",
+ "mismatch_type": "mixed",
+ "type_mix": {
+  "typo": 85,
+  "fuzzy": 76,
+  "alias": 75,
+  "reorder": 1
+ },
+ "type_tagger": "semjoin.datasets.tagging"
+}

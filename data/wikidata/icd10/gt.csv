@@ -1,0 +1,310 @@
+id_l,title_l,id_r,title_r
+1,Acquired hemolytic anemia,55,D59
+2,Acrodynia,274,T56.1
+3,African tick-bite fever,4,A77.8
+5,Anagen effluvium,172,L65.1
+5,Anagen effluvium,173,L65.100
+6,Angiostrongylus costaricensis infectious disease,21,B81.3
+8,Atrophic spots of skin,181,L95.0
+10,Bifascicular block,136,I45.2
+12,Bolivian hemorrhagic fever,8,A96.1
+13,Boutonniere deformity,187,M20.0
+16,CDKL5 deficiency disorder,104,G40.4
+17,Chance fracture,262,S22.0
+19,Combined small-cell lung carcinoma,28,C33
+19,Combined small-cell lung carcinoma,29,C34
+21,Conradi–Hünermann syndrome,240,Q77.3
+26,"Cysts of iris, ciliary body and anterior chamber",119,H21.3
+29,Dilaceration,149,K00.4
+31,El Tor cholera,0,A00.1
+32,Enteroinvasive Escherichia coli,1,A04.2
+36,Furuncle of vulva,212,N76.4
+37,Gitelman syndrome,72,E83.4
+37,Gitelman syndrome,75,E87.6
+37,Gitelman syndrome,204,N25.8
+40,Haemodialysis-associated amyloidosis,73,E85.3
+42,Hemophilic arthropathy,192,M36.2
+43,Hereditary sideroblastic anemia,56,D64.0
+46,Infantile acne,176,L70.4
+48,Iodinolum,126,H66
+48,Iodinolum,139,J03.9
+48,Iodinolum,179,L87
+48,Iodinolum,272,T30
+49,Japanese spotted fever,4,A77.8
+50,Kinking hair,175,L67.8
+54,Large-cell lung carcinoma with rhabdoid phenotype,28,C33
+54,Large-cell lung carcinoma with rhabdoid phenotype,29,C34
+55,Laryngopharyngeal reflux,151,K21
+59,Linear lichen planus,167,L43.8
+60,Livedoid vasculitis,181,L95.0
+61,Macrotia,231,Q17.1
+64,May–Hegglin anomaly,59,D72.0
+66,Mongolian spot,44,D22.5
+67,Morton's neuroma,107,G57.6
+71,Neonatal bowel obstruction,224,P76
+72,Nevus comedonicus,241,Q82.5
+73,O'nyong'nyong fever,6,A92.1
+74,Osgood-Schlatter's disease,203,M92.5
+77,Plummer–Vinson syndrome,52,D50.1
+78,Poikiloderma of Civatte,169,L57.3
+80,Radiation enteropathy,153,K52.0
+80,Radiation enteropathy,156,K62.7
+80,Radiation enteropathy,161,K92.0
+81,Re-entry ventricular arrhythmia,137,I47.0
+82,Rickettsia aeschlimannii infection,4,A77.8
+84,Sclerema neonatorum,225,P83.0
+85,Sensenbrenner syndrome,245,Q87.5
+89,Subjective visual disturbances,124,H53.1
+90,Template:Fatty-acid metabolism disorders,69,E71.3
+91,Template:Heme metabolism disorders,71,E80
+92,Toxic multinodular goitre,60,E05.2
+93,West Nile fever,7,A92.3
+94,Wiedemann-Rautenstrauch syndrome,64,E34.8
+95,X-linked adrenoleukodystrophy,69,E71.3
+96,Y chromosome number anomaly,248,Q98.9
+98,abdominal obesity,67,E66
+99,abducens nerve palsy,123,H49.2
+100,abnormal kyphosis,193,M40.2
+101,abnormal sputum,250,R09.3
+103,acquired hemophilia,57,D68.4
+104,acute coronary syndrome,130,I20.0
+105,acute epiglottitis,140,J05.1
+107,adrenogenital disease,63,E25
+109,air embolism,219,O88.0
+109,air embolism,281,T79.0
+110,alastrim,10,B03
+113,anal fissure,154,K60.0
+113,anal fissure,155,K60.2
+114,anaphylaxis,280,T78.2
+116,androgenic alopecia,171,L64
+118,anthropophobia,88,F40.1
+119,aortopulmonary window,232,Q21.4
+121,arthropathy associated with hematological disorder,191,M36
+123,aspermia,207,N46
+125,atypical chronic myeloid leukemia,39,C92.2
+127,autoimmune atrophic gastritis,152,K29.4
+128,avian influenza,141,J09
+129,axillary nerve palsy,265,S44.3
+130,balanoposthitis,208,N48.1
+131,barotitis,278,T70.0
+132,basidiobolomycosis,16,B46.8
+133,behavioral disorder,95,F91
+135,bile duct adenoma,40,D13.5
+137,bone cancer,31,C40
+137,bone cancer,32,C41
+140,catatonic schizophrenia,83,F20.2
+142,cerebral malaria,17,B50.0
+143,cerebral salt-wasting syndrome,205,N28.8
+144,cervical pregnancy,215,O00.8
+145,chemotherapy-induced acral erythema,289,Y43.1
+145,chemotherapy-induced acral erythema,290,Y43.3
+146,chondroma,42,D16
+146,chondroma,43,D21
+148,chronic otitis media with effusion,125,H65.3
+149,cluttering,97,F98.6
+156,conjoined twins,246,Q89.4
+158,coxsackie carditis,12,B33.2
+160,crystal arthropathy,182,M10
+160,crystal arthropathy,183,M11
+163,cysticercosis,19,B69
+164,cysticercosis cutis,20,B69.8
+165,cytolytic hepatitis,158,K72.0
+168,delirium tremens,80,F10.4
+169,demodicosis,23,B88.0
+170,dental attrition,150,K03.0
+171,dermatochalasis,118,H02.3
+171,dermatochalasis,228,Q10.0
+172,diaphragmatic rupture,264,S27.8
+173,dislocation of jaw,260,S03.0
+176,dysautonomia,117,G90
+177,dysdiadochokinesia,253,R27
+178,dyspareunia,213,N94.1
+179,ear canal atresia,230,Q16.1
+180,early pregnancy bleeding,216,O20
+182,ectopia lentis,121,H27.1
+182,ectopia lentis,229,Q12.1
+184,endogenous depression,86,F33.2
+184,endogenous depression,87,F33.3
+185,entomophthoramycosis,16,B46.8
+186,enuresis,96,F98.0
+186,enuresis,254,R32
+187,envenomation,275,T63
+192,facial trauma,257,S00
+192,facial trauma,258,S02.2
+192,facial trauma,259,S02.9
+193,fecal incontinence,251,R15
+194,female infertility,214,N97.0
+195,fetishistic disorder,91,F65.0
+196,fits in newborn,226,P90
+198,focal hand dystonia,89,F48.8
+198,focal hand dystonia,103,G25.8
+199,foreign body in alimentary tract,271,T18
+200,freckle,178,L81.2
+201,gastrointestinal mucormycosis,15,B46.2
+203,gastrointestinal system cancer,27,C26.0
+205,geniospasm,102,G25.3
+206,gerodermia osteodysplastica,242,Q82.9
+207,graft-versus-host disease,285,T86.0
+210,greater trochanteric pain syndrome,201,M70.6
+211,gummatous syphilis,2,A52.3
+211,gummatous syphilis,3,A52.7
+212,hair diseases,170,L63
+212,hair diseases,177,L73
+212,hair diseases,243,Q84.1
+212,hair diseases,244,Q84.2
+213,hallucinosis,77,F06.0
+213,hallucinosis,81,F10.5
+213,hallucinosis,85,F28
+214,hallux varus,188,M20.3
+214,hallux varus,237,Q66.3
+215,haltlose personality disorder,90,F60.8
+216,hematoma,269,T14.0
+217,hematospermia,209,N50.1
+219,hemoglobinopathy,54,D58.2
+220,heparin-induced thrombocytopenia,58,D69.5
+221,hepatic porphyria,71,E80
+222,herpangina,11,B08.5
+223,hip osteoarthritis,185,M16
+225,hydroa vacciniforme-like lymphoma,37,C84.5
+227,hypermethioninemia,70,E72.1
+228,hypersomatotropism,62,E22.0
+229,hypervitaminosis,68,E67
+231,iatrogenic pleural effusion,283,T80.8
+232,idiopathic neuropathy,108,G60
+233,idiopathic progressive polyneuropathy,109,G60.3
+234,idiot,92,F73
+236,indolent systemic mastocytosis,49,D47.0
+237,infestation,18,B65
+237,infestation,25,B88.9
+238,iniencephaly,227,Q00.2
+240,intracranial laceration and haemorrhage due to birth injury,221,P10
+241,invasive aspergillosis,14,B44.1
+242,iron deficiency,66,E61.1
+243,iron(II) gluconate,66,E61.1
+244,irritant diaper dermatitis,165,L22
+245,joint instability,190,M25.3
+250,liver abscess,159,K75.0
+251,long-term effects of benzodiazepines,82,F13
+252,low backache,196,M54.5
+253,lower limb cancer,36,C76.5
+255,malabsorption,160,K90
+256,malformation of placenta,217,O43.1
+257,mallet finger,187,M20.0
+258,management of baldness,174,L65.9
+259,maritime accident,287,V94
+263,millipede burn,276,T63.4
+265,mitochondrial myopathy,110,G71.3
+267,motorcycle accident,286,V29.9
+269,multiple symmetric lipomatosis,76,E88.8
+270,myelitis,98,G04
+270,myelitis,99,G05
+271,myeloproliferative neoplasm,50,D47.1
+272,myoclonus,102,G25.3
+273,myofibrillar myopathy,111,G71.8
+276,neonatal metabolic disturbance,223,P74
+278,nerve injury,270,T14.4
+279,neuroleptic malignant syndrome,100,G21.0
+283,normal anion gap acidosis,74,E87.2
+284,nuclear senile cataract,120,H25.1
+285,omphalitis,163,L08.82
+285,omphalitis,164,L08.9
+285,omphalitis,222,P38
+286,ophthalmic zoster,9,B02.3
+288,organic personality disorder,79,F07.0
+289,osteoarthritis,184,M15
+289,osteoarthritis,186,M19
+289,osteoarthritis,195,M47
+291,osteoporotic fracture,202,M80
+293,paraganglioma,34,C75.4
+293,paraganglioma,35,C75.5
+293,paraganglioma,45,D35.5
+293,paraganglioma,46,D35.6
+293,paraganglioma,47,D44.6
+293,paraganglioma,48,D44.7
+294,parainfluenzal pneumonia,143,J12.2
+295,parametritis,210,N73.0
+295,parametritis,211,N73.2
+296,paresis,112,G80
+296,paresis,114,G81
+296,paresis,115,G82
+296,paresis,116,G83
+297,patellar dysplasia,239,Q74.1
+299,pentalogy of Cantrell,247,Q89.7
+300,perforating granuloma annulare,180,L92.0
+301,perineurioma,33,C47.9
+302,persistent junctional reciprocating tachycardia,138,I47.2
+303,pervasive developmental disorder not otherwise specified,93,F84.8
+303,pervasive developmental disorder not otherwise specified,94,F84.9
+308,photodermatosis,168,L56.8
+310,plasma cell dyscrasia,38,C90
+312,pleurisy,147,J90
+312,pleurisy,249,R09.1
+316,primary cutaneous gamma/delta-positive T-cell lymphoma,37,C84.5
+317,profound intellectual disability,92,F73
+318,prostatic stent,206,N40
+319,pseudohypoaldosteronism,204,N25.8
+321,psoas muscle abscess,197,M60.0
+323,puerperal infection,218,O85
+324,pulmonary emphysema,146,J43
+325,pulmonary valve stenosis,132,I37.0
+325,pulmonary valve stenosis,133,I37.2
+325,pulmonary valve stenosis,233,Q22.1
+326,pyogenic liver abscess,159,K75.0
+327,pyruvate kinase deficiency,53,D55.2
+328,radial neuropathy,106,G56.3
+329,retiform parapsoriasis,166,L41.5
+330,retromolar area cancer,26,C06.2
+332,right bundle branch block,135,I45.1
+334,sacroiliitis,194,M46.1
+336,schizophrenia-like disorder,78,F06.2
+337,seasickness,279,T75.31
+338,sedentary lifestyle,291,Z72.3
+339,selenium deficiency,65,E59
+340,senility,255,R54
+342,short Achilles tendon,198,M67.0
+343,simple-type schizophrenia,84,F20.6
+344,single umbilical artery,220,P02.6
+344,single umbilical artery,234,Q27.0
+345,sleep inversion,105,G47.2
+346,spastic quadriplegia,113,G80.0
+348,spontaneous bacterial peritonitis,157,K65.2
+351,sternal fracture,263,S22.2
+352,stinger,261,S14.3
+355,subacute bacterial endocarditis,131,I33.0
+356,subcutaneous emphysema,282,T79.7
+356,subcutaneous emphysema,284,T81.8
+358,swine influenza,142,J09.X2
+359,syncope,256,R55
+362,talus fracture,267,S92.1
+363,tendinopathy,200,M67.9
+365,thelaziasis,22,B83.8
+366,third-degree atrioventricular block,134,I44.2
+367,third-degree burn,273,T30.3
+371,thymoma,30,C37
+371,thymoma,41,D15.0
+372,tibia fracture,266,S82.2
+373,tick infestation,24,B88.8
+374,tinea barbae,13,B35.0
+375,torsion dystonia,101,G24.1
+376,tracheal stenosis,144,J38.6
+376,tracheal stenosis,145,J39.8
+376,tracheal stenosis,148,J95.5
+376,tracheal stenosis,235,Q31.1
+376,tracheal stenosis,236,Q32.1
+377,transient myeloproliferative syndrome,51,D47.7
+378,transient synovitis,199,M67.3
+379,transport collision,288,V99
+380,traumatic amputation of ankle and foot,268,S98
+383,tremor,252,R25.1
+384,trench foot,277,T69.0
+387,type-1 diabetes,61,E10
+388,unilateral hearing loss,127,H90.1
+388,unilateral hearing loss,128,H90.4
+388,unilateral hearing loss,129,H90.7
+389,upper gastrointestinal bleeding,162,K92.2
+392,varus deformity,189,M21.1
+394,verrucous nevus,241,Q82.5
+395,viral labyrinthitis,5,A88.1
+397,vitreous disease,122,H43
+398,waxy flexibility,83,F20.2
+399,webbed toes,238,Q70.3

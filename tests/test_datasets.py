@@ -59,3 +59,42 @@ def test_load_tasks_requires_manifest_entries(tmp_path):
         load_tasks(["mapping"], tmp_path, manifest={})
     tasks = load_tasks(["mapping"], tmp_path, manifest={"mapping/t1": "test"}, split="test")
     assert [t.split for t in tasks] == ["test"]
+
+
+def test_mapping_adds_subdivision_codes_and_domains(tmp_path):
+    built = build(tmp_path)
+    assert {"subdiv_in", "subdiv_jp", "currency_typo", "subdivision_reorder"} <= set(built)
+    sub = read_task(tmp_path / "subdiv_in", "mapping")
+    assert sub.mismatch_type == "code"
+    assert all(code.startswith("IN-") for _, code in sub.gold)
+    assert len(sub.left) > len({l for l, _ in sub.gold})  # Bangladesh distractors
+    for task_id in built:
+        assert len(read_task(tmp_path / task_id, "mapping").right) >= 20
+
+
+def test_acronyms_are_unambiguous(tmp_path):
+    from semjoin.datasets.mapping import _acronym
+
+    build(tmp_path)
+    for task_id in ("country_acronym", "currency_acronym", "subdivision_acronym"):
+        task = read_task(tmp_path / task_id, "mapping")
+        initials = {}
+        for name in task.left:
+            initials.setdefault(_acronym(name, None), set()).add(name)
+        for name, acr in task.gold:
+            assert initials[acr] == {name}, (task_id, acr, initials[acr])
+
+
+def test_tagging_pairs_and_tasks():
+    from semjoin.datasets.tagging import tag_pair, tag_task
+
+    assert tag_pair("New York", "new york") is None
+    assert tag_pair("John Smith", "Smith John") == "reorder"
+    assert tag_pair("New York City", "NYC") == "acronym"
+    assert tag_pair("Sick of You", "Sick of You (Gwar song)") == "fuzzy"
+    assert tag_pair("Australia", "Austrlia") == "typo"
+    assert tag_pair("William Afflis", "Dick the Bruiser") == "alias"
+    t, mix = tag_task([("Australia", "Austrlia"), ("Germany", "Germny"), ("France", "Frnce"), ("Spain", "Espana")])
+    assert (t, mix) == ("typo", {"typo": 3, "alias": 1})
+    t, mix = tag_task([("Australia", "Austrlia"), ("Spain", "Espana")])
+    assert t == "mixed" and mix == {"typo": 1, "alias": 1}

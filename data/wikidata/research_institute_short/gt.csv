@@ -1,0 +1,212 @@
+id_l,title_l,id_r,title_r
+1,ASICS Institute of Sport Science,102,ISS
+3,Aerospace Controls Laboratory,1,ACL
+5,Albright Institute of Archaeological Research,2,AIAR
+6,Alexander von Humboldt Institute for Internet and Society,68,HIIG
+7,All-Russian Scientific-Research Institute Of Mineral Resources named after N.M. Fedorovsky,199,VIMS
+8,Alliance of Central-Eastern European Universities,0,ACEU
+10,American Institute of Afghanistan Studies,3,AIAS
+11,American Research Center in Egypt,7,ARCE
+13,Architectural Institute of Japan,4,AIJ
+15,Asher Space Research Institute,8,ASRI
+17,Australia and New Zealand School of Government,6,ANZSOG
+18,Australian Space Research Institute,8,ASRI
+20,Bangladesh Oceanographic Research Institute,13,BORI
+21,Bank of Finland Institute for Emerging Economies,12,BOFIT
+23,Bellvitge Biomedical Research Institute,82,IDIBELL
+24,Berlin Institute for the Foundations of Learning and Data,11,BIFOLD
+25,Bird Watching and Bird Study Association of Slovenia - DOPPS Bird Life,45,DOPPS
+26,Bonn International Centre for Conflict Studies,10,BICC
+28,Brussels Research Institute for Pediatrics,15,BRIP
+29,CISPA – Helmholtz Center for Information Security,30,CISPA
+30,CMI – Martti Ahtisaari Peace Foundation,33,CMI
+31,Calgary Institute for the Humanities,24,CIH
+32,Canada Center for Inland Waters,21,CCIW
+34,Canadian Disability Studies Association,22,CDSA
+35,Canadian Institute for Middle East and Gulf Studies,25,CIMEGS
+38,Center for AI Safety,16,CAIS
+39,Center for Advanced Internet Studies,16,CAIS
+40,Center for Advanced Life Cycle Engineering,17,CALCE
+42,Center for Information Services and High Performance Computing,205,ZIH
+43,Center for Molecular and Cellular Bioengineering,32,CMCB
+47,Center of Intelligent Operations and Technology Research,26,CIOTR
+48,Central Aerohydrodynamic Institute,191,TsAGI
+49,Centre for Advanced Studies of African Societies,19,CASAS
+50,Centre for Atmospheric Research,18,CAR
+51,Centre for Basic Space Science and Astronomy,20,CBSS
+53,Centre for Genomic Regulation,36,CRG
+55,Centre for Healthy Start Initiative,70,HSI-Centre
+56,Centre for Internet and Society,29,CIS
+57,Centre for the Study of Ancient Documents,37,CSAD
+58,Cherkas Global University,23,CGU
+61,Cold Spring Harbor Laboratory,38,CSHL
+62,Comunidad y Biodiversidad,34,COBI
+63,"Conservación, Información y Estudio sobre Cetáceos",28,CIRCE
+64,Cooperative Institute for Severe and High-Impact Weather Research and Operations,31,CIWRO
+67,Dalian Institute of Chemical Physics,43,DICP
+68,Danish Meat Research Institute,44,DMRI
+70,Deutsche Forschungsanstalt für Segelflug,42,DFS
+71,Digital Enterprise Research Institute,40,DERI
+72,Earth and Planetary Exploration Services,50,EPX
+73,Economic Statistics Centre of Excellence,52,ESCoE
+76,Eskasoni Fish and Wildlife Commission,47,EFWC
+77,Ethiopian Space Science & Technology Institute,54,ESSTI
+78,Eunice Kennedy Shriver National Institute of Child Health and Human Development,151,NICHD
+79,European Association for Research on Learning and Instruction,46,EARLI
+82,European Institute of Innovation and Technology,48,EIT
+83,European Rail Research Institute,51,ERRI
+84,European Society of Preventive Medicine,53,ESPREVMED
+87,European University Institute,55,EUI
+90,Fish and Wildlife Research Institute,60,FWRI
+91,Flashline Mars Arctic Research Station,59,FMARS
+92,Forest Sciences and Technology Centre of Catalonia,39,CTFC
+93,Foundation for Defense of Democracies,57,FDD
+94,Franciscan Center of Christian Oriental Studies,56,FCCOS
+96,Future of Life Institute,58,FLI
+97,GEOMAR Helmholtz Centre for Ocean Research Kiel,61,GEOMAR
+98,GNS Science,63,GNS
+100,Glenn Research Center,64,GRC
+102,Greifswald Moor Centre,62,GMC
+106,Harvard Stem Cell Institute,69,HSCI
+107,Harvard Ukrainian Research Institute,72,HURI
+108,Harvard University Institute for Quantitative Social Science,95,IQSS
+110,Howard Hughes Medical Institute,66,HHMI
+111,Hull International Fisheries Institute,67,HIFI
+112,Human Clarity Institute,65,HCI
+113,Human Sciences Research Council,71,HSRC
+115,Indian Sign Language Research and Training Center,100,ISLRTC
+116,Industrial Research Limited,96,IRL
+117,Industrial Technology Development Institute,104,ITDI
+119,Institut d'Investigacions Biomèdiques August Pi i Sunyer,81,IDIBAPS
+121,Institut für Seefischerei,99,ISH
+122,Institut national de recherche et de sécurité,93,INRS
+125,Institute for Cosmology and Philosophy of Nature,74,ICPN
+126,Institute for Digital Heritage,80,IDH
+128,Institute for Medical Engineering and Science,89,IMES
+131,Institute for Quantum Optics and Quantum Information,94,IQOQI
+133,Institute for Studies in Transdisciplinary Engineering Education and Practice,103,ISTEP
+139,Institute of Current World Affairs,78,ICWA
+140,Institute of Development Management,83,IDM
+143,Institute of Mathematical Sciences,91,IMSc
+145,Institute of Molecular Systems Biology,90,IMSB
+149,"Institute of Social Science, The University of Tokyo",102,ISS
+150,Institute of Taiwan Studies,105,ITS
+152,Institute of Transportation Studies,105,ITS
+153,Integrative Brain Imaging Center,73,IBIC
+154,Inter-university Consortium for Political and Social Research,75,ICPSR
+157,International Centre for Theoretical Physics,77,ICTP
+159,International Development Research Centre,84,IDRC
+160,International Food Policy Research Institute,86,IFPRI
+161,International Institute for Counter-Terrorism,76,ICT
+163,"International Institute of Molecular Mechanisms and Machines, Polish Academy of Sciences",92,IMol
+164,International Institute of Social History,88,IISH
+165,International Society for Digital Earth,98,ISDE
+166,International Society for Photogrammetry and Remote Sensing,101,ISPRS
+173,Jesuit Social Research Institute,109,JSRI
+174,Joint Center for Earth Systems Technology,106,JCET
+176,Jožef Stefan Institute,108,JSI
+177,Kanazawa Institute of Technology,115,KIT
+178,Kavli Institute for Astronomy and Astrophysics,112,KIAA
+180,Kazakh Research Institute of Oncology and Radiology,120,KazIOR
+181,Korea Aerospace Research Institute,110,KARI
+183,Korea Development Institute,111,KDI
+185,Korea Institute of Geoscience and Mineral Resources,113,KIGAM
+188,Korea Institute of Science and Technology,114,KIST
+189,Korea Legislation Research Institute,116,KLRI
+190,Korea Research Institute of Bioscience and Biotechnology,117,KRIBB
+191,Korea Research Institute of Chemical Technology,118,KRICT
+192,Kyoto University Institute for Advanced Study,119,KUIAS
+193,Laban/Bartenieff Institute of Movement Studies,123,LIMS
+195,Large Model Systems Organization,124,LMSYS
+199,Leibniz Institute of Freshwater Ecology and Inland Fisheries,87,IGB
+200,Life & Peace Institute,125,LPI
+201,Limnology Laboratory and Ecosystem Research and Implementation Centre,49,EKOSAM
+202,Liquid Propulsion Systems Centre,126,LPSC
+203,Lister Hill National Center for Biomedical Communications,121,LHNCBC
+204,Lunar Science Institute,127,LSI
+205,Lunar and Planetary Institute,125,LPI
+206,Luxembourg Institute of Health,122,LIH
+207,Lyndon B. Johnson Space Center,107,JSC
+208,Marshall Space Flight Center,137,MSFC
+209,Max Planck Institute for Biological Intelligence,134,MPI-BI
+210,"Medical Mycology Research Center, Chiba University",85,IFM
+211,Mediterranean Institute of Oceanography,132,MIO
+212,Mercator Institute for China Studies,130,MERICS
+213,Merinov,129,MER
+215,Military Institute of Armoured and Automotive Technology,131,MIAAT
+216,Min-On Music Research Institute,133,MOMRI
+217,Mineta Transportation Institute,138,MTI
+218,Mitochondria Research and Medicine Society,135,MRMS
+218,Mitochondria Research and Medicine Society,136,MRS
+219,Munich Centre for Ethics - Ludwig-Maximilians-Universität München,128,MCE
+220,NORCE Research AS,160,NORCE
+221,Nagao Institute,149,NI
+223,National Astronomical Observatory of Japan,140,NAOJ
+224,National Authority for Remote Sensing and Space Sciences,141,NARSS
+225,National Bureau of Economic Research,143,NBER
+226,National Cancer Institute,146,NCI
+227,National Center for Biotechnology Information,145,NCBI
+229,National Center for Research Resources,147,NCRR
+231,National Centre for Atmospheric Science,144,NCAS
+232,National Facility for Seismic Imaging,166,NSFI
+235,National Institute for Japanese Language and Linguistics,155,NINJAL
+237,National Institute for Research in Inorganic Materials,157,NIRIM
+238,National Institute for South China Sea Studies,158,NISCSS
+239,National Institute of Biology,150,NIB
+242,National Institute of Environmental Health Sciences,152,NIEHS
+244,National Institute of Mental Health,153,NIMH
+245,National Institute of Polar Research,156,NIPR
+246,National Institute of Standards and Technology,159,NIST
+251,National Quantum Computing Centre,161,NQCC
+252,National Research Foundation,162,NRF
+255,National Science Foundation,165,NSF
+256,National Solar Observatory,167,NSO
+257,National Space Science and Technology Center,168,NSSTC
+258,Natural Resource Governance Institute,163,NRGI
+259,Naturalis Biodiversity Center,142,NBC
+260,Naval Surface Warfare Center,169,NSWC
+262,Naval Surface Warfare Center Dahlgren Division,170,NSWCDD
+267,Nigerian Institute of Medical Research Asaba,154,NIMR
+268,North Atlantic Marine Mammal Commission,139,NAMMCO
+269,NorthEast Research Libraries,148,NERL
+271,Ocean Frontier Institute,171,OFI
+272,Ocean Observatories Initiative,173,OOI
+275,Osgoode Hall Law School Centre for Research on Public Law and Public Policy,35,CPLPP
+276,Oxford Internet Institute,172,OII
+281,Planetary Science Institute,175,PSI
+283,"Punjab Institute of Language, Art, and Culture",174,PILAC
+284,Quantum Theory Project,176,QTP
+292,Robert B. Annis Water Resources Institute,9,AWRI
+293,Rotman Research Institute,177,RRI
+294,Sandia National Laboratories,184,SNL
+295,Santa Fe Institute,182,SFI
+296,Saraiki Area Study Centre,179,SASC
+298,Scottish Center for Ecology and the Natural Environment,180,SCENE
+301,Social Science Research Council,188,SSRC
+303,Society for the Improvement of Psychological Science,183,SIPS
+305,South African Astronomical Observatory,178,SAAO
+308,Southwest Research Institute,189,SwRI
+309,Space Physics Data Facility,186,SPDF
+311,"Statistical, Economic and Social Research and Training Centre for Islamic Countries",181,SESRIC
+312,Strategic Science Institute,187,SSI
+313,Sustainable Oceans Applied Research,185,SOAR
+314,Tata Institute of Fundamental Research,190,TIFR
+318,The International Centre for Water Resources and Global Change,79,ICWRGC
+319,U.S. Geological Survey Biological Resources Division,14,BRD
+320,U.S. Global Change Research Program,196,USGCRP
+321,UK Centre for Ecology & Hydrology,193,UKCEH
+322,Union of International Associations,27,CIPO
+322,Union of International Associations,192,UIA
+323,United States Naval Research Laboratory,164,NRL
+325,University of Maryland Biotechnology Institute,194,UMBI
+326,University of Maryland Institute for Advanced Computer Studies,195,UMIACS
+329,University of Washington Institute for Neuroengineering,197,UWIN
+330,University of Washington Institute for Stem Cell & Regenerative Medicine,97,ISCRM
+331,Venice Centre for Digital and Public Humanities,202,VeDPH
+332,Verein zur Förderung eines Deutschen Forschungsnetzes,41,DFN
+333,Vienna Institute for Archaeological Science,198,VIAS
+334,Vienna Wiesenthal Institute for Holocaust Studies,201,VWI
+336,War Heritage Institute,203,WHI
+341,YIVO Institute for Jewish Research,204,YIVO
+343,von Kármán Institute for Fluid Dynamics,200,VKI
+344,Åland Islands Peace Institute,5,AIPI

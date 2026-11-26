@@ -1,0 +1,10 @@
+# People with occupation Q1028181 and their family name (P734). The builder writes the
+# label "Given Family" as "Family, Given" or "FAMILY Given". The optimizer hint keeps
+# the join order; without it the query times out.
+SELECT ?item ?left ?family WHERE {
+  hint:Query hint:optimizer "None".
+  ?item wdt:P106 wd:Q1028181.
+  ?item wdt:P734 ?f.
+  ?item rdfs:label ?left. FILTER(LANG(?left) = "en")
+  ?f rdfs:label ?family. FILTER(LANG(?family) = "en")
+} LIMIT 1000

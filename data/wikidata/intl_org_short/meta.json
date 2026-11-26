@@ -1,0 +1,12 @@
+{
+ "source": "wikidata",
+ "mismatch_type": "acronym",
+ "group": "organizations",
+ "fetched_at": "2026-11-26T19:24:26+00:00",
+ "raw_sha256": "55f81ee1113bb9f4a151df4b61b239b1174c8abe1360d7d35b097dcb06dfcf57",
+ "query_sha256": "0b2be80a733c96b1b7dc65ce3cd0c24255bdc89cada661a0867b847922328824",
+ "endpoint": "qlever",
+ "seed": 0,
+ "max_entities": 400,
+ "sample_fraction": 0.6
+}

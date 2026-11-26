@@ -219,7 +219,10 @@ __marimo__/
 
 .DS_Store
 
-# semjoin: regenerable data and run outputs (data/freyja is hand-labeled and committed)
+# semjoin: regenerable data and run outputs (data/wikidata and data/freyja are committed)
+data/raw/
 data/autofj/
+data/autojoin/
 data/mapping/
+data/freyja_candidates.csv
 runs/

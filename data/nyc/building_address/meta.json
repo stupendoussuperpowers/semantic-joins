@@ -1,0 +1,17 @@
+{
+ "source": "nyc-open-data",
+ "datasets": [
+  "3ub5-4ph8",
+  "ic3t-wcy2"
+ ],
+ "gold_from": "shared BIN (same building), same house number",
+ "gold_dropped": 569,
+ "fetched_at": "2026-11-26T23:51:23+00:00",
+ "mismatch_type": "mixed",
+ "type_mix": {
+  "typo": 150,
+  "fuzzy": 63,
+  "alias": 28
+ },
+ "type_tagger": "semjoin.datasets.tagging"
+}

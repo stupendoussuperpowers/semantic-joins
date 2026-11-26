@@ -1,0 +1,6 @@
+# Bird species (in Aves, Q5113): scientific name (P225) and English common name (P1843).
+SELECT ?item ?left ?right WHERE {
+  ?item wdt:P105 wd:Q7432; wdt:P171 ?g. ?g wdt:P171* wd:Q5113.
+  ?item wdt:P225 ?left; wdt:P1843 ?right.
+  FILTER(LANG(?right) = "en")
+} LIMIT 5000

@@ -1,0 +1,12 @@
+{
+ "source": "wikidata",
+ "mismatch_type": "acronym",
+ "group": "parties",
+ "fetched_at": "2026-11-26T19:24:44+00:00",
+ "raw_sha256": "79cdf783a8fd6bbe2e5de226ef3c6a438173c6b404716d8d87804a5e306f6320",
+ "query_sha256": "ffe4464b0cbb207ebaea7789a319e623dbb4dc2135f8997aadb9e72ac4140719",
+ "endpoint": "qlever",
+ "seed": 0,
+ "max_entities": 400,
+ "sample_fraction": 0.6
+}

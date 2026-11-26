@@ -1,0 +1,5 @@
+# Singers (Q177220): stage or common name and birth name (P1477).
+SELECT ?item ?left ?right WHERE {
+  ?item wdt:P106 wd:Q177220; wdt:P1477 ?right; rdfs:label ?left.
+  FILTER(LANG(?left) = "en")
+} LIMIT 5000

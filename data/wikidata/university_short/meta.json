@@ -1,0 +1,12 @@
+{
+ "source": "wikidata",
+ "mismatch_type": "acronym",
+ "group": "universities",
+ "fetched_at": "2026-11-26T19:24:31+00:00",
+ "raw_sha256": "1187eca7e0e7e2279056222b1ebf1b2599ef6d54ca597ddbb27b9e03a582182d",
+ "query_sha256": "3b31b3f32bb083bd19290653b6c0b2329ff7d7caf87b51fc69084a3c953aad2d",
+ "endpoint": "qlever",
+ "seed": 0,
+ "max_entities": 400,
+ "sample_fraction": 0.6
+}

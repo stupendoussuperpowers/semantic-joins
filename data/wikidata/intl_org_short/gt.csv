@@ -1,0 +1,132 @@
+id_l,title_l,id_r,title_r
+0,African Space Agency,9,AfSA
+2,African Union of Broadcasting,8,AUB
+3,Alliance of Independent Recognized Members of Sport,3,AIMS
+4,Amazon Cooperation Treaty Organization,1,ACTO
+10,Asian–African Legal Consultative Organization,0,AALCO
+11,Association for Information Science and Technology,5,ASIS&T
+14,Association of Summer Olympic International Federations,6,ASOIF
+16,Atlantic Treaty Association,7,ATA
+17,Australia Group,2,AG
+18,Bahá'í International Community,10,BIC
+22,CEE Bankwatch Network,12,BWN
+23,Canadian Federation of University Women,16,CFUW
+24,Caribbean Disaster Emergency Management Agency,13,CDEMA
+26,Collective Security Treaty Organization,17,CSTO
+28,Comprehensive Nuclear-Test-Ban Treaty Organization,18,CTBTO
+29,Corporate Europe Observatory,14,CEO
+32,Economic Community of Central African States,24,ECCAS
+36,European Air Transport Command,20,EATC
+39,European Audiovisual Observatory,19,EAO
+40,European Beer Consumers' Union,21,EBCU
+42,European Civil Aviation Conference,23,ECAC
+44,European Committee for drawing up standards in the field of public inland navigation,15,CESNI
+45,European Communist Action,22,ECA
+46,European Composer and Songwriter Alliance,25,ECSA
+48,European Confederation of Youth Clubs,26,ECYC
+49,European Consortium for Accreditation in higher education,22,ECA
+51,European Digital Rights,27,EDRi
+52,European Free Trade Association,28,EFTA
+53,European Health Telematics Association,30,EHTEL
+54,European Historic Houses Association,29,EHHA
+56,European Liberal Youth,83,LYMEC
+57,European Logistics Association,31,ELA
+58,European Network of Living Labs,32,ENoLL
+61,European Society of Cardiology,34,ESC
+62,European Space Agency,33,ESA
+63,European Youth Forum,127,YFJ
+64,Federation of Asian Bishops' Conferences,35,FABC
+65,Federation of Associations for Hunting and Conservation of the EU,36,FACE
+67,Federation of the Aboriginal Nations of the Americas,37,FANA
+68,Football Supporters Europe,43,FSE
+69,Fur Free Alliance,39,FFA
+70,Fédération Internationale Féline,41,FIFe
+71,General Agreement on Tariffs and Trade,45,GATT
+73,Global Biodiversity Information Facility,46,GBIF
+75,Global Justice And Advancement Party,47,GJA
+75,Global Justice And Advancement Party,48,GJAP
+76,Global Reporting Initiative,50,GRI
+78,Guidelines International Network,44,G-I-N
+79,Gulf Monetary Council,49,GMCo
+81,Inter-Parliamentary Alliance on China,70,IPAC
+84,International Association for Analytical Psychology,51,IAAP
+87,International Association for the Protection of Intellectual Property,4,AIPPI
+90,International Brecht Society,53,IBS
+91,International Bureau of Weights and Measures,11,BIPM
+92,International Camel Organization,57,ICO
+93,International Cartographic Association,54,ICA
+94,International Centre for Migration Policy Development,56,ICMPD
+95,International Centre for Settlement of Investment Disputes,60,ICSID
+96,International Clarinet Association,54,ICA
+98,International Commission on the Protection of the Oder against Pollution,59,ICPO
+99,International Cotton Advisory Committee,55,ICAC
+101,International Council for Philosophy and Humanistic Studies,58,ICPHS
+105,International Earth Rotation and Reference Systems Service,62,IERS
+106,International Educational Coordinating Council,61,IECC
+109,International Federation of Eugenics Organizations,63,IFEO
+110,International Federation of Library Associations and Institutions,64,IFLA
+111,International Federation of Translators,42,FIT
+112,International Federation of Women Lawyers,40,FIDA
+112,International Federation of Women Lawyers,65,IFWL
+114,International Geodetic Student Organisation,67,IGSO
+115,International Ice Patrol,68,IIP
+116,International Organization for Marine Aids to Navigation,52,IALA
+117,International Organization for Mediation,69,IOMed
+120,International Planning History Society,71,IPHS
+121,International Political Science Association,73,IPSA
+122,International Press Institute,72,IPI
+123,International Regulatory Body for AI,74,IRBAI
+124,International Social Science Council,77,ISSC
+125,International Social Security Association,76,ISSA
+126,International Society for Krishna Consciousness,75,ISKCON
+128,International Society for Universal Dialogue,78,ISUD
+131,International Union of Pure and Applied Physics,79,IUPAP
+132,International Union of Radio Science,113,URSI
+135,Internet Governance Forum,66,IGF
+137,Iran–United States Claims Tribunal,80,IUSCT
+139,League of Nations,81,LN
+140,Lutheran World Federation,82,LWF
+143,Non-Aligned Movement,87,NAM
+144,North Atlantic Cooperation Council,86,NACC
+146,Office for Democratic Institutions and Human Rights,90,ODIHR
+148,Open Doors International,89,ODI
+149,Open Government Partnership,92,OGP
+151,Organization for Economic Cooperation and Development,91,OECD
+152,Organization of American States,88,OAS
+153,Organization of Turkic States,94,OTS
+154,Organization of the Petroleum Exporting Countries,93,OPEC
+155,Pacific Islands Forum,97,PIF
+157,Pax Christi International,95,PCI
+158,Pax Romana,84,MIIC
+159,Platform of European Memory and Conscience,96,PEMC
+161,Professional Windsurfers Association,98,PWA
+162,Register of Damage Caused by the Aggression of the Russian Federation Against Ukraine,99,RD4U
+163,Research Data Alliance,100,RDA
+165,Socialist International Women,102,SIW
+169,Sunni Students Council,103,SSC
+170,Sustainable Energy for All,101,SE4ALL
+171,TRAFFIC International,107,TRAFFIC
+172,The International Cat Association,106,TICA
+174,The Mahdi Servants Union,85,MSU
+175,The World Zionist Organization,125,WZO
+176,Trade Union Advisory Committee to the OECD,108,TUAC
+177,Trans European Policy Studies Association,105,TEPSA
+179,Trilateral Cooperation Secretariat,104,TCS
+180,UNESCO Institute for Statistics,109,UIS
+183,"United Nations Command, Military Armistice Commission, Korea",110,UNCMAC
+184,United Nations Group of Experts on Geographical Names,111,UNGEGN
+185,Unrepresented Nations and Peoples Organization,112,UNPO
+188,Women's International Democratic Federation,38,FDIF
+188,Women's International Democratic Federation,118,WIDF
+189,Women's International League for Peace and Freedom,119,WILPF
+190,Women's International Zionist Organization,120,WIZO
+191,World Apple and Pear Association,114,WAPA
+194,World Fair Trade Organization,117,WFTO
+195,World Federation for Chess Composition,115,WFCC
+196,World Federation for Mental Health,116,WFMH
+200,World League for Freedom and Democracy,121,WLFD
+202,World Monuments Fund,122,WMF
+203,World Obesity Federation,123,WOF
+207,World Youth Alliance,124,WYA
+209,Youth for Exchange and Understanding,126,YEU
+210,Zangger Committee,128,ZC

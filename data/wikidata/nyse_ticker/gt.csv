@@ -1,0 +1,258 @@
+id_l,title_l,id_r,title_r
+1,ABB Group,1,ABB
+2,AMTD Digital,119,HKD
+4,AT&T,220,T
+7,Actuant,88,EPAC
+8,Acuity Brands,30,AYI
+9,Advantage Energy,0,AAV
+10,Aflac,8,AFL
+11,Agnico Eagle Mines,6,AEM
+12,Agrium,9,AGU
+13,Alaska Airlines,11,ALK
+14,Albertsons,5,ACI
+15,Alibaba Group,31,BABA
+17,Alpha Natural Resources,13,AMR
+19,Amer Sports,21,AS
+20,American Axle,28,AXL
+21,American Express,29,AXP
+22,American Financial Group,7,AFG
+23,American Homes 4 Rent,12,AMH
+24,American Water Works,27,AWK
+26,Amwell,14,AMWL
+28,Annaly Capital Management,164,NLY
+29,Aon plc,17,AON
+30,ArcelorMittal,157,MT
+31,Arch Resources,19,ARCH
+32,Archer Aviation,4,ACHR
+33,"Arlo Technologies, Inc.",20,ARLO
+34,Artisan Partners,18,APAM
+36,Atlantic Power Corporation,22,AT
+37,AuRico Gold,25,AUQ
+38,"Audacy, Inc.",24,AUD
+38,"Audacy, Inc.",92,ETM
+39,Aurora Cannabis,3,ACB
+40,Autohome,23,ATHM
+42,Avery Dennison,26,AVY
+45,Banco Itaú Corpbanca,126,ITCL
+47,Barnes & Noble,38,BKS
+48,"Bed Bath & Beyond, Inc.",32,BBBY
+48,"Bed Bath & Beyond, Inc.",45,BYON
+49,Belo,39,BLC
+52,Birkenstock,37,BIRK
+53,Black Rifle Coffee Company,42,BRCC
+56,Boston Scientific,44,BSX
+57,Braemar Hotels & Resorts,35,BHR
+59,Bright Health,34,BHG
+61,Brinker International,85,EAT
+62,Brown & Brown,43,BRO
+63,Buckeye Partners,41,BPL
+69,CNOOC Limited,51,CEO
+73,Can Fite Biopharma,47,CANF
+75,Canon Inc.,46,CAJ
+76,Capital One,60,COF
+79,Cencora,2,ABC
+79,Cencora,62,COR
+80,CenterPoint Energy,59,CNP
+81,Central Pacific Bank,64,CPF
+82,Charles Schwab Corporation,206,SCHW
+83,Cheetah Mobile,57,CMCM
+84,China Telecommunications Corporation,53,CHA
+85,Choice Hotels,54,CHH
+86,Chubb Corp.,48,CB
+87,Chuck E. Cheese,50,CEC
+87,Chuck E. Cheese,55,CHKY
+88,Civeo Corporation,69,CVEO
+89,Claritev,67,CTEV
+89,Claritev,156,MPLN
+91,Commercial Metals Company,56,CMC
+93,ConocoPhillips,61,COP
+94,Consolidated Graphics,52,CGX
+95,Convergys,70,CVG
+96,Cooper Tire & Rubber Company,66,CTB
+97,Cooper-Standard Automotive,65,CPS
+98,Copa Airlines,63,CPA
+99,Copa Holdings,63,CPA
+100,Core & Main,58,CNM
+101,CoreCivic,72,CXW
+102,Corning Inc.,109,GLW
+104,Cosan,73,CZZ
+105,Cousins Properties,68,CUZ
+109,Cvent,71,CVT
+110,D-Wave Quantum,185,QBTS
+111,D. R. Horton,77,DHI
+112,DRDGOLD Limited,82,DRD
+113,Danaher Corporation,78,DHR
+114,Deckers Outdoor Corporation,76,DECK
+116,Designer Brands,83,DSW
+117,Diamond Offshore Drilling,81,DO
+122,Dominion Energy,74,D
+124,Dow Jones Industrial Average,79,DJI
+125,DuPont,75,DD
+125,DuPont,84,DWDP
+126,Dun & Bradstreet,80,DNB
+129,Empresas ICA,124,ICA
+131,EnerSys,87,ENS
+132,Enpro Industries,166,NPO
+133,Entravision Communications,93,EVC
+135,Esterline,90,ESL
+136,Ethan Allen,91,ETD
+137,Eventbrite,86,EB
+139,Excel Maritime,94,EXM
+140,FBL Financial Group,98,FFG
+141,Family Dollar,96,FDO
+146,Ferro Corporation,102,FOE
+147,First BanCorp,95,FBP
+148,First Horizon Bank,99,FHN
+149,First Horizon National Corporation,99,FHN
+152,Flowserve,101,FLS
+154,Foundation Coal,16,ANR
+155,Fox Entertainment Group,103,FOX
+156,Franklin Templeton Investments,33,BEN
+157,FutureFuel,97,FF
+159,GPA,49,CBD
+160,Garmin Group,111,GRMN
+161,GenOn Energy,106,GEN
+162,Genworth Financial,110,GNW
+163,Georgia Power,105,GAR
+164,Gerdau,107,GGB
+166,Globe Life,108,GL
+168,Granite Construction,113,GVA
+169,Gray Media,112,GTN
+173,HEICO,115,HEI
+174,HF Sinclair,117,HFC
+176,Hanesbrands,114,HBI
+179,Hertz Global Holdings,121,HTZ
+180,HillRom,120,HRC
+181,"Hillenbrand, Inc.",118,HI
+182,Holliday Fenoglio Fowler,116,HF
+186,Huntsman Corporation,122,HUN
+189,Ibotta,123,IBTA
+190,Integrys Energy Group,222,TEG
+191,IntraLinks,125,IL
+192,J. Alexander's,127,JAX
+196,KV Pharmaceutical,134,KVA
+198,Kenon Holdings Ltd,129,KEN
+199,Kimco Realty,131,KIM
+200,Kontoor Brands,133,KTB
+201,Koppers,132,KOP
+202,Korea Electric Power Corporation,130,KEP
+204,Kyndryl,128,KD
+205,L3Harris Technologies,137,LHX
+206,LG Display,140,LPL
+207,Lafarge,136,LG
+207,Lafarge,141,LR
+209,Li-Cycle Holdings Corp.,138,LICY
+213,Lionsgate Studios,139,LION
+214,Lithia Motors,135,LAD
+217,Luby's,142,LUB
+218,LyondellBasell,143,LYB
+220,MDU Resources,147,MDU
+221,MFS Investment Management,148,MGF
+224,ManpowerGroup,144,MAN
+225,Marathon Petroleum,155,MPC
+226,Marcus & Millichap,152,MMI
+228,Maui Land & Pineapple Company,151,MLP
+229,Maxar Technologies,145,MAXR
+230,Maximus Inc.,153,MMS
+232,Mechel,159,MTL
+233,Medco Health Solutions,150,MHS
+235,Meredith Corporation,146,MDP
+236,Meritage Homes Corporation,158,MTH
+239,Motorola,154,MOT
+244,National Oilwell Varco,165,NOV
+246,Newell Brands,168,NWL
+248,Nike,163,NKE
+250,Niska Gas Storage Partners,162,NKA
+251,Noble Corporation,161,NE
+254,Novo,167,NVO
+255,Old Republic International,170,ORI
+257,Orbital Sciences Corporation,169,ORB
+260,PBF Energy,174,PBF
+262,PJT Partners,179,PJT
+263,PNC Financial Services,183,PNC
+264,POSCO,182,PKX
+265,PPG Industries,184,PPG
+266,Packaging Corporation of America,181,PKG
+267,PagBank,172,PAGS
+268,Park Hotels & Resorts,180,PK
+273,Pinterest Inc.,176,PINS
+274,Piper Sandler Companies,177,PIPR
+274,Piper Sandler Companies,178,PJC
+275,Polaris,175,PII
+277,Prosperity Bancshares,173,PB
+280,R1 RCM,188,RCM
+284,Range Resources,199,RRC
+286,Raytheon,202,RTN
+287,RealD,195,RLD
+288,Red Lion Hotels Corporation,196,RLH
+289,Regency Centers,191,REG
+290,"Reliance, Inc.",200,RS
+291,Repsol Oil & Gas Canada,230,TLM
+292,Restaurant Brands International,186,QSR
+293,Restoration Hardware,193,RH
+294,Revlon,192,REV
+296,Riskified,201,RSKD
+297,Robert Half,194,RHI
+298,Rockwell Automation,198,ROK
+299,Rogers Corporation,197,ROG
+300,Ryder,187,R
+301,"Ryerson, Inc.",203,RYI
+302,S&P Global,149,MHFI
+302,S&P Global,213,SPGI
+303,SFL Corporation Ltd.,209,SFL
+304,Sabre Corporation,236,TSG
+306,Sculptor Capital Management,171,OZM
+306,Sculptor Capital Management,207,SCU
+309,SemGroup,208,SEMG
+312,Sequenom,214,SQNM
+313,Shell,189,RDS.A
+313,Shell,190,RDS.B
+313,Shell,210,SHEL
+314,Shutterstock,217,SSTK
+318,Skillz,100,FIRY
+318,Skillz,211,SKLZ
+321,Sotheby's,36,BID
+322,Southside Bank,205,SBSI
+323,Spectrum Brands,212,SPB
+324,Speedway Motorsports,234,TRK
+325,Spire Inc.,136,LG
+325,Spire Inc.,216,SR
+327,Spirit Airlines,204,SAVE
+328,Squarespace,215,SQSP
+329,St. Jude Medical,218,STJ
+331,Stillwater Mining Company,219,SWC
+332,Sumisho Air Lease,10,AL
+333,TARO Pharmaceuticals,221,TARO
+336,TJX Companies,229,TJX
+337,TRW Automotive,235,TRW
+339,Tailored Brands,160,MW
+340,Tallgrass Energy Partners,225,TGE
+342,Team Health Holdings,233,TMH
+343,TechnipFMC,104,FTI
+346,Tencent Music,232,TME
+349,Teradyne,223,TER
+350,Tesoro Corporation,15,ANDV
+351,Teva Pharmaceutical Industries Ltd.,224,TEVA
+356,Tiffany & Co.,228,TIF
+357,Tim Hortons,226,THI
+358,Titanium Metals,227,TIE
+359,Toyota,231,TM
+367,Univar Solutions,237,UNVR
+370,VMware,243,VMW
+372,Valero Energy,240,VLO
+373,"Valhi, Inc.",238,VHI
+377,Vestis Corporation,244,VSTS
+378,Vipshop,239,VIPS
+380,Vivmark Residential,89,EQR
+380,Vivmark Residential,242,VMRK
+382,Volta Charging,241,VLTA
+384,Wabash National,249,WNC
+385,Wabtec,245,WAB
+386,Walter Energy,248,WLT
+388,Watsco,250,WSO
+390,Western Union,251,WU
+391,Woori Financial Group,247,WF
+393,Wright Express,246,WEX
+396,ZTO Express,252,ZTO
+398,Zovio,40,BPI
+399,Zuora,253,ZUO

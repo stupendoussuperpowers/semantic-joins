@@ -1,0 +1,5 @@
+# political parties (Q7278) and their English short names (P1813).
+SELECT ?item ?left ?right WHERE {
+  ?item wdt:P31 wd:Q7278; wdt:P1813 ?right; rdfs:label ?left.
+  FILTER(LANG(?left) = "en" && LANG(?right) = "en")
+} LIMIT 5000

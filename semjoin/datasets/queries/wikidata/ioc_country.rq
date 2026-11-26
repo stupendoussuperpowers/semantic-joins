@@ -1,0 +1,5 @@
+# Countries and teams with an IOC country code (P984).
+SELECT ?item ?left ?right WHERE {
+  ?item wdt:P984 ?right; rdfs:label ?left.
+  FILTER(LANG(?left) = "en")
+}

@@ -1,0 +1,189 @@
+id_l,title_l,id_r,title_r
+0,A'Sharqiyah University,6,ASU
+2,Ajayi Crowther University,2,ACU
+3,Akenten Appiah Menkah University of Skills Training and Entrepreneurial Development,0,AAMUSTED
+6,American University of Barbados School of Medicine,7,AUB
+7,American University of Nigeria,8,AUN
+10,Ardhi University,4,ARU
+11,Arthur Jarvis University,3,AJU
+12,Assumption University,1,ABAC
+13,Astrakhan State Technical University,5,ASTU
+16,Bansomdejchaopraya Rajabhat University,12,BSRU
+19,Beihang University,13,BUAA
+22,Botswana Institute of Administration and Commerce,10,BIAC
+23,Botswana International University of Science and Technology,11,BIUST
+27,Cape Coast Technical University,15,CCTU
+29,Catholic University of Health and Allied Sciences,22,CUHAS
+34,Chiang Mai University,17,CMU
+35,China Pharmaceutical University,20,CPU
+36,China University of Political Science and Law,24,CUPL
+38,Chitose Institute of Science and Technology,16,CIST
+39,Chuncheon National University of Education,18,CNUE
+40,Chungbuk National University,14,CBNU
+41,City University of Paris,32,ECU
+42,College of the Atlantic,19,COA
+44,Complexe Polytechnique et Universitaire de Bangui,21,CPUB
+46,Dagestan State Technical University,28,DSTU
+47,Dagestan State University,29,DSU
+48,Dakota Wesleyan University,30,DWU
+51,Digital Hollywood University,26,DHU
+54,Donetsk National Medical University,27,DNMU
+56,Dongseo University,29,DSU
+57,Dr. Hilla Limann Technical University,25,DHLTU
+58,Embry–Riddle Aeronautical University,34,ERAU
+59,Ensign Global University,33,EGU
+60,European Communication School,31,ECS
+62,"Evangel University, Akaeze",35,EUA
+63,Fairleigh Dickinson University,37,FDU
+65,Federal University Dutse,36,F.U.D
+66,"Federal University of Agriculture, Bassam-Biri",38,FUAB
+68,"Federal University of Medical Health Sciences, Kwale",39,FUMHSK
+69,Gaborone Institute of Professional Studies,42,GIPS
+70,German-Jordanian University,43,GJU
+73,Glasgow School of Art,45,GSA
+74,Good News Theological Seminary,44,GNTS
+75,Graduate University for Advanced Studies,46,GUAS
+76,Grand Canyon University,40,GCU
+77,Grand Valley State University,47,GVSU
+80,Handong Global University,49,HGU
+81,Hankuk University of Foreign Studies,51,HUFS
+85,Hikmah University of East Africa,50,HUEA
+87,Ho Chi Minh National Academy of Politics,48,HCMA
+88,Hong Kong Polytechnic University,113,PolyU
+89,Hormozgan University of Medical Sciences,52,HUMS
+90,Hubert Kairuki Memorial University,76,KU
+92,Imperial School of Business and Science,61,ISBS
+93,Incheon National University,58,INU
+94,Indiana University of Pennsylvania,66,IUP
+95,Inner Mongolia Agricultural University,55,IMAU
+96,Inner Mongolia Finance and Economics University,57,IMUFE
+97,Inner Mongolia Medical University,56,IMMU
+102,Institute of Accountancy Training,53,IAT
+103,Institute of Development Management Botswana,54,IDM
+104,Institute of Space Technology,62,IST
+105,Integrated Polytechnic Regional College Ngoma,59,IPRC-Ngoma
+106,Integrated Polytechnic Regional College Tumba,60,IPRC-Tumba
+109,Irkutsk State University,63,ISU
+110,Islamia University of Bahawalpur,64,IUB
+111,Ivanovo State University,67,IvSU
+112,Japan Advanced Institute of Science and Technology,68,JAIST
+113,Japan Institute of the Moving Image,69,JIMI
+114,Jordan University College,70,JUCo
+119,Karaite Jewish University,72,KJU
+120,Karamoja Peace and Technology University,71,KAPATU
+121,Kaunas Medical University,73,KMU
+122,Keio University Shonan Fujisawa Campus,121,SFC
+123,Keladi Shivappa Nayaka University of Agricultural and Horticultural Sciences,75,KSNUAHS
+124,Kentucky Wesleyan College,78,KWC
+127,Khetagurov North Ossetian State University,96,NOSU
+128,Kigali Independent University ULK,147,UIK
+130,Knutsford University College,77,KUC
+134,Korea National Open University,74,KNOU
+138,Lead City University,79,LCU
+140,Malaysia University of Science & Technology,90,MUST
+141,Massachusetts Institute of Technology,83,MIT
+142,Mato Grosso do Sul State University,143,UEMS
+143,Mbarara University of Science and Technology,90,MUST
+144,Mbeya University of Science and Technology,90,MUST
+145,Medical University of the Americas – Nevis,87,MUA
+147,Middle East Technical University,81,METU
+148,Mongolian University of Life Sciences,89,MULS
+149,Moscow City University,80,MCU
+150,Moscow State University of Geodesy and Cartography,82,MIIGAiK
+152,Mount Carmel University,80,MCU
+153,Mount Kigali University,84,MKU
+154,Mountain Top University,85,MTU
+155,Mountcrest University College,80,MCU
+156,Muhimbili University of Health and Allied Sciences,88,MUHAS
+158,Mzumbe University,86,MU
+160,National Pedagogical University of Uzbekistan named after Nizami,97,NPUU
+164,National and Kapodistrian University of Athens,95,NKUA
+164,National and Kapodistrian University of Athens,169,UoA
+165,"New Era College of Art, Science and Technology",91,NEC
+166,New Generation University,94,NGU
+168,Nicolaus Copernicus University in Toruń,154,UNC
+169,Nobel International Business University,100,NiBS
+170,North-Eastern State University,92,NESU
+171,Northeastern University,93,NEU
+171,Northeastern University,99,NU
+172,Novosibirsk State Medical University,98,NSMU
+173,Ocean University of China,106,OUC
+174,October 6 University,101,O6U
+175,Oklahoma Baptist University,102,OBU
+176,Omsk State Pedagogical University,105,OSPU
+177,Omsk State University,108,OmSU
+178,Open University of West Africa,107,OUWA
+179,Osaka Kyoiku University,103,OKU
+180,Osaka Metropolitan University,104,OMU
+182,Pakistan Institute of Engineering and Applied Sciences,110,PIEAS
+184,Penza State University,112,PSU
+185,People's Public Security University of China,111,PPSUC
+186,Phronesis International College,109,PIC
+188,"Quaid-e-Awam University of Engineering, Science and Technology",114,QUEST
+189,RAK Medical and Health Sciences University,115,RAKMHSU
+191,Rissho University,116,RIS
+194,Ruaha Catholic University,117,RUCU
+198,Saint Charles Lwanga University of Sarh,159,USCLS
+200,Saint Petersburg State University of Economics,156,UNECON
+202,Sakhalin State University,126,SSU
+204,Shanghai University of Finance and Economics,128,SUFE
+205,Shanghai University of International Business and Economics,129,SUIBE
+207,Shenzhen University,131,SZU
+208,Sher-i-Kashmir Institute of Medical Sciences,123,SKIMS
+211,Simon Diedong Dombo University for Business and Integrated Development Studies,119,SDD-UBIDS
+212,Singapore-MIT Alliance for Research and Technology,124,SMART
+214,Sokoine University of Agriculture,127,SUA
+215,South American International University,118,SAIU
+216,Southeast University,120,SEU
+218,St. John's University of Tanzania,122,SJUT
+222,Stefano Moshi Memorial University College,125,SMMUCo
+223,Sudan University of Science and Technology,130,SUST
+226,Takoradi Technical University,133,TTU
+227,Teofilo Kisanji University,132,TEKU
+229,The Chinese University of Hong Kong,23,CUHK
+230,The International University of Kagoshima,65,IUK
+233,Tokyo Woman's Christian University,136,TWCU
+235,Toyohashi University of Technology,135,TUT
+237,Tumaini University Makumira,134,TUMA
+238,UNIVERSITY OF TOURISM,164,UTB
+241,Ulyanovsk State Technical University,167,UlSTU
+243,United African University of Tanzania,140,UAUT
+247,University of Agriculture Faisalabad,137,UAF
+248,"University of Agriculture, Peshawar",9,AUP
+248,"University of Agriculture, Peshawar",139,UAP
+249,University of Amsterdam,172,UvA
+250,University of Arkansas-Fort Smith,138,UAFS
+251,University of Arusha,169,UoA
+253,"University of California, Santa Cruz",142,UCSC
+254,University of Central Punjab,141,UCP
+255,University of Environment and Sustainable Development,144,UESD
+256,University of Gitwe,145,UG
+257,University of Gujrat,170,UoG
+258,University of Health and Allied Sciences,146,UHAS
+259,University of Illinois at the Medical Center,148,UIMC
+261,University of Kansas,76,KU
+262,University of Macau,149,UM
+264,University of Maryland Eastern Shore,152,UMES
+265,"University of Maryland, Baltimore County",150,UMBC
+266,"University of Media, Arts and Communication",41,GIJ
+266,"University of Media, Arts and Communication",168,UniMAC
+267,University of Medical Sciences and Technology in Tanzania,153,UMST
+269,University of Moundou,151,UMD
+270,University of Nouadhibou,155,UNDB
+274,University of Science and Technology of Ati,160,USTA
+275,University of South Carolina Beaufort,158,USCB
+276,University of Tartu,163,UT
+277,University of Technology and Business,164,UTB
+278,University of Western Australia,166,UWA
+280,Université Privée de Madagascar,157,UPRIM
+282,Ural State University of Economics,161,USUE
+283,Ural State University of Railway Transport,162,USURT
+284,Urgench State University,171,UrSU
+285,Utah Valley University,165,UVU
+291,Western Carolina University,173,WCU
+292,Western Governors University,174,WGU
+293,Westminster International University in Tashkent,175,WIUT
+294,Worcester Polytechnic Institute,176,WPI
+295,Yokohama City University,177,YCU
+296,Yuan Ze University,178,YZU
+297,Zanzibar University,179,ZU

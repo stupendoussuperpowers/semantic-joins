@@ -1,0 +1,12 @@
+{
+ "source": "wikidata",
+ "mismatch_type": "alias",
+ "group": "species",
+ "fetched_at": "2026-11-26T19:24:18+00:00",
+ "raw_sha256": "d54eab256242ff7f92fcef986735714d537cf166e0125c046a46a58d35074e2a",
+ "query_sha256": "b68ab40a6fd734b778cfd5210fd572f5a93d2a3e1fdd4c3d1100ea079eb1966b",
+ "endpoint": "qlever",
+ "seed": 0,
+ "max_entities": 400,
+ "sample_fraction": 0.6
+}

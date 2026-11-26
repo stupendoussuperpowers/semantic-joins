@@ -1,0 +1,401 @@
+id,title
+0,AIDS dementia complex
+1,Acquired hemolytic anemia
+2,Acrodynia
+3,African tick-bite fever
+4,Alexander disease
+5,Anagen effluvium
+6,Angiostrongylus costaricensis infectious disease
+7,Annular pustular psoriasis
+8,Atrophic spots of skin
+9,Azygos lobe
+10,Bifascicular block
+11,Blunt splenic trauma
+12,Bolivian hemorrhagic fever
+13,Boutonniere deformity
+14,Braxton Hicks contraction
+15,Böök syndrome
+16,CDKL5 deficiency disorder
+17,Chance fracture
+18,Choreoathetosis
+19,Combined small-cell lung carcinoma
+20,Condensing osteitis
+21,Conradi–Hünermann syndrome
+22,Cornea plana 1
+23,Cronkhite-Canada syndrome
+24,Crosby's syndrome
+25,Cross syndrome
+26,"Cysts of iris, ciliary body and anterior chamber"
+27,Developmental odontogenic cyst
+28,Diaphanospondylodysostosis
+29,Dilaceration
+30,Eales disease
+31,El Tor cholera
+32,Enteroinvasive Escherichia coli
+33,Excess ovarian androgen release syndrome
+34,Exudative hyponychial dermatitis
+35,Focal and diffuse brain injury
+36,Furuncle of vulva
+37,Gitelman syndrome
+38,Gram-negative folliculitis
+39,HOGA
+40,Haemodialysis-associated amyloidosis
+41,Hallucinogen-Induced Psychotic Disorder
+42,Hemophilic arthropathy
+43,Hereditary sideroblastic anemia
+44,Huntington's disease
+45,Hydrosalpinx
+46,Infantile acne
+47,Inferior vena cava syndrome
+48,Iodinolum
+49,Japanese spotted fever
+50,Kinking hair
+51,Korsakoff's syndrome
+52,Lacunar amnesia
+53,Lafora disease
+54,Large-cell lung carcinoma with rhabdoid phenotype
+55,Laryngopharyngeal reflux
+56,Leiner's disease
+57,Levocardia
+58,Lichen planopilaris
+59,Linear lichen planus
+60,Livedoid vasculitis
+61,Macrotia
+62,Marden–Walker syndrome
+63,Marjolin's ulcer
+64,May–Hegglin anomaly
+65,Microspherophakia
+66,Mongolian spot
+67,Morton's neuroma
+68,Muckle-Wells syndrome
+69,Muscle calcification and ossification
+70,Nabothian cyst
+71,Neonatal bowel obstruction
+72,Nevus comedonicus
+73,O'nyong'nyong fever
+74,Osgood-Schlatter's disease
+75,PANDAS
+76,Papuloerythroderma of Ofuji
+77,Plummer–Vinson syndrome
+78,Poikiloderma of Civatte
+79,Preiser disease
+80,Radiation enteropathy
+81,Re-entry ventricular arrhythmia
+82,Rickettsia aeschlimannii infection
+83,Ross River fever
+84,Sclerema neonatorum
+85,Sensenbrenner syndrome
+86,Sjogren-Larsson syndrome
+87,Snapping hip syndrome
+88,Stenosis of uterine cervix
+89,Subjective visual disturbances
+90,Template:Fatty-acid metabolism disorders
+91,Template:Heme metabolism disorders
+92,Toxic multinodular goitre
+93,West Nile fever
+94,Wiedemann-Rautenstrauch syndrome
+95,X-linked adrenoleukodystrophy
+96,Y chromosome number anomaly
+97,Yersinia enterocolitica intestinal infectious disease
+98,abdominal obesity
+99,abducens nerve palsy
+100,abnormal kyphosis
+101,abnormal sputum
+102,acne keloidalis nuchae
+103,acquired hemophilia
+104,acute coronary syndrome
+105,acute epiglottitis
+106,adrenal gland neoplasm
+107,adrenogenital disease
+108,adult-onset immunodeficiency syndrome
+109,air embolism
+110,alastrim
+111,algiuria
+112,amniotic band constriction
+113,anal fissure
+114,anaphylaxis
+115,anaplastic thyroid cancer
+116,androgenic alopecia
+117,aneurysm
+118,anthropophobia
+119,aortopulmonary window
+120,arsenic poisoning
+121,arthropathy associated with hematological disorder
+122,aseptic meningitis
+123,aspermia
+124,atrophodermia vermiculata
+125,atypical chronic myeloid leukemia
+126,atypical teratoid rhabdoid tumor
+127,autoimmune atrophic gastritis
+128,avian influenza
+129,axillary nerve palsy
+130,balanoposthitis
+131,barotitis
+132,basidiobolomycosis
+133,behavioral disorder
+134,beriberi
+135,bile duct adenoma
+136,bipartite talus
+137,bone cancer
+138,borderline personality disorder
+139,brachymetatarsia
+140,catatonic schizophrenia
+141,central auditory processing disorder
+142,cerebral malaria
+143,cerebral salt-wasting syndrome
+144,cervical pregnancy
+145,chemotherapy-induced acral erythema
+146,chondroma
+147,chronic allograft nephropathy
+148,chronic otitis media with effusion
+149,cluttering
+150,colour vision deficiency
+151,congenital anomaly of cardiovascular system
+152,congenital dyserythropoietic anemia type I
+153,congenital dyserythropoietic anemia type IV
+154,congenital pulmonary venous return anomaly
+155,congenital transmission
+156,conjoined twins
+157,contusion of thigh
+158,coxsackie carditis
+159,craniofrontonasal dysplasia
+160,crystal arthropathy
+161,cystic fibrosis
+162,cystic lymphangioma
+163,cysticercosis
+164,cysticercosis cutis
+165,cytolytic hepatitis
+166,cytomegalovirus retinitis
+167,decapitation
+168,delirium tremens
+169,demodicosis
+170,dental attrition
+171,dermatochalasis
+172,diaphragmatic rupture
+173,dislocation of jaw
+174,disorder of amniotic fluid and membranes
+175,disorientation
+176,dysautonomia
+177,dysdiadochokinesia
+178,dyspareunia
+179,ear canal atresia
+180,early pregnancy bleeding
+181,eating disorder
+182,ectopia lentis
+183,endemic typhus
+184,endogenous depression
+185,entomophthoramycosis
+186,enuresis
+187,envenomation
+188,epidemic typhus
+189,eumycotic mycetoma
+190,excessive daytime sleepiness
+191,external compression headache
+192,facial trauma
+193,fecal incontinence
+194,female infertility
+195,fetishistic disorder
+196,fits in newborn
+197,focal epilepsy
+198,focal hand dystonia
+199,foreign body in alimentary tract
+200,freckle
+201,gastrointestinal mucormycosis
+202,gastrointestinal stromal tumor
+203,gastrointestinal system cancer
+204,general infection
+205,geniospasm
+206,gerodermia osteodysplastica
+207,graft-versus-host disease
+208,granulosa cell tumour
+209,gray platelet syndrome
+210,greater trochanteric pain syndrome
+211,gummatous syphilis
+212,hair diseases
+213,hallucinosis
+214,hallux varus
+215,haltlose personality disorder
+216,hematoma
+217,hematospermia
+218,hemianopia
+219,hemoglobinopathy
+220,heparin-induced thrombocytopenia
+221,hepatic porphyria
+222,herpangina
+223,hip osteoarthritis
+224,hospitalism
+225,hydroa vacciniforme-like lymphoma
+226,hydrops of gallbladder
+227,hypermethioninemia
+228,hypersomatotropism
+229,hypervitaminosis
+230,hypervolemia
+231,iatrogenic pleural effusion
+232,idiopathic neuropathy
+233,idiopathic progressive polyneuropathy
+234,idiot
+235,imperforate hymen
+236,indolent systemic mastocytosis
+237,infestation
+238,iniencephaly
+239,injury
+240,intracranial laceration and haemorrhage due to birth injury
+241,invasive aspergillosis
+242,iron deficiency
+243,iron(II) gluconate
+244,irritant diaper dermatitis
+245,joint instability
+246,labyrinthine fistula
+247,lactation suppression
+248,left ventricular hypertrophy
+249,limb infarction
+250,liver abscess
+251,long-term effects of benzodiazepines
+252,low backache
+253,lower limb cancer
+254,lymphocutaneous sporotrichosis
+255,malabsorption
+256,malformation of placenta
+257,mallet finger
+258,management of baldness
+259,maritime accident
+260,maternal distress
+261,mesenteric ischemia
+262,micropsia
+263,millipede burn
+264,miosis
+265,mitochondrial myopathy
+266,mixed hyperlipidemia
+267,motorcycle accident
+268,mucinous cystadenocarcinoma
+269,multiple symmetric lipomatosis
+270,myelitis
+271,myeloproliferative neoplasm
+272,myoclonus
+273,myofibrillar myopathy
+274,myotonia
+275,neonatal alloimmune thrombocytopenia
+276,neonatal metabolic disturbance
+277,nephrogenic syndrome of inappropriate antidiuresis
+278,nerve injury
+279,neuroleptic malignant syndrome
+280,nicotine withdrawal
+281,non-follicular lymphoma
+282,non-gonococcal urethritis
+283,normal anion gap acidosis
+284,nuclear senile cataract
+285,omphalitis
+286,ophthalmic zoster
+287,oral mucocele
+288,organic personality disorder
+289,osteoarthritis
+290,osteochondritis
+291,osteoporotic fracture
+292,ozaena
+293,paraganglioma
+294,parainfluenzal pneumonia
+295,parametritis
+296,paresis
+297,patellar dysplasia
+298,pectus carinatum
+299,pentalogy of Cantrell
+300,perforating granuloma annulare
+301,perineurioma
+302,persistent junctional reciprocating tachycardia
+303,pervasive developmental disorder not otherwise specified
+304,phaeochromocytoma
+305,phantom eye syndrome
+306,phlebotomus fever
+307,photodermatitis
+308,photodermatosis
+309,pinna disease
+310,plasma cell dyscrasia
+311,pleural plaque
+312,pleurisy
+313,post-schizophrenic depression
+314,posterior reversible encephalopathy syndrome
+315,postpartum acute renal failure
+316,primary cutaneous gamma/delta-positive T-cell lymphoma
+317,profound intellectual disability
+318,prostatic stent
+319,pseudohypoaldosteronism
+320,pseudopsychopathic schizophrenia
+321,psoas muscle abscess
+322,psoriatic nails
+323,puerperal infection
+324,pulmonary emphysema
+325,pulmonary valve stenosis
+326,pyogenic liver abscess
+327,pyruvate kinase deficiency
+328,radial neuropathy
+329,retiform parapsoriasis
+330,retromolar area cancer
+331,rickettsiosis
+332,right bundle branch block
+333,rumination disorder
+334,sacroiliitis
+335,scanning speech
+336,schizophrenia-like disorder
+337,seasickness
+338,sedentary lifestyle
+339,selenium deficiency
+340,senility
+341,severe combined immunodeficiency
+342,short Achilles tendon
+343,simple-type schizophrenia
+344,single umbilical artery
+345,sleep inversion
+346,spastic quadriplegia
+347,spinal muscular atrophies
+348,spontaneous bacterial peritonitis
+349,sprained ankle
+350,steatohepatitis
+351,sternal fracture
+352,stinger
+353,strain
+354,stress fracture
+355,subacute bacterial endocarditis
+356,subcutaneous emphysema
+357,superficial keratitis without conjunctivitis
+358,swine influenza
+359,syncope
+360,synovitis
+361,talipes calcaneus
+362,talus fracture
+363,tendinopathy
+364,tension pneumothorax
+365,thelaziasis
+366,third-degree atrioventricular block
+367,third-degree burn
+368,thoracic aortic aneurysm
+369,threatened abortion
+370,thunderclap headache
+371,thymoma
+372,tibia fracture
+373,tick infestation
+374,tinea barbae
+375,torsion dystonia
+376,tracheal stenosis
+377,transient myeloproliferative syndrome
+378,transient synovitis
+379,transport collision
+380,traumatic amputation of ankle and foot
+381,traumatic pneumothorax
+382,trehalase deficiency
+383,tremor
+384,trench foot
+385,trichotillomania
+386,tungiasis
+387,type-1 diabetes
+388,unilateral hearing loss
+389,upper gastrointestinal bleeding
+390,upper limb cancer
+391,vaginal atresia
+392,varus deformity
+393,vasa praevia
+394,verrucous nevus
+395,viral labyrinthitis
+396,vitreous bulge
+397,vitreous disease
+398,waxy flexibility
+399,webbed toes

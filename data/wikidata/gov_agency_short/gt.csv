@@ -1,0 +1,245 @@
+id_l,title_l,id_r,title_r
+0,Accountant General’s Department,7,AGD
+1,Advanced Research & Invention Agency,8,ARIA
+2,Aeroplane and Armament Experimental Establishment,0,A&AEE
+3,Agencia para el Desarrollo de la Sociedad de la Información,4,ADSIB
+4,Agency for Defense Development,3,ADD
+5,"Agriculture, Fisheries and Conservation Department",6,AFCD
+6,Air Accidents Investigation Branch,1,AAIB
+8,Alaska Engineering Commission,5,AEC
+9,Albanian Telegraphic Agency,10,ATA
+10,Alpine Resorts Victoria,9,ARV
+13,Association of Bay Area Governments,2,ABAG
+15,Atomic Weapons Establishment,12,AWE
+16,Australian Transport Safety Bureau,11,ATSB
+18,Bangladesh Standards and Testing Institution,19,BSTI
+20,Behavioral Analysis Unit,13,BAU
+24,Botswana Energy Regulatory Authority,15,BERA
+25,British Geological Survey,16,BGS
+26,Bureau for International Narcotics and Law Enforcement Affairs,17,BIL
+27,Bureau of Educational and Cultural Affairs,69,ECA
+28,Bureau of Engineering,20,BuEng
+29,Bureau of Indian Standards,18,BIS
+31,Bureau of Ships,21,BuShips
+32,California Department of Consumer Affairs,39,DCA
+33,California Department of Public Health,25,CDPH
+34,California Department of Technology,26,CDT
+35,California Department of Water Resources,66,DWR
+37,Canadian Heraldic Authority,28,CHA
+39,Capital Markets Board of Turkey,30,CMB
+41,Central Bureau of Investigation,24,CBI
+42,Central Election Commission of Albania,27,CEC
+44,Central Pacific Hurricane Center,33,CPHC
+45,Centre for Applied Science and Technology,23,CAST
+47,Civil Aviation Department,22,CAD
+48,Climate Program Office,34,CPO
+49,Combat support agency,37,CSA
+52,Committee for the Peaceful Reunification of the Fatherland,35,CPRF
+53,Committee for the Promotion of Virtue and the Prevention of Vice,36,CPVPV
+56,Connecticut Public Utilities Regulatory Authority,195,PURA
+57,"Cooperative State Research, Education, and Extension Service",38,CSREES
+60,Defence Equipment and Support,43,DE&S
+61,Defence Nuclear Organisation,53,DNO
+64,Defense Commissary Agency,67,DeCA
+65,Defense POW/MIA Accounting Agency,58,DPAA
+66,Defense Security Cooperation Agency,62,DSCA
+70,Department for Employment and Learning,45,DEL
+71,Department for Energy Security and Net Zero,47,DESNZ
+73,Department of Economic and Social Development,68,DoESD
+75,"Department of Employment, Education and Training",44,DEET
+76,"Department of Environment, Land, Water and Planning",46,DELWP
+78,Department of Information Service,55,DOIS
+82,Department of Primary Industries and Regional Development,59,DPIRD
+83,Department of Strategic Policy and Delivery,63,DSPD
+84,"Department of Transport, Planning and Local Infrastructure",64,DTPLI
+87,Directorate for the Curation of the National Archive of Monuments,41,DCNAM
+89,District of Columbia Department of Public Works,61,DPW
+90,District of Columbia Public Schools,42,DCPS
+91,Driver and Vehicle Standards Agency,65,DVSA
+92,Drug Law Enforcement Agency,51,DLEAG
+93,Earth Financial Credit Corporation,73,EFCC
+94,Economic Advisory Council,191,PMEAC
+95,Economic Research Service,78,ERS
+96,"Economic, Social & Labor Council",79,ESLC
+97,Election Commission of India,71,ECI
+98,Employees Provident Fund,76,EPF
+100,"Energy, Water and Sanitation Authority",80,EWSA
+101,Enterprise Information Services,75,EIS
+102,Estonian Education and Research Network,72,EENet
+103,European Environment Information and Observation Network,74,EIONET
+104,European Patent Organisation,77,EPO
+105,Fairfax County Department of Information Technology,50,DIT
+108,Federal Music Project,83,FMP
+109,Federal Office of Transport,84,FOT
+110,Federal Research Division,85,FRD
+111,Financial Intelligence Unit,82,FIU
+113,Florida Highway Patrol,81,FHP
+115,Food Safety and Inspection Service,86,FSIS
+119,Gambia Department of Labour,56,DOL
+120,Gambia Fire and Rescue Service,93,GFRS
+122,Gambia Immigration Department,94,GID
+125,Gambia News Agency,89,GAMNA
+126,Gambia Police Force,95,GPF
+129,Gambia Public Procurement Authority,96,GPPA
+130,Gambia Revenue Authority,97,GRA
+131,Gambia Telecommunications Cellular Company,88,GAMCEL
+133,Gambia Tourism and Hospitality Institute,100,GTHI
+136,General Entertainment Authority,92,GEA
+138,German Space Situational Awareness Center,98,GSSAC
+139,Ghana Atomic Energy Commission,87,GAEC
+140,Ghana Space Science and Technology Centre,99,GSSTI
+142,Government Commercial Agency,91,GCA
+144,HM Courts and Tribunals Service,102,HMCTS
+147,Higher Education Funding Council for England,101,HEFCE
+155,Indian Council of Philosophical Research,104,ICPR
+156,Indian Council of Social Science Research,105,ICSSR
+157,Institute for the Investigation of Communist Crimes in Romania,107,IICCMER
+158,Institute of Scientific and Technical Information of China,110,ISTIC
+160,Interstate Commerce Commission,103,ICC
+161,Irish Film Classification Office,106,IFCO
+162,Iron Range Resources and Rehabilitation Board,108,IRRRB
+165,Japan Science and Technology Agency,112,JST
+169,Kentucky Department of Revenue,116,KYDOR
+170,Kentucky State Police,115,KSP
+172,Korea Creative Content Agency,114,KOCCA
+175,Korean Agency for Technology and Standards,113,KATS
+177,Land Transport Authority,117,LTA
+179,Lee County Division of Innovation & Technology,111,ITS
+180,Los Angeles County Internal Services Department,109,ISD
+184,Massachusetts Division of Marine Fisheries,118,MDMF
+189,"Memphis Light, Gas and Water",123,MLGW
+190,Metropolitan Transport Commission,124,MTC
+191,Ministry of Climate Change,125,MoCC
+192,"Ministry of Education, Science and Technology",120,MEST
+194,Ministry of Sports,122,MINISPORTS
+195,Mississippi Highway Patrol,121,MHP
+197,Multan Electric Power Company,119,MEPCO
+203,NSA/CSS Threat Operations Center,140,NCTOC
+204,Narcotics Control Bureau,135,NCB
+206,National Agency for Quality Assurance in Higher Education of Ukraine,129,NAQA
+208,National Archives of Australia,126,NAA
+209,National Audit Office,128,NAO
+210,National Authority for Remote Sensing and Space Sciences,130,NARSS
+211,"National Book Trust, India",134,NBT
+212,National Bureau of Investigation,133,NBI
+214,National Center for Credibility Assessment,137,NCCA
+215,National Child Development Agency,138,NCDA
+217,National Communications Commission,136,NCC
+218,National Council for Scientific Research,31,CNRS-L
+219,"National Cyber Security Agency, Malaysia",127,NACSA
+220,National Cyber Security Centre,139,NCSC
+225,National Economic Council,142,NEC
+227,National Environment Agency,141,NEA
+228,National Examination Council,143,NECO
+231,National Forestry Authority,144,NFA
+232,National Health and Medical Research Council,145,NHMRC
+233,National Information Security Center,150,NISC
+234,National Information Technology Development Agency,152,NITDA
+235,National Infrastructure and Service Transformation Authority,151,NISTA
+236,National Institute for Health and Care Research,147,NIHR
+239,National Institute of Korean History,149,NIKH
+240,National Institute of Technology and Evaluation,153,NITE
+241,National Institute on Drug Abuse,146,NIDA
+243,National Land Centre,154,NLC
+245,National Media Authority,155,NMA
+245,National Media Authority,222,UAENMA
+246,National Nuclear Security Administration,156,NNSA
+247,National Organization for Urban Harmony,157,NOUH
+248,National Population Commission Secretariat,158,NPCS
+251,National Research Foundation,160,NRF
+252,National Roads Authority,159,NRA
+254,National Science Foundation Office of Information and Resource Management,174,OIRM
+255,National Science Foundation of Sri Lanka,164,NSF
+257,National Security Bureau of the Republic of China,161,NSB
+258,National Security Commission of the Chinese Communist Party,32,CNSC
+259,National Security and Defence Council of Ukraine,163,NSDC
+260,National Service Secretariat,165,NSS
+262,National Space Operations Centre,166,NSpOC
+263,National Space Research and Development Agency,131,NASRDA
+264,National Sports Council,162,NSC
+265,National Telecommunications and Information Administration,168,NTIA
+266,National Threat Assessment Center,167,NTAC
+269,National Youth Service Scheme,169,NYSS
+270,National center of Incident readiness and Strategy for Cybersecurity,150,NISC
+272,Naturalis Biodiversity Center,132,NBC
+277,Nigeria Hydrological Services Agency,148,NIHSA
+278,Office for Investment,180,OfI
+280,Office of Federal Contract Compliance Programs,173,OFCCP
+281,Office of Justice Programs,175,OJP
+283,Office of National Security,178,ONS
+284,Office of Naval Research,177,ONR
+285,Office of Public Sector Information,179,OPSI
+287,Office of the Administrative Assistant to the Secretary of the Army,170,OAA
+289,Office of the Commissioner of Railroads,171,OCR
+290,Office to Combat Trafficking in Persons,172,OCTIP
+291,Oman News Agency,176,ONA
+293,Pacific Tsunami Warning Center,194,PTWC
+294,Pakistan Electronic Media Regulatory Authority,183,PEMRA
+295,Pakistan Telecommunication Authority,193,PTA
+296,Palestinian Electricity Regulatory Council,184,PERC
+297,Palestinian International Cooperation Agency,186,PICA
+298,Palestinian Meteorological Department,189,PMD
+299,Pharmaceuticals and Medical Devices Agency,190,PMDA
+300,Planetary Data System,182,PDS
+301,Planning Inspectorate,188,PINS
+306,Presidential Innovation Fellows,187,PIF
+307,Public Buildings Service,181,PBS
+308,Public Health Agency of Canada,185,PHAC
+309,Public Service Commission,192,PSC
+313,Regulatory Innovation Office,201,RIO
+314,"Research, Development and Innovation Authority",197,RDIA
+315,Russian Center for Science Information,200,RFBR
+316,Rwanda Basic Education Board,198,REB
+317,Rwanda Development Board,196,RDB
+318,Rwanda Environment Management Authority,199,REMA
+320,Rwanda Peace Academy,202,RPA
+322,Rwanda Transport Development Agency,203,RTDA
+323,Rwanda Utilities Regulatory Authority,204,RURA
+326,"Saudi Federation for Cybersecurity, Programming and Drones",205,SAFCSP
+328,Saudi Shooting Federation,213,SSF
+329,Seychelles Port Authority,210,SPA
+332,Singapore Land Authority,207,SLA
+335,Social Security Organisation,209,SOCSO
+337,Southern California Association of Governments,206,SCAG
+338,Special Penitentiary Service of Georgia,212,SPS
+339,Special State Protection Service of Georgia,215,SSPS
+342,State Sangha Maha Nayaka Committee,214,SSMNC
+344,Storm Prediction Center,211,SPC
+349,Technical Education and Skills Development Authority,219,TESDA
+350,Tennessee Bureau of Investigation,216,TBI
+351,Texas Commission on Law Enforcement,218,TCOLE
+352,Texas Department of Public Safety,60,DPS
+353,The Gambia College,90,GC
+355,Tibetan Settlement Office,221,TSO
+358,Training Center of Justice of Georgia,217,TCJ
+359,Truth and Reconciliation Commission,220,TRCK
+361,Uganda National Chamber of Commerce  and Industry,226,UNCCI
+363,Ukrainian Hydrometeorological Center,225,UHMC
+364,United Kingdom Debt Management Office,52,DMO
+365,United States Army Chemical Materials Activity,29,CMA
+366,United States Army Space and Missile Defense Command,208,SMDC
+367,United States Civil Administration of the Ryukyu Islands,227,USCAR
+368,United States Lighthouse Service,228,USHLS
+371,University Grants Commission,224,UGC
+372,Urdu Dictionary Board,223,UDB
+373,Valuation Office Agency,232,VOA
+374,Vietnam Academy of Science and Technology,229,VAST
+375,Vietnam Education Quality Management Agency,233,VQA
+376,Vietnam News Agency,231,VNA
+377,Violent Criminal Apprehension Program,234,ViCAP
+380,Volcano Disaster Assistance Program,230,VDAP
+381,War Production Board,239,WPB
+383,West Virginia State Police,240,WVSP
+385,Wisconsin Board of Commissioners of Public Lands,14,BCPL
+386,Wisconsin Department of Administration,54,DOA
+387,Wisconsin Department of Children and Families,40,DCF
+387,Wisconsin Department of Children and Families,241,WisDCF
+388,Wisconsin Department of Health Services,48,DHS
+388,Wisconsin Department of Health Services,49,DHSWI
+389,Wisconsin Department of Revenue,57,DOR
+390,Wisconsin Department of Veterans Affairs,235,WDVA
+391,Wisconsin Economic Development Corporation,236,WEDC
+392,Wisconsin Educational Communications Board,70,ECB
+394,Wisconsin Public Service Commission,192,PSC
+395,World Economic Development Organization,237,WEDO
+396,World Financial Administration,238,WFA

@@ -1,0 +1,12 @@
+{
+ "source": "wikidata",
+ "mismatch_type": "code",
+ "group": "companies",
+ "fetched_at": "2026-11-26T19:23:44+00:00",
+ "raw_sha256": "b792ed0ab453cfc6dee6af881b2def6eedc97e279426440a8fd3a6d926e3b62b",
+ "query_sha256": "4ced3d17cf4f0655d16af69d2706ef357199ed054c3de28052daac24464472d6",
+ "endpoint": "qlever",
+ "seed": 0,
+ "max_entities": 400,
+ "sample_fraction": 0.6
+}

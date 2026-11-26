@@ -1,0 +1,214 @@
+id_l,title_l,id_r,title_r
+179,Administration for Children's Services,0,ACS
+34,Advisory Council on Procurement Lobbying,1,ACPL
+273,American Museum of Natural History,2,AMNH
+239,Animal Care Centers of NYC,3,ACC
+294,Archival Review Board,4,ARB
+124,"Archives, Reference and Research Advisory Board",5,ARRAB
+141,Board of Correction,6,BOC
+266,Board of Education Retirement System,7,BERS
+136,Board of Elections,8,BOE
+104,Board of Standards and Appeals,9,BSA
+298,Brooklyn Academy of Music,10,BAM
+238,Brooklyn Botanic Garden,11,BBG
+234,Brooklyn Bridge Park Corporation,12,BBP
+120,Brooklyn Children's Museum,13,BCM
+175,Brooklyn Navy Yard Development Corporation,14,BNYDC
+260,Brooklyn Public Library,15,BPL
+245,Business Integrity Commission,16,BIC
+48,Campaign Finance Board,17,CFB
+303,Catskill Watershed Corporation,18,CWC
+229,Center for Brooklyn History,19,CBH
+82,Center for Innovation through Data Intelligence,20,CIDI
+87,City Commission on Human Rights,21,CCHR
+41,City Planning Commission,22,CPC
+78,City University Construction Fund,23,CUCF
+269,City University of New York,24,CUNY
+70,Civic Engagement Commission,25,CEC
+100,Civil Service Commission,26,CSC
+184,Civilian Complaint Review Board,27,CCRB
+216,Commission on Gender Equity,28,CGE
+125,Commission on Racial Equity,29,CORE
+55,Commission to Combat Police Corruption,30,CCPC
+46,Community Action Board at the NYC Department of Youth and Community Development,31,CAB
+164,Community Boards,32,CB
+173,Community Services Board,33,CSB
+284,Conflicts of Interest Board,34,COIB
+116,Convention Center Development Corporation,35,CCDC
+257,Convention Center Operating Corporation (Javits),36,NYCCOC
+233,Council for Airport Opportunity,37,CAO
+275,Cultural Affairs Advisory Commission,38,CAAC
+121,Cultural Institutions Retirement System,39,CIRS
+102,Cyber Command,40,NYC3
+211,Department for the Aging,41,DFTA
+211,Department for the Aging,42,NYC AGING
+162,Department of Buildings,43,DOB
+69,Department of City Planning,44,DCP
+306,Department of Citywide Administrative Services,45,DCAS
+263,Department of Consumer and Worker Protection,46,DCA
+263,Department of Consumer and Worker Protection,47,DCWP
+155,Department of Correction,48,DOC
+297,Department of Cultural Affairs,49,DCLA
+157,Department of Design and Construction,50,DDC
+287,Department of Environmental Protection,51,DEP
+276,Department of Finance,52,DOF
+295,Department of Health and Mental Hygiene,53,DOH
+295,Department of Health and Mental Hygiene,54,DOHMH
+183,Department of Homeless Services,55,DHS
+144,Department of Housing Preservation and Development,56,HPD
+199,Department of Investigation,57,DOI
+189,Department of Parks and Recreation,58,DPR
+189,Department of Parks and Recreation,59,Parks
+222,Department of Probation,60,DOP
+45,Department of Records and Information Services,61,DORIS
+45,Department of Records and Information Services,62,DoRIS
+270,Department of Small Business Services,63,SBS
+172,Department of Social Services,64,DSS
+71,Department of Veterans' Services,65,DVS
+217,Department of Youth and Community Development,66,DYCD
+22,Deputy Mayor for Health and Human Services,67,DMHHS
+9,Deputy Mayor for Operations,68,DMOPS
+196,Domestic Violence Fatality Review Committee,69,FRC
+53,Economic Development Corporation,70,NYCEDC
+103,Educational Construction Fund,71,ECF
+274,Environmental Control Board,72,ECB
+174,Equal Employment Practices Commission,73,EEPC
+50,Financial Information Services Agency,74,FISA
+32,Fire Department of the City of New York,75,FDNY
+2,First Deputy Mayor,76,FDM
+146,HIV/AIDS Services Advisory Board,77,HASA
+115,Housing Development Corporation,78,NYC HDC
+237,Hudson Yards Infrastructure Corporation,79,HYIC
+44,Human Resources Administration,80,HRA
+148,Independent Budget Office,81,IBO
+231,Industrial Development Agency,82,NYCIDA
+244,"Jamaica Bay - Rockaway Parks Conservancy, Inc.",83,JBRPC
+185,Jamaica Center for Arts and Learning,84,JCAL
+201,Kings County Public Administrator,85,KCPA
+190,Land Development Corporation,86,NYCLDC
+49,Landmarks Preservation Commission,87,LPC
+114,Lincoln Center Theater,88,LCT
+253,Lower Manhattan Development Corporation,89,LMDC
+158,Mayor's Advisory Committee on the Judiciary,90,MACJ
+279,Mayor's Committee on City Marshals,91,MCCM
+98,Mayor's Office for Childcare and Early Childhood Education,92,OCCECE
+205,Mayor's Office for Economic Opportunity,93,NYC OPPORTUNITY
+286,Mayor's Office for International Affairs,94,IA
+111,Mayor's Office for Nonprofit Services,95,MONS
+59,Mayor's Office for People with Disabilities,96,MOPD
+178,Mayor's Office for Prevention of Hate Crimes,97,OPHC
+137,Mayor's Office of Animal Welfare,98,MOAW
+261,Mayor's Office of Citywide Events Coordination and Management,99,CECM
+86,Mayor's Office of Climate and Environmental Justice,100,MOCEJ
+63,Mayor's Office of Community Mental Health,101,OCMH
+227,Mayor's Office of Contract Services,102,MOCS
+214,Mayor's Office of Criminal Justice,103,MOCJ
+250,Mayor's Office of Environmental Coordination,104,MOEC
+223,Mayor's Office of Environmental Remediation,105,OER
+108,Mayor's Office of Equity and Racial Justice,106,MOE
+108,Mayor's Office of Equity and Racial Justice,107,MOERJ
+109,Mayor's Office of Ethnic and Community Media,108,MOECM
+61,Mayor's Office of Faith-Based and Community Partnerships,109,OFCP
+94,Mayor's Office of Food Policy,110,MOFP
+30,Mayor's Office of Housing Recovery Operations,111,HRO
+153,Mayor's Office of Immigrant Affairs,112,MOIA
+202,Mayor's Office of Management and Budget,113,OMB
+90,Mayor's Office of Media and Entertainment,114,MOME
+300,Mayor's Office of Minority and Women-Owned Business Enterprises,115,MWBE
+300,Mayor's Office of Minority and Women-Owned Business Enterprises,116,Office of M/WBE
+7,Mayor's Office of Municipal Services Assessment,117,MSA
+43,Mayor's Office of Operations,118,OPS
+14,Mayor's Office of Pensions and Investments,119,MOPI
+3,Mayor's Office of Risk Management and Compliance,120,MORMC
+80,Mayor's Office of Special Enforcement,121,AJC
+80,Mayor's Office of Special Enforcement,122,OSE
+188,Mayor's Office of Special Projects and Community Events,123,MOSPCE
+197,"Mayor's Office of Sports, Wellness and Recreation",124,MOSWR
+135,Mayor's Office of Strategic Partnerships,125,OSP
+161,Mayor's Office of Talent and Workforce Development,126,NYC Talent
+126,Mayor's Office of Urban Agriculture,127,MOUA
+152,Mayor's Office of Youth Employment,128,MOYE
+192,Mayor's Office to End Domestic and Gender-Based Violence,129,ENDGBV
+128,Mayor's Office to Prevent Gun Violence,130,OPGV
+219,Mayor's Office to Protect Tenants,131,MOPT
+226,Mayor's Public Engagement Unit,132,PEU
+64,Metropolitan Transportation Authority,133,MTA
+31,Museum of Modern Art,134,MoMA
+221,Museum of the City of New York,135,MCNY
+267,Museum of the Moving Image,136,MoMI
+243,NYC Health + Hospitals,137,H+H
+56,NYC311,138,311
+159,New York Botanical Garden,139,NYBG
+256,New York City Council,140,NYCC
+29,New York City Department of Sanitation,141,DSNY
+42,New York City Department of Transportation,142,DOT
+42,New York City Department of Transportation,143,NYC DOT
+106,New York City Emergency Management,144,NYCEM
+106,New York City Emergency Management,145,OEM
+246,New York City Employee Retirement System,146,NYCERS
+123,New York City Housing Authority,147,NYCHA
+58,New York City Law Department,148,LAW
+58,New York City Law Department,149,Law
+58,New York City Law Department,150,Law Dept.
+60,New York City Loft Board,151,LOFT
+52,New York City Municipal Water Finance Authority,152,NYW
+91,New York City Office of the Actuary,153,NYCOA
+299,New York City Panel on Climate Change,154,NPCC
+138,New York City Police Department,155,NYPD
+180,New York City Police Pension Fund,156,PPF
+142,New York City Public Schools,157,DOE
+142,New York City Public Schools,158,NYCPS
+264,New York City School Support Services,159,NYCSSS
+268,New York City Tax Commission,160,TAXCOMM
+277,New York City Taxi and Limousine Commission,161,NYC TLC
+277,New York City Taxi and Limousine Commission,162,TLC
+289,New York City Transit Riders Council,163,NYCTAAC
+289,New York City Transit Riders Council,164,NYCTRC
+296,New York City Transitional Finance Authority,165,TFA
+259,New York City Water Board,166,NYWB
+206,New York City Watershed Protection and Partnership Council,167,WPPC
+255,New York City Young Men's Initiative,168,YMI
+133,New York Hall of Science,169,NYSCI
+207,New York Public Library,170,NYPL
+282,Office of Administrative Tax Appeals,171,OATA
+51,Office of Administrative Trials and Hearings,172,OATH
+281,Office of Collective Bargaining,173,OCB
+198,Office of Data Analytics,174,MODA
+198,Office of Data Analytics,175,ODA
+93,Office of Information Privacy,176,MOIP
+93,Office of Information Privacy,177,OIP
+57,Office of Intergovernmental Affairs,178,IGA
+57,Office of Intergovernmental Affairs,179,MOIGA
+293,Office of Labor Relations,180,OLR
+200,Office of Nightlife,181,ONL
+97,Office of Payroll Administration,182,OPA
+33,Office of Technology and Innovation,183,DoITT
+33,Office of Technology and Innovation,184,OTI
+218,Office of the Administrative Justice Coordinator,121,AJC
+304,Office of the Chief Medical Examiner,185,OCME
+232,Office of the Inspector General for the NYPD,186,OIG-NYPD
+232,Office of the Inspector General for the NYPD,187,OIGNYPD
+156,Office of the Mayor,188,OM
+204,Office of the Public Advocate,189,PUB ADV
+110,Panel on Educational Policy,190,PEP
+169,Perelman Performing Arts Center,191,PACNYC
+220,Primary Care Development Corporation,192,PCDC
+209,Procurement Policy Board,193,PPB
+177,Public Design Commission,194,PDC
+62,Queens Botanical Garden,195,QBG
+265,Queens Public Library,196,QPL
+194,Randall's Island Park Alliance,197,RIPA
+301,Rent Guidelines Board,198,RGB
+213,Residential Mortgage Insurance Corporation,199,REMIC
+40,Sales Tax Asset Receivable Corporation,200,STAR
+288,School Construction Authority,201,SCA
+77,Special Commissioner of Investigation for the New York City School District,202,SCI
+117,Taskforce on Racial Inclusion and Equity,203,TRIE
+118,Teachers' Retirement System of City of New York,204,TRS
+54,Tobacco Settlement Asset Securitization Corporation,205,TSASC
+65,Trust for Cultural Resources,206,TCR
+240,United Nations Development Corporation,207,UNDC
+168,Unity Project,208,UP
+181,Veterans Advisory Board,209,VAB
+191,Voter Assistance Advisory Committee,210,VAAC
+145,Wildlife Conservation Society,211,WCS
