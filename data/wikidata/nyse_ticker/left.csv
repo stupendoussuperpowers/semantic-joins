@@ -1,0 +1,402 @@
+id,title
+0,7 Days Inn
+1,ABB Group
+2,AMTD Digital
+3,ARC Document Solutions
+4,AT&T
+5,AbbVie
+6,Abbott Laboratories
+7,Actuant
+8,Acuity Brands
+9,Advantage Energy
+10,Aflac
+11,Agnico Eagle Mines
+12,Agrium
+13,Alaska Airlines
+14,Albertsons
+15,Alibaba Group
+16,Allegion
+17,Alpha Natural Resources
+18,Ambac
+19,Amer Sports
+20,American Axle
+21,American Express
+22,American Financial Group
+23,American Homes 4 Rent
+24,American Water Works
+25,Amplify Energy
+26,Amwell
+27,Anheuser-Busch InBev
+28,Annaly Capital Management
+29,Aon plc
+30,ArcelorMittal
+31,Arch Resources
+32,Archer Aviation
+33,"Arlo Technologies, Inc."
+34,Artisan Partners
+35,Atento
+36,Atlantic Power Corporation
+37,AuRico Gold
+38,"Audacy, Inc."
+39,Aurora Cannabis
+40,Autohome
+41,Avantor
+42,Avery Dennison
+43,B&G Foods
+44,BJ's Wholesale Club
+45,Banco Itaú Corpbanca
+46,Bank of Ireland
+47,Barnes & Noble
+48,"Bed Bath & Beyond, Inc."
+49,Belo
+50,Benchmark Electronics
+51,Berry Plastics
+52,Birkenstock
+53,Black Rifle Coffee Company
+54,BlackSky
+55,Blue Owl Capital
+56,Boston Scientific
+57,Braemar Hotels & Resorts
+58,Brasil Telecom
+59,Bright Health
+60,Brilliance China Automotive Holdings
+61,Brinker International
+62,Brown & Brown
+63,Buckeye Partners
+64,Buenaventura
+65,Bunge Limited
+66,CGI Group
+67,CI&T
+68,CMB.TECH
+69,CNOOC Limited
+70,CNX Resources
+71,Callaway Golf Company
+72,Calpine
+73,Can Fite Biopharma
+74,Canadian Natural Resources
+75,Canon Inc.
+76,Capital One
+77,Cardinal Health
+78,Celadon Group
+79,Cencora
+80,CenterPoint Energy
+81,Central Pacific Bank
+82,Charles Schwab Corporation
+83,Cheetah Mobile
+84,China Telecommunications Corporation
+85,Choice Hotels
+86,Chubb Corp.
+87,Chuck E. Cheese
+88,Civeo Corporation
+89,Claritev
+90,Clorox
+91,Commercial Metals Company
+92,"Connecticut Water Service, Inc."
+93,ConocoPhillips
+94,Consolidated Graphics
+95,Convergys
+96,Cooper Tire & Rubber Company
+97,Cooper-Standard Automotive
+98,Copa Airlines
+99,Copa Holdings
+100,Core & Main
+101,CoreCivic
+102,Corning Inc.
+103,Corteva
+104,Cosan
+105,Cousins Properties
+106,Coventry Health Care
+107,Covista
+108,Crescent Point Energy
+109,Cvent
+110,D-Wave Quantum
+111,D. R. Horton
+112,DRDGOLD Limited
+113,Danaher Corporation
+114,Deckers Outdoor Corporation
+115,Denbury Resources
+116,Designer Brands
+117,Diamond Offshore Drilling
+118,DigitalBridge
+119,DigitalGlobe
+120,DigitalOcean
+121,Dolby
+122,Dominion Energy
+123,Dover Motorsports Incorporated
+124,Dow Jones Industrial Average
+125,DuPont
+126,Dun & Bradstreet
+127,Dynegy
+128,Edwards Lifesciences
+129,Empresas ICA
+130,Emulex
+131,EnerSys
+132,Enpro Industries
+133,Entravision Communications
+134,Equinor ASA
+135,Esterline
+136,Ethan Allen
+137,Eventbrite
+138,Exar Corporation
+139,Excel Maritime
+140,FBL Financial Group
+141,Family Dollar
+142,Farfetch
+143,Federal Signal Corporation
+144,Federated Hermes
+145,Ferrellgas
+146,Ferro Corporation
+147,First BanCorp
+148,First Horizon Bank
+149,First Horizon National Corporation
+150,FirstEnergy
+151,Fiserv
+152,Flowserve
+153,Forestar Group
+154,Foundation Coal
+155,Fox Entertainment Group
+156,Franklin Templeton Investments
+157,FutureFuel
+158,GAMCO Investors
+159,GPA
+160,Garmin Group
+161,GenOn Energy
+162,Genworth Financial
+163,Georgia Power
+164,Gerdau
+165,Globant
+166,Globe Life
+167,GrafTech
+168,Granite Construction
+169,Gray Media
+170,Griffon Corporation
+171,Guidewire Software
+172,"GulfMark Offshore, Inc"
+173,HEICO
+174,HF Sinclair
+175,HNI Corporation
+176,Hanesbrands
+177,Hatteras Financial Corp
+178,Havertys
+179,Hertz Global Holdings
+180,HillRom
+181,"Hillenbrand, Inc."
+182,Holliday Fenoglio Fowler
+183,Home BancShares
+184,Howmet Aerospace
+185,Hudson Pacific Properties
+186,Huntsman Corporation
+187,ICICI Bank
+188,ION Geophysical
+189,Ibotta
+190,Integrys Energy Group
+191,IntraLinks
+192,J. Alexander's
+193,Janus Capital Group
+194,Juniper Networks
+195,Just Energy
+196,KV Pharmaceutical
+197,Kellogg's
+198,Kenon Holdings Ltd
+199,Kimco Realty
+200,Kontoor Brands
+201,Koppers
+202,Korea Electric Power Corporation
+203,Kraton Polymers
+204,Kyndryl
+205,L3Harris Technologies
+206,LG Display
+207,Lafarge
+208,Lazard
+209,Li-Cycle Holdings Corp.
+210,Liberty Property Trust
+211,Life Time
+212,Link Motion Inc
+213,Lionsgate Studios
+214,Lithia Motors
+215,Live Nation Entertainment
+216,Lockheed Martin
+217,Luby's
+218,LyondellBasell
+219,MBIA
+220,MDU Resources
+221,MFS Investment Management
+222,MINISO
+223,Manchester United plc
+224,ManpowerGroup
+225,Marathon Petroleum
+226,Marcus & Millichap
+227,Materion
+228,Maui Land & Pineapple Company
+229,Maxar Technologies
+230,Maximus Inc.
+231,McDonald's
+232,Mechel
+233,Medco Health Solutions
+234,Merck & Co.
+235,Meredith Corporation
+236,Meritage Homes Corporation
+237,Meritor
+238,Mortgage Guaranty Insurance Corporation
+239,Motorola
+240,Mueller Industries
+241,Mytheresa
+242,"NTT, Inc."
+243,NYSE Euronext Liffe
+244,National Oilwell Varco
+245,New Senior Investment Group
+246,Newell Brands
+247,Nicolet Bankshares
+248,Nike
+249,Nio Inc.
+250,Niska Gas Storage Partners
+251,Noble Corporation
+252,Noble Energy
+253,Northern Tier Energy
+254,Novo
+255,Old Republic International
+256,On Holding AG
+257,Orbital Sciences Corporation
+258,Orix
+259,Owens Corning
+260,PBF Energy
+261,PHH Corporation
+262,PJT Partners
+263,PNC Financial Services
+264,POSCO
+265,PPG Industries
+266,Packaging Corporation of America
+267,PagBank
+268,Park Hotels & Resorts
+269,Party City
+270,Payless ShoeSource
+271,Pearson plc
+272,"Pepco Holdings, Inc."
+273,Pinterest Inc.
+274,Piper Sandler Companies
+275,Polaris
+276,Portland General Electric
+277,Prosperity Bancshares
+278,Provident Bank of New Jersey
+279,Prudential plc
+280,R1 RCM
+281,RLX Technology Inc.
+282,RPM International
+283,Rackspace Technology
+284,Range Resources
+285,Rayonier
+286,Raytheon
+287,RealD
+288,Red Lion Hotels Corporation
+289,Regency Centers
+290,"Reliance, Inc."
+291,Repsol Oil & Gas Canada
+292,Restaurant Brands International
+293,Restoration Hardware
+294,Revlon
+295,RingCentral
+296,Riskified
+297,Robert Half
+298,Rockwell Automation
+299,Rogers Corporation
+300,Ryder
+301,"Ryerson, Inc."
+302,S&P Global
+303,SFL Corporation Ltd.
+304,Sabre Corporation
+305,Salesforce
+306,Sculptor Capital Management
+307,Sea Ltd
+308,Seadrill
+309,SemGroup
+310,Semrush
+311,SentinelOne
+312,Sequenom
+313,Shell
+314,Shutterstock
+315,Siemens
+316,Signet Jewelers Limited
+317,Six Flags
+318,Skillz
+319,Skydance
+320,Snowflake Inc.
+321,Sotheby's
+322,Southside Bank
+323,Spectrum Brands
+324,Speedway Motorsports
+325,Spire Inc.
+326,Spirit AeroSystems
+327,Spirit Airlines
+328,Squarespace
+329,St. Jude Medical
+330,Stepan Company
+331,Stillwater Mining Company
+332,Sumisho Air Lease
+333,TARO Pharmaceuticals
+334,TC PipeLines
+335,TD SYNNEX
+336,TJX Companies
+337,TRW Automotive
+338,TXNM Energy
+339,Tailored Brands
+340,Tallgrass Energy Partners
+341,Talos Energy
+342,Team Health Holdings
+343,TechnipFMC
+344,Telefônica Brasil
+345,Tenaris
+346,Tencent Music
+347,Tenneco
+348,Teradata
+349,Teradyne
+350,Tesoro Corporation
+351,Teva Pharmaceutical Industries Ltd.
+352,The Cooper Companies
+353,The Greenbrier Companies
+354,Thor Industries
+355,Ticketmaster
+356,Tiffany & Co.
+357,Tim Hortons
+358,Titanium Metals
+359,Toyota
+360,Transocean
+361,Tronox
+362,Tupperware Brands
+363,Turquoise Hill Resources
+364,Ubiquiti
+365,Under Armour
+366,Unitil Corporation
+367,Univar Solutions
+368,Unnamed Paramount-Warner Bros. company
+369,Unum
+370,VMware
+371,Vail Resorts
+372,Valero Energy
+373,"Valhi, Inc."
+374,Valvoline
+375,"Ventas, Inc."
+376,Vermilion Energy
+377,Vestis Corporation
+378,Vipshop
+379,Vishay Intertechnology
+380,Vivmark Residential
+381,Vizio
+382,Volta Charging
+383,"WABCO Holdings, Inc."
+384,Wabash National
+385,Wabtec
+386,Walter Energy
+387,Waters Corporation
+388,Watsco
+389,Weingarten Realty
+390,Western Union
+391,Woori Financial Group
+392,Worldpay
+393,Wright Express
+394,"XPO, Inc."
+395,Yum! Brands
+396,ZTO Express
+397,Zim Integrated Shipping Services Ltd
+398,Zovio
+399,Zuora
+400,dice.com

@@ -13,14 +13,21 @@ uv sync --extra dev --extra plot      # or: pip install -e '.[dev,plot]'
 
 ```sh
 semjoin download-autofj   # 50 Auto-FuzzyJoin tasks -> data/autofj/
-semjoin build-mapping     # ISO-based code/alias/typo/reorder/acronym tasks -> data/mapping/
+semjoin download-autojoin # 31 real web-table tasks -> data/autojoin/ (held out: test only)
+semjoin build-mapping     # ISO-based code/alias/typo/reorder/acronym and mixed-type tasks -> data/mapping/
 semjoin split             # assign new tasks to dev/test in splits.json (commit it)
+semjoin validate          # optional: check tasks and per-type split coverage
 ```
 
-Freyja tasks are labeled by hand in `data/freyja/`; see
-[docs/data-format.md](docs/data-format.md) for the format.
+`data/wikidata/` (22 real code/alias/acronym/reorder tables) is committed,
+because Wikidata changes over time; `download-wikidata` and `build-wikidata`
+are only for updating it. Likewise `data/nyc/` (6 real NYC Open Data joins,
+held out: test only) is committed; `download-nyc` re-queries it. Freyja tasks are labeled by hand in `data/freyja/`;
+`download-freyja` fetches the FREYJA lake and ranks column pairs worth
+labeling. See [docs/data-format.md](docs/data-format.md) for the format and
+for each dataset.
 `splits.json` is append-only: rerunning `split` only assigns tasks that are
-not in it yet.
+not in it yet, stratified by dataset and mismatch type.
 
 ## Running
 
@@ -34,6 +41,9 @@ semjoin summarize runs/<id> --router router --strategies "..."   # see Routing b
 
 `--matchers` takes specs separated by `;`; arguments after `:` are passed to
 the matcher's constructor. `--llm fake` (the default) uses an offline stub.
+`--max-tasks-per-type N` and `--max-right N` run a small, fixed slice (at most
+N tasks per dataset and mismatch type, N right values per task) for a quick
+check before a full run.
 
 Each run writes `runs/<timestamp>/`:
 

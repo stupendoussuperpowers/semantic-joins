@@ -1,0 +1,160 @@
+id_l,title_l,id_r,title_r
+0,Afghanistan,0,AFG
+1,Albania,1,ALB
+2,Algeria,2,ALG
+3,American Samoa,9,ASA
+5,Angola,3,ANG
+6,Antigua and Barbuda,4,ANT
+7,Argentina,6,ARG
+8,Armenia,7,ARM
+9,Aruba,8,ARU
+10,Australasia at the Olympics,5,ANZ
+11,Australia,10,AUS
+14,Bahrain,20,BRN
+15,Bangladesh,11,BAN
+16,Barbados,12,BAR
+19,Belize,18,BIZ
+20,Benin,14,BEN
+21,Bermuda,15,BER
+22,Bhutan,16,BHU
+24,Bosnia and Herzegovina,17,BIH
+26,Brazil,19,BRA
+27,British Honduras,59,HBR
+28,British North Borneo,97,NBO
+30,Brunei,21,BRU
+31,Bulgaria,22,BUL
+32,Burkina Faso,23,BUR
+33,Burundi,13,BDI
+35,Cameroon,33,CMR
+36,Canada,25,CAN
+37,Canada men's national ice hockey team,25,CAN
+38,Cape Verde,35,CPV
+39,Cayman Islands,26,CAY
+40,Central African Republic,24,CAF
+41,Chad,29,CHA
+42,Chile,30,CHI
+43,Chinese Taipei,135,TPE
+51,Cyprus,36,CYP
+52,Czech Republic,37,CZE
+53,Czechoslovakia,131,TCH
+55,Democratic Republic of the Congo,34,COD
+56,Denmark,38,DEN
+57,Djibouti,39,DJI
+58,Dominica,40,DMA
+59,Dominican Republic,41,DOM
+60,Dominion of Ceylon,27,CEY
+62,Ecuador,42,ECU
+63,Egypt,43,EGY
+64,El Salvador,45,ESA
+66,Eritrea,44,ERI
+68,Eswatini,128,SWZ
+69,Ethiopia,47,ETH
+72,Federated States of Micronesia,49,FSM
+73,Federation of Malaya,83,MAL
+77,Gabon,50,GAB
+78,Georgia,53,GEO
+79,Germany,54,GER
+80,Ghana,55,GHA
+83,Guam,58,GUM
+84,Guatemala,56,GUA
+85,Guinea,57,GUI
+90,Hong Kong,60,HKG
+91,Hungary,61,HUN
+92,Iceland,67,ISL
+93,Independent Olympic Athletes,64,IOA
+94,Independent Olympic Participants,65,IOP
+95,India,63,IND
+97,Indonesia,62,INA
+98,Iran,66,IRI
+101,Israel,68,ISR
+102,Italy,69,ITA
+103,Ivory Coast,32,CIV
+105,Japan,71,JPN
+106,Japan at the 1964 Summer Paralympics,71,JPN
+107,Jordan,70,JOR
+108,Kazakhstan,72,KAZ
+112,Kosovo,74,KOS
+113,Kuwait,75,KUW
+114,Kyrgyzstan,73,KGZ
+115,Laos,76,LAO
+118,Lesotho,78,LES
+119,Liberia,77,LBR
+121,Liechtenstein,79,LIE
+123,Luxembourg,80,LUX
+124,Macau,81,MAC
+125,Madagascar,82,MAD
+128,Maldives,86,MDV
+129,Mali,89,MLI
+131,Marshall Islands,88,MHL
+132,Mauritania,94,MTN
+133,Mauritius,93,MRI
+134,Mexico,87,MEX
+135,Mixed team,150,ZZX
+136,Moldova,85,MDA
+137,Monaco,91,MON
+139,Montenegro,90,MNE
+140,Morocco,84,MAR
+141,Mozambique,92,MOZ
+142,Myanmar,95,MYA
+143,Namibia,96,NAM
+146,Netherlands,99,NED
+148,New Zealand,102,NZL
+149,Nicaragua,98,NCA
+150,Niger,100,NIG
+155,Norway,101,NOR
+157,Oman,103,OMA
+158,Pakistan,104,PAK
+161,Panama,105,PAN
+162,Papua New Guinea,108,PNG
+163,Paraguay,106,PAR
+164,People's Republic of China,31,CHN
+165,Peru,107,PER
+167,Poland,109,POL
+172,Refugee Paralympic Team at the Paralympics,112,RPT
+173,Republic of China,31,CHN
+174,Republic of China at the 1932 Summer Olympics,31,CHN
+175,Republic of China at the 1956 Summer Olympics,31,CHN
+176,Republic of China at the 1972 Summer Olympics,111,ROC
+177,Republic of Upper Volta,147,VOL
+178,Republic of the Congo,28,CGO
+179,Rhodesia,110,RHO
+181,Russia,113,RUS
+182,Rwanda,114,RWA
+183,Saar Protectorate,115,SAA
+184,Saint Kitts and Nevis,119,SKN
+186,Saint Vincent and the Grenadines,146,VIN
+187,Samoa,116,SAM
+188,San Marino,120,SMR
+190,Senegal,117,SEN
+193,Seychelles,118,SEY
+199,Somalia,121,SOM
+202,South Sudan,124,SSD
+204,Soviet Union,141,URS
+205,Spain,46,ESP
+205,Spain,122,SPA
+206,Sri Lanka,123,SRI
+208,Suriname,126,SUR
+209,Sweden,127,SWE
+210,Switzerland,125,SUI
+211,Syria,129,SYR
+213,Taiwan,135,TPE
+215,Tajikistan,133,TJK
+216,Tanzania,130,TAN
+217,Thailand,132,THA
+219,The Gambia,51,GAM
+221,Togo,134,TOG
+224,Tunisia,136,TUN
+227,Tuvalu,137,TUV
+228,Uganda,139,UGA
+229,Ukraine,140,UKR
+234,United Arab Republic,138,UAR
+235,United Kingdom,52,GBR
+236,United States,143,USA
+238,Uruguay,142,URU
+239,Uruguay at the 2026 Winter Olympics,142,URU
+241,Vanuatu,144,VAN
+243,Vietnam,145,VIE
+244,Weimar Republic,54,GER
+245,West Germany,48,FRG
+250,Zaire,148,ZAI
+252,Zimbabwe,149,ZIM

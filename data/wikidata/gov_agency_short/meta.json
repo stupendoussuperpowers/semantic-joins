@@ -1,0 +1,12 @@
+{
+ "source": "wikidata",
+ "mismatch_type": "acronym",
+ "group": "agencies",
+ "fetched_at": "2026-11-26T19:24:36+00:00",
+ "raw_sha256": "05b84ea64d46ae87ab8d64ffde8ff9cb9e68cf773b5b71a7be0853520d4bb41d",
+ "query_sha256": "670a9e334954d4a93e535c44f0af9802af365257de6b923597a2efa17daee8b0",
+ "endpoint": "qlever",
+ "seed": 0,
+ "max_entities": 400,
+ "sample_fraction": 0.6
+}

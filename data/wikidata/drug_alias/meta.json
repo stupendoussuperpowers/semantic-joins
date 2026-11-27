@@ -1,0 +1,12 @@
+{
+ "source": "wikidata",
+ "mismatch_type": "alias",
+ "group": "drugs",
+ "fetched_at": "2026-11-26T19:23:57+00:00",
+ "raw_sha256": "61e125982edae6d320911370ec8356e48d3b5f88a065591f2b515227208c6485",
+ "query_sha256": "68d10a270c0a83d5fa345298a41d2cbbfa0b3ec0faef15eea0f24b798278b922",
+ "endpoint": "qlever",
+ "seed": 0,
+ "max_entities": 400,
+ "sample_fraction": 0.6
+}

@@ -1,0 +1,12 @@
+{
+ "source": "wikidata",
+ "mismatch_type": "alias",
+ "group": "people",
+ "fetched_at": "2026-11-26T19:24:08+00:00",
+ "raw_sha256": "313d6d1688062c574623a92b50c835a6a59e1d292e005eb9b04b109dc62f020b",
+ "query_sha256": "07979bb807de3b5331fc0376d0554387b93f5e335b1b96259c6c897dca9e130a",
+ "endpoint": "qlever",
+ "seed": 0,
+ "max_entities": 400,
+ "sample_fraction": 0.6
+}

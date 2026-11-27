@@ -1,0 +1,263 @@
+id_l,title_l,id_r,title_r
+109,Allerton,0,Allrtn
+214,Alley Pond Park,1,AllyPndPk
+255,Annadale-Huguenot-Prince's Bay-Woodrow,2,Anndl_Wdrw
+254,Arden Heights-Rossville,3,ArdnHts
+158,Astoria (Central),4,Astr_C
+159,Astoria (East)-Woodside (North),5,Astr_E
+156,Astoria (North)-Ditmars-Steinway,6,Astr_N
+164,Astoria Park,7,AstrPk
+210,Auburndale,8,Abrndl
+217,Baisley Park,9,BslyPk
+66,Barren Island-Floyd Bennett Field,10,BrrnIsl
+36,Bath Beach,11,BthBch
+31,Bay Ridge,12,ByRdg
+187,Bay Terrace-Clearview,13,ByTr_Clrvw
+211,Bayside,14,Bysd
+90,Bedford Park,15,BdfrdPk
+10,Bedford-Stuyvesant (East),16,BdSty_E
+9,Bedford-Stuyvesant (West),17,BdSty_W
+222,Bellerose,18,Bllrs
+88,Belmont,19,Blmnt
+35,Bensonhurst,20,Bnsnhrst
+39,Borough Park,21,BoroPk
+231,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,22,BrzyPt
+44,Brighton Beach,23,BrghtnBch
+116,Bronx Park,24,BxPk
+4,Brooklyn Heights,25,BkHts
+8,Brooklyn Navy Yard,26,BkNvyYrd
+53,Brownsville,27,Brwnsvl
+12,Bushwick (East),28,Bshwck_E
+11,Bushwick (West),29,Bshwck_W
+169,Calvary & Mount Zion Cemeteries,30,ClvryCem
+45,Calvert Vaux Park,31,ClvrtVxPk
+224,Cambria Heights,32,CmbriaHts
+61,Canarsie,33,Cnrsie
+64,Canarsie Park & Pier,34,CnrsiePk
+20,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,35,CrrllGrdns
+97,Castle Hill-Unionport,36,CstlHl
+155,Central Park,37,CntrlPk
+127,Chelsea-Hudson Yards,38,Chls_HdsYd
+124,Chinatown-Two Bridges,39,Chntwn
+82,Claremont Park,40,ClrmntPk
+75,Claremont Village-Claremont (East),41,ClrmntVlg
+7,Clinton Hill,42,ClntnHl
+103,Co-op City,43,CoopCty
+185,College Point,44,CllgPt
+78,Concourse-Concourse Village,45,Cncrs
+43,Coney Island-Sea Gate,46,CnyIsl
+174,Corona,47,Crna
+77,Crotona Park,48,CrtnaPk
+76,Crotona Park East,49,CrtnaPkEst
+27,Crown Heights (North),50,CrwnHts_N
+29,Crown Heights (South),51,CrwnHts_S
+200,Cunningham Park,52,CnnghmPk
+14,Cypress Hills,53,CyprssHls
+212,Douglaston-Little Neck,54,Dglstn
+5,Downtown Brooklyn-DUMBO-Boerum Hill,55,DwntwnBk
+34,Dyker Beach Park,56,DykrBchPk
+32,Dyker Heights,57,DykrHts
+171,East Elmhurst,58,EstElmhrst
+54,East Flatbush-Erasmus,59,EFb_Ersms
+55,East Flatbush-Farragut,60,EFb_Frrgt
+57,East Flatbush-Remsen Village,61,EFb_RmsnVl
+56,East Flatbush-Rugby,62,EFb_Rgby
+189,East Flushing,63,EstFlshng
+148,East Harlem (North),64,EstHrlm_N
+147,East Harlem (South),65,EstHrlm_S
+134,East Midtown-Turtle Bay,66,EstMdtwn
+15,East New York (North),67,ENY_N
+18,East New York-City Line,68,ENY_CtyLn
+16,East New York-New Lots,69,ENY_NwLts
+126,East Village,70,EstVlg
+3,East Williamsburg,71,EWllmsbrg
+112,Eastchester-Edenwald-Baychester,72,Estchstr
+173,Elmhurst,73,Elmhrst
+229,Far Rockaway-Bayswater,74,FrRckwy
+105,Ferry Point Park-St. Raymond Cemetery,75,FrryPtPk
+118,Financial District-Battery Park City,76,FiDi
+46,Flatbush,77,Fltbsh
+47,Flatbush (West)-Ditmas Park-Parkville,78,Fltbsh_W
+59,Flatlands,79,Fltlnds
+234,Flushing Meadows-Corona Park,80,FlshMdwCPk
+191,Flushing-Willets Point,81,Flshng
+85,Fordham Heights,82,FrdhmHts
+184,Forest Hills,83,FrstHls
+235,Forest Park,84,FrstPk
+6,Fort Greene,85,FtGrn
+33,Fort Hamilton,86,FtHmltn
+192,Fort Totten,87,FtTttn
+258,Fort Wadsworth,88,FtWdswrth
+196,Fresh Meadows-Utopia,89,FrshMdws
+251,Freshkills Park (North),90,FrshklPk_N
+257,Freshkills Park (South),91,FrshklPK_S
+221,Glen Oaks-Floral Park-New Hyde Park,92,GlnOks
+177,Glendale,93,Glndl
+132,Gramercy,94,Grmrcy
+247,Grasmere-Arrochar-South Beach-Dongan Hills,95,Grsmr_SBch
+49,Gravesend (East)-Homecrest,96,Grvsnd_E
+42,Gravesend (South),97,Grvsnd_S
+37,Gravesend (West),98,Grvsnd_W
+261,Great Kills Park,99,GrtKlsPk
+253,Great Kills-Eltingville,100,GrtKls_Evl
+25,Green-Wood Cemetery,101,GrnWdCem
+0,Greenpoint,102,Grnpt
+122,Greenwich Village,103,GrnwchVlg
+144,Hamilton Heights-Sugar Hill,104,HmltnHts
+146,Harlem (North),105,Hrlm_N
+145,Harlem (South),106,Hrlm_S
+104,Hart Island,107,HrtIsl
+128,Hell's Kitchen,108,HllsKtchn
+79,Highbridge,109,Hghbrdg
+153,Highbridge Park,110,HghbrdgPk
+182,Highland Park-Cypress Hills Cemeteries (North),111,CyHlsCem_N
+19,Highland Park-Cypress Hills Cemeteries (South),112,CyHlsCem_S
+259,Hoffman & Swinburne Islands,113,HffmnIsl
+220,Hollis,114,Hlls
+58,Holy Cross Cemetery,115,HlyCrssCem
+208,Howard Beach-Lindenwood,116,HwrdBch
+71,Hunts Point,117,HntsPt
+110,Hutchinson Metro Center,118,HtchMtrCtr
+152,Inwood,119,Inwd
+154,Inwood Hill Park,120,InwdHlPk
+170,Jackson Heights,121,JcksnHts
+238,Jacob Riis Park-Fort Tilden-Breezy Point Tip,122,JcbRsPk
+215,Jamaica,123,Jmca
+237,Jamaica Bay (East),124,JmcaBy_E
+67,Jamaica Bay (West),125,JmcaBy_W
+197,Jamaica Estates-Holliswood,126,JmcaEstts
+198,Jamaica Hills-Briarwood,127,JmcaHls
+236,John F. Kennedy International Airport,128,JFK
+40,Kensington,129,Knsngtn
+201,Kew Gardens,130,KwGrdns
+194,Kew Gardens Hills,131,KwGrdnsHls
+92,Kingsbridge Heights-Van Cortlandt Village,132,KngbrdgHts
+93,Kingsbridge-Marble Hill,133,Kngbrdg
+193,Kissena Park,134,KssnPk
+233,LaGuardia Airport,135,LGA
+225,Laurelton,136,Lrltn
+28,Lincoln Terrace Park,137,LclnTrPk
+165,Long Island City-Hunters Point,138,LIC
+72,Longwood,139,Lngwd
+125,Lower East Side,140,LES
+50,Madison,141,Mdsn
+143,Manhattanville-West Harlem,142,Mnhttnvl
+41,Mapleton-Midwood (West),143,Mpltn
+60,Marine Park-Mill Basin-Bergen Beach,144,MrnPk_MBsn
+62,Marine Park-Plumb Island,145,MrnPk_PIsl
+245,Mariner's Harbor-Arlington-Graniteville,146,MrnrsHrbr
+175,Maspeth,147,Mspth
+63,McGuire Fields,148,McGrFlds
+70,Melrose,149,Mlrs
+178,Middle Village,150,MddlVlg
+180,Middle Village Cemetery,151,MddlVlgCem
+129,Midtown South-Flatiron-Union Square,152,MdtwnSth
+130,Midtown-Times Square,153,Mdtwn_TmSq
+48,Midwood,154,Mdwd
+260,Miller Field,155,MllrFld
+228,Montefiore Cemetery,156,MntfrCem
+142,Morningside Heights,157,MrngsdHts
+107,Morris Park,158,MrrsPk
+74,Morrisania,159,Mrrsnia
+69,Mott Haven-Port Morris,160,MttHvn
+80,Mount Eden-Claremont (West),161,MtEdn
+199,Mount Hebron & Cedar Grove Cemeteries,162,MtHbrnCem
+84,Mount Hope,163,MtHp
+179,Mount Olivet & All Faiths Cemeteries,164,MtOlvtCem
+188,Murray Hill-Broadway Flushing,165,MryHl_BwyF
+133,Murray Hill-Kips Bay,166,MryHl_KpBy
+248,New Dorp-Midland Beach,167,NwDrp_MBch
+250,New Springville-Willowbrook-Bulls Head-Travis,168,NwSprngvl
+73,North & South Brother Islands,169,BrthrIsls
+172,North Corona,170,NrthCrna
+91,Norwood,171,Nrwd
+213,Oakland Gardens-Hollis Hills,172,OklndGrdns
+252,Oakwood-Richmondtown,173,Okwd_Rmtwn
+52,Ocean Hill,174,OcnHl
+157,Old Astoria-Hallets Point,175,OldAstr
+207,Ozone Park,176,OznPk
+204,Ozone Park (North),177,OznPk_N
+21,Park Slope,178,PkSlp
+98,Parkchester,179,Pkchstr
+117,Pelham Bay Park,180,PlhmByPk
+102,Pelham Bay-Country Club-City Island,181,PlhmBy
+108,Pelham Gardens,182,PlhmGrdns
+106,Pelham Parkway-Van Nest,183,PlhmPkwy
+195,Pomonok-Electchester-Hillcrest,184,Pmnk_Hlcst
+244,Port Richmond,185,PrtRchmnd
+26,Prospect Heights,186,PrspctHts
+30,Prospect Lefferts Gardens-Wingate,187,PLG_Wngt
+65,Prospect Park,188,PrspctPk
+223,Queens Village,189,QnsVlg
+190,Queensboro Hill,190,QnsboroHl
+160,Queensbridge-Ravenswood-Dutch Kills,191,Qnsbrdg
+149,Randall's Island,192,RndllsIsl
+183,Rego Park,193,RegoPk
+202,Richmond Hill,194,RchmdHl
+176,Ridgewood,195,Rdgwd
+161,Rikers Island,196,RkrsIsl
+94,Riverdale-Spuyten Duyvil,197,Rvrdl
+230,Rockaway Beach-Arverne-Edgemere,198,RckwyBch
+232,Rockaway Community Park,199,RckwyCPk
+241,Rosebank-Shore Acres-Park Hill,200,Rsbnk_PkHl
+227,Rosedale,201,Rsdl
+51,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,202,ShpshdBy
+68,Shirley Chisholm State Park,203,ShChshlmPk
+246,Snug Harbor,204,SngHrbr
+121,SoHo-Little Italy-Hudson Square,205,SoHo
+99,Soundview Park,206,SdvwPk
+95,Soundview-Bruckner-Bronx River,207,Sdvw_BxRvr
+96,Soundview-Clason Point,208,Sdvw_ClsPt
+216,South Jamaica,209,SthJmca
+206,South Ozone Park,210,SthOznPk
+203,South Richmond Hill,211,SthRchmdHl
+2,South Williamsburg,212,SWllmsbrg
+209,Spring Creek Park,213,SpCrkPk
+17,Spring Creek-Starrett City,214,SpCrk_StrC
+218,Springfield Gardens (North)-Rochdale Village,215,SpfGrdns_N
+226,Springfield Gardens (South)-Brookville,216,SpfGrdns_S
+219,St. Albans,217,StAlbns
+239,St. George-New Brighton,218,StGrg
+181,St. John Cemetery,219,StJhnCem
+163,St. Michael's Cemetery,220,StMchlCem
+131,Stuyvesant Town-Peter Cooper Village,221,StyTwn
+166,Sunnyside,222,Snnysd
+162,Sunnyside Yards (North),223,SnnysdYd_N
+168,Sunnyside Yards (South),224,SnnysdYd_S
+24,Sunset Park (Central),225,SnstPk_C
+38,Sunset Park (East)-Borough Park (West),226,SnstPk_E
+23,Sunset Park (West),227,SnstPk_W
+120,The Battery-Governors Island-Ellis Island-Liberty Island,228,Btry_GvIsl
+13,The Evergreens Cemetery,229,EvrgrnsCem
+101,Throgs Neck-Schuylerville,230,ThrgsNck
+249,Todt Hill-Emerson Hill-Lighthouse Hill-Manor Heights,231,TdtHl
+240,Tompkinsville-Stapleton-Clifton-Fox Hills,232,Tkvl_Stptn
+256,Tottenville-Charleston,233,Tttnvl
+87,Tremont,234,Trmnt
+119,Tribeca-Civic Center,235,TriBeCa
+135,United Nations,236,UN
+89,University Heights (North)-Fordham,237,UnvrsHts_N
+83,University Heights (South)-Morris Heights,238,UnvrsHts_S
+140,Upper East Side-Carnegie Hill,239,UES_CrngHl
+139,Upper East Side-Lenox Hill-Roosevelt Island,240,UES_LnxHl
+141,Upper East Side-Yorkville,241,UES_Yrkvl
+137,Upper West Side (Central),242,UWS_C
+136,Upper West Side-Lincoln Square,243,UWS_LclnSq
+138,Upper West Side-Manhattan Valley,244,UWS_MnVly
+115,Van Cortlandt Park,245,VnCrtldtPk
+113,Wakefield-Woodlawn,246,Wkfld_Wdln
+151,Washington Heights (North),247,WshHts_N
+150,Washington Heights (South),248,WshHts_S
+86,West Farms,249,WstFrms
+242,West New Brighton-Silver Lake-Grymes Hill,250,WstNwBrgtn
+123,West Village,251,WstVlg
+100,Westchester Square,252,WstchstrSq
+243,Westerleigh-Castleton Corners,253,Wstrlgh
+186,Whitestone-Beechhurst,254,Whtstn
+111,Williamsbridge-Olinville,255,Wllmsbrdg
+1,Williamsburg,256,Wllmsbrg
+22,Windsor Terrace-South Slope,257,WndsrTr
+205,Woodhaven,258,Wdhvn
+114,Woodlawn Cemetery,259,WdlnCem
+167,Woodside,260,Wdsd
+81,Yankee Stadium-Macombs Dam Park,261,YnkStdm

@@ -1,0 +1,9 @@
+{
+ "mismatch_type": "mixed",
+ "type_mix": {
+  "code": 2,
+  "typo": 1,
+  "alias": 1
+ },
+ "source": "fixture"
+}

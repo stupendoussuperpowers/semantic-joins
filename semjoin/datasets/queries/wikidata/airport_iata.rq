@@ -1,0 +1,5 @@
+# Airports and their IATA codes (P238).
+SELECT ?item ?left ?right WHERE {
+  ?item wdt:P238 ?right; wdt:P31/wdt:P279* wd:Q1248784; rdfs:label ?left.
+  FILTER(LANG(?left) = "en")
+} LIMIT 6000

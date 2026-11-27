@@ -1,0 +1,5 @@
+# Medications (Q12140) and their English alternative labels.
+SELECT ?item ?left ?right WHERE {
+  ?item wdt:P31 wd:Q12140; rdfs:label ?left; skos:altLabel ?right.
+  FILTER(LANG(?left) = "en" && LANG(?right) = "en")
+} LIMIT 8000

@@ -1,0 +1,5 @@
+# Diseases and their ICD-10 codes (P494).
+SELECT ?item ?left ?right WHERE {
+  ?item wdt:P494 ?right; rdfs:label ?left.
+  FILTER(LANG(?left) = "en")
+} LIMIT 5000

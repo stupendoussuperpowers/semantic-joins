@@ -1,0 +1,12 @@
+{
+ "source": "wikidata",
+ "mismatch_type": "code",
+ "group": "countries",
+ "fetched_at": "2026-11-26T19:23:52+00:00",
+ "raw_sha256": "531c23589afb75c1d21ea534d1e89e8604a5efbe65d5841b74b62e9e82495368",
+ "query_sha256": "30d4d9b0f46f8a6ea7203d58e4dc5e97420a707fec2a27aba3fdcdc3fbe8901f",
+ "endpoint": "qlever",
+ "seed": 0,
+ "max_entities": 400,
+ "sample_fraction": 0.6
+}

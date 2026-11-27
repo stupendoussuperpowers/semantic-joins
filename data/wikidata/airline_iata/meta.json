@@ -1,0 +1,12 @@
+{
+ "source": "wikidata",
+ "mismatch_type": "code",
+ "group": "airlines",
+ "fetched_at": "2026-11-26T18:41:08+00:00",
+ "raw_sha256": "946bea5f8aafb697c3d583855baf1ce4bf8a0b0633c2a4d13a0ef38aebd04db1",
+ "query_sha256": "2f5f70a28ffaa453602c0ccc906f9875c48547ff6cf486d894ea2fc9ceb871ed",
+ "endpoint": "wdqs",
+ "seed": 0,
+ "max_entities": 400,
+ "sample_fraction": 0.6
+}

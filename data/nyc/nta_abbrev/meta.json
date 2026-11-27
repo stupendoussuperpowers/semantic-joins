@@ -1,0 +1,16 @@
+{
+ "source": "nyc-open-data",
+ "datasets": [
+  "9nt8-h7nd"
+ ],
+ "gold_from": "same row",
+ "fetched_at": "2026-11-26T23:51:23+00:00",
+ "mismatch_type": "acronym",
+ "type_mix": {
+  "alias": 231,
+  "typo": 27,
+  "acronym": 2,
+  "fuzzy": 2
+ },
+ "type_tagger": "semjoin.datasets.tagging"
+}

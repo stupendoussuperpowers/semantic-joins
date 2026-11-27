@@ -1,0 +1,481 @@
+id_l,title_l,id_r,title_r
+1,Abdala,59,CIGB-66
+2,Actoplus Met,227,Piomet
+2,Actoplus Met,230,Politor
+2,Actoplus Met,407,metformin hydrochloride / pioglitazone hydrochloride
+3,Adderall,26,Adderall XR
+3,Adderall,320,amphetamine-dextroamphetamine
+3,Adderall,321,amphetamine-dextroamphetamine XR
+4,Advanced Therapy Medicinal Product,20,ATMP
+5,Asparaginase,41,Asparaginase Erwinia chrysanthemi
+6,Azficel-T,183,Laviv
+7,BPL-003,4,5-Methoxy-N
+7,BPL-003,208,N-dimethyltryptamine benzoate
+8,Betulae cortex,337,birch bark extract
+9,CBR96-doxorubicin immunoconjugate,48,BMS-182248
+9,CBR96-doxorubicin immunoconjugate,251,SGN-15
+9,CBR96-doxorubicin immunoconjugate,342,cBR96-Dox
+10,CIS43,60,CIS43LS
+10,CIS43,286,VRC-MALMAB0100-00-AB
+11,CPACC,355,"cobalt (III) hexaammine, ruthenium (III) hexaammine, chloropentaammine cobalt (III) chloride"
+13,Cofmix Cough Syrup,81,Cofmix
+13,Cofmix Cough Syrup,98,Dr Meyer's Cofmix Cough Syrup
+13,Cofmix Cough Syrup,99,Dr. Meyer's Cough Mix
+19,Daflon,200,MPFF
+20,Dakin's solution,69,Carrel-Dakin fluid
+20,Dakin's solution,70,Carrel-Dakin method
+21,Delandistrogene moxeparvovec,105,Elevidys
+21,Delandistrogene moxeparvovec,256,SRP-9001
+21,Delandistrogene moxeparvovec,362,delandistrogene moxeparvovec-rokl
+25,EUSOL,104,Edinburgh University Solution Of Lime
+26,Elvanse,221,PL 08081/0060
+27,EpiVacCorona,282,VECTOR vaccine
+28,FCX-007,358,dabocemagene autoficel
+29,Fioricet,340,butalbital/acetaminophen
+30,Fitusiran,237,Qfitlia
+33,Gangaria de Flush,383,gangaria
+34,HTTRx,154,IONIS-HTTRx
+34,HTTRx,155,ISIS 443139
+34,HTTRx,156,ISIS-HTTRx
+38,LACTIN-V,63,CTV-05
+38,LACTIN-V,181,Lactobacillus crispatus CTV-05
+38,LACTIN-V,182,Lactobacillus crispatus strain CTV-05
+39,LY-CoV016,179,LY3832479
+40,Lorenzo's oil,188,Lorenzo oil
+41,Lovotibeglogene autotemcel,193,Lyfgenia
+44,Menerba,197,MF-101
+44,Menerba,203,Menopause Formula 101
+45,Metoclopramide and Aspirin,306,acetylsalicylic acid and metoclopramide
+46,Multikine,185,"Leukocyte Interleukin, Injection (LI), Multikine®"
+47,Neothetazone,411,neo
+49,OTL-103,129,GSK-2696275
+50,Oscillococcinum,220,Oscillo
+52,PP353,163,Intradiscal linezolid
+53,Peanut allergen powder,224,Palforzia
+54,Pivekimab sunirine,152,IMGN632
+54,Pivekimab sunirine,228,Pivekimab sunirine-pvzy
+57,QazCovid-in,236,QazVac
+59,Ringer's solution,245,Ringer solution
+61,Serpin family A member 1,250,SERPINA1
+61,Serpin family A member 1,310,alfa-1-antitrypsin
+61,Serpin family A member 1,313,alpha-1 antitrypsin
+61,Serpin family A member 1,314,alpha-1 protease inhibitor
+61,Serpin family A member 1,315,alpha-1-antiproteinase
+61,Serpin family A member 1,316,alpha-1-antitrypsin
+61,Serpin family A member 1,317,alpha-1-antitrypsin null
+61,Serpin family A member 1,318,alpha-1-antitrypsin short transcript variant 1C4
+61,Serpin family A member 1,319,alpha-1-antitrypsin short transcript variant 1C5
+61,Serpin family A member 1,373,epididymis secretory sperm binding protein
+61,Serpin family A member 1,436,"protease inhibitor 1 (anti-elastase), alpha-1-antitrypsin"
+61,Serpin family A member 1,451,"serine (or cysteine) proteinase inhibitor, clade A, member 1"
+61,Serpin family A member 1,452,serpin A1
+61,Serpin family A member 1,453,"serpin peptidase inhibitor clade A (alpha-1antiproteinase, antitrypsin) member 1"
+61,Serpin family A member 1,454,serpin peptidase inhibitor clade A member 1
+61,Serpin family A member 1,455,"serpin peptidase inhibitor, clade A (alpha-1 antiproteinase, antitrypsin), member 1"
+62,Sodium deoxyribonucleate,94,Derinat
+63,Sotrovimab,131,GSK4182136
+63,Sotrovimab,283,VIR-7831
+63,Sotrovimab,301,Xevudy
+65,Taren,31,Amizil
+67,VZV immune globulin,289,Varicella zoster immune globulin
+67,VZV immune globulin,304,Zoster-immune globulin
+68,Valneva COVID-19 vaccine,284,VLA2001
+68,Valneva COVID-19 vaccine,285,VLA2101
+72,acetaminophen/tramadol,166,Ixprim
+72,acetaminophen/tramadol,277,Tramadol acetaminophen
+72,acetaminophen/tramadol,421,paracetamol/tramadol
+72,acetaminophen/tramadol,422,paracetamol/tramadol combination
+72,acetaminophen/tramadol,467,tramadol/acetaminophen
+72,acetaminophen/tramadol,468,tramadol/paracetamol
+73,acetic acid/hydrocortisone,23,Acetasol HC
+73,acetic acid/hydrocortisone,298,Vosol HC
+75,activated charcoal,68,"Carbon, Activated"
+75,activated charcoal,75,"Charcoal, Activated"
+75,activated charcoal,202,Medicinal carbon
+76,adapalene/benzoyl peroxide,114,Epiduo
+77,adargileukin alfa,1,(88-Arginine)interleukin 2 (human clone pTIL2-21a) (partly glycosylated)
+78,ado-trastuzumab emtansine,171,Kadcyla
+78,ado-trastuzumab emtansine,268,TDM1
+78,ado-trastuzumab emtansine,278,Trastuzumab-DM1
+78,ado-trastuzumab emtansine,469,trastuzumab emtansine
+78,ado-trastuzumab emtansine,470,trastuzumab-MCC-DM1
+79,albenatide,61,CJC 1134
+81,albutrepenonacog alfa,354,"coagulation factor ix (recombinant), albumin fusion protein"
+82,alendronic acid / colecalciferol,288,"Vantavo (previously Alendronate sodium and colecalciferol, MSD)"
+83,alkali citrate,311,alkali citrates
+83,alkali citrate,312,alkaline citrate
+84,amilomotide,55,CAD106
+86,andexanet alfa,37,Andexanet
+86,andexanet alfa,38,Andexxa
+86,andexanet alfa,223,PRT064445
+87,androstanolone,39,Andractim
+87,androstanolone,88,DHT
+87,androstanolone,367,dihydrotestosterone
+87,androstanolone,457,stanolone
+88,angelica water,477,water of angelica
+89,anti-anemic,325,antianemic
+91,anti-thymocyte globulin (rabbit),274,Thymoglobulin
+91,anti-thymocyte globulin (rabbit),438,rATG
+91,anti-thymocyte globulin (rabbit),440,rabbit ATG
+92,antibiotic,322,anti-bacterial agent
+92,antibiotic,323,anti-bacterial agents
+92,antibiotic,326,antibacterial agent
+92,antibiotic,327,antibacterial drug
+93,antigout agent,138,Gout suppressants
+93,antigout agent,386,gout suppressant
+94,"antihemophilic factor porcine, b-domain truncated recombinant",458,susoctocog alfa
+95,antimycobacterial,330,antimycobacterial agent
+95,antimycobacterial,331,antimycobacterial drug
+98,apitegromab,254,SRK-015
+99,archexin,242,RX-0201
+99,archexin,243,RX-201
+100,artificial tears,190,Lubricant Eye Drops
+100,artificial tears,191,Lubricating Eye Drops
+100,artificial tears,271,"Tears, Artificial"
+101,aspirin/paracetamol/caffeine,80,Citramonum
+101,aspirin/paracetamol/caffeine,332,aspirin/acetaminophen/caffeine
+102,astodrimer,296,VivaGel
+103,asunercept,9,AGP101
+105,atenolol/chlorthalidone,273,Tenoretic
+105,atenolol/chlorthalidone,352,co-tenidone
+107,atoltivimab,159,"Immunoglobulin G1, anti-(Zaire ebolavirus glycoprotein) (human monoclonal REGN3470 gamma1-chain), disulfide with human monoclonal REGN3470 kappa-chain, dimer"
+109,autologous cultured chondrocytes,349,carticel
+109,autologous cultured chondrocytes,350,characterised viable autologous cartilage cells expanded ex vivo expressing specific marker proteins
+110,avacincaptad pegol,167,Izervay
+111,avalglucosidase alfa,134,GZ-402666
+111,avalglucosidase alfa,215,Nexviadyme
+113,aviscumine,194,ME-503
+113,aviscumine,408,mistletoe lectin-I
+113,aviscumine,439,rViscumin
+113,aviscumine,466,toxin ML-I
+115,badger blood,333,badger's blood
+115,badger blood,334,badgers' blood
+116,bamlanivimab,177,LY-CoV555
+116,bamlanivimab,178,LY3819253
+117,bebtelovimab,176,LY-CoV1404
+117,bebtelovimab,180,LY3853113
+118,belantamab mafodotin,53,Blenrep
+118,belantamab mafodotin,130,GSK2857916
+118,belantamab mafodotin,336,belantamab mafodotin-blmf
+119,bempegaldesleukin,212,NKTR-214
+121,bismuth subcitrate/metronidazole/tetracycline,235,Pylera
+125,buckthorn syrup,460,syrup of buckthorn
+126,bulevirtide,149,Hepcludex
+126,bulevirtide,207,Myrcludex B
+127,butirosin sulfate,58,CI-642
+127,butirosin sulfate,341,butirosin A disulfate dihydrate (80-85%) and butirosin B disulfate dihydrate (15-20%)
+128,calaspargase pegol-mknl,42,Asparlas
+128,calaspargase pegol-mknl,103,EZN-2285
+128,calaspargase pegol-mknl,343,calaspargase
+128,calaspargase pegol-mknl,344,calaspargase pegol
+129,calcium channel blocker,56,CCB
+129,calcium channel blocker,66,Calcium Channel Antagonists
+129,calcium channel blocker,67,Calcium Channel Blocking Drugs
+129,calcium channel blocker,74,"Channel Blockers, Calcium"
+129,calcium channel blocker,345,calcium antagonist
+129,calcium channel blocker,346,calcium channel antagonist
+129,calcium channel blocker,347,calcium channel blockers
+132,canagliflozin / metformin hydrochloride,297,Vokanamet
+134,carminative,348,carminativum
+135,casimersen,34,Amondys 45
+135,casimersen,255,SRP-4045
+136,cerebrolysin,72,Cerebrolycin
+136,cerebrolysin,73,Cerebrolyzin
+136,cerebrolysin,123,FPE 1070
+137,cholinergic agent,24,Acetylcholine Agents
+137,cholinergic agent,76,Cholinergic Agents
+137,cholinergic agent,77,Cholinergic Drugs
+137,cholinergic agent,78,Cholinergics
+139,ciprofloxacin/dexamethasone,79,Ciprodex
+141,co-dydramol,363,dihydrocodeine tartrate/acetaminophen
+141,co-dydramol,364,dihydrocodeine tartrate/paracetamol
+141,co-dydramol,365,dihydrocodeine/acetaminophen
+141,co-dydramol,366,dihydrocodeine/paracetamol
+142,coagulation factor ix human,329,antihemophilic factor b
+142,coagulation factor ix human,395,human coagulation factor ix
+142,coagulation factor ix human,447,replenine
+144,collagenase clostridium histolyticum,5,AA4500
+144,collagenase clostridium histolyticum,302,Xiaflex
+147,conjugated estrogens,71,Cenestin
+147,conjugated estrogens,84,Conestoral
+147,conjugated estrogens,85,Conjugated estrogen
+147,conjugated estrogens,111,Enjuvia
+147,conjugated estrogens,117,Estrogenic substances (conjugated)
+147,conjugated estrogens,118,Estrogens
+147,conjugated estrogens,119,"Estrogens, Conjugated"
+147,conjugated estrogens,120,"Estrogens, Conjugated (USP)"
+147,conjugated estrogens,122,Evex
+147,conjugated estrogens,150,Hyhorin
+147,conjugated estrogens,206,Morestin
+147,conjugated estrogens,231,Premarin
+147,conjugated estrogens,435,pre
+148,coramsine,248,SBP002
+150,corticotropin,7,ACTH
+150,corticotropin,25,Acthar
+150,corticotropin,86,Cortigel
+150,corticotropin,87,Cortrophin
+150,corticotropin,144,H.P. Acthar Gel
+150,corticotropin,222,POMC(138-176)
+150,corticotropin,234,Purified Cortrophin Gel
+150,corticotropin,307,adrenocorticotropic hormone
+150,corticotropin,308,adrenocorticotropin
+150,corticotropin,309,adrenomone
+150,corticotropin,357,corticotrophin
+151,crotalidae immune F(ab’)2 (equine),36,Anavip
+151,crotalidae immune F(ab’)2 (equine),426,pit viper (Crotalinae) immune globulin antivenin (equine)
+152,dalazatide,259,ShK-186
+153,dalteparin,127,Fragmin
+153,dalteparin,146,Heparin Fragment KABI 2165
+153,dalteparin,272,Tedelparin
+154,danaparoid,219,Orgaran
+154,danaparoid,360,danaparoid sodium
+155,dapiclermin,44,Axokine
+156,darunavir / cobicistat,232,Prezcobix
+158,diclofenac etalhyaluronate,169,Joycle
+158,diclofenac etalhyaluronate,252,SI-613
+160,dihydroartemisinin/piperaquine,40,Artekin
+160,dihydroartemisinin/piperaquine,96,Diphos
+160,dihydroartemisinin/piperaquine,100,Duocotecxin
+160,dihydroartemisinin/piperaquine,201,Malacur
+160,dihydroartemisinin/piperaquine,275,Timequin
+162,direct Xa inhibitor,97,Direct Factor Xa Inhibitors
+162,direct Xa inhibitor,124,Factor Xa Inhibitors
+162,direct Xa inhibitor,414,new oral anticoagulant
+164,doravirine/lamivudine/tenofovir disoproxil fumarate,93,Delstrigo
+164,doravirine/lamivudine/tenofovir disoproxil fumarate,199,MK-1439A
+167,efgartigimod alfa,18,ARGX-113
+167,efgartigimod alfa,300,Vyvgart
+167,efgartigimod alfa,371,efgartigimod alfa-fcab
+171,elranatamab (Elrexfio),106,Elrexfio
+172,elvitegravir/cobicistat/emtricitabine/tenofovir disoproxil,356,cobicistat / elvitegravir / emtricitabine / tenofovir disoproxil
+172,elvitegravir/cobicistat/emtricitabine/tenofovir disoproxil,372,elvitegravir / cobicistat / emtricitabine / tenofovir disoproxil fumarate
+177,enamel matrix derivative,102,EMD
+177,enamel matrix derivative,108,Emdogain
+179,epoetin beta,214,NeoRecormon
+180,epoetin theta,396,"human erythropoietin-(1-165)-peptide, glycoform .theta."
+183,esterified estrogens,374,esterified estrogen
+184,esterified estrogens/methyltestosterone,116,Estratest
+186,ethambutol/isoniazid/pyrazinamide/rifampicin,375,ethambutol/isoniazid/pyrazinamide/rifampin
+188,ethinylestradiol/cyproterone acetate,95,Diane-35
+188,ethinylestradiol/cyproterone acetate,351,co-cyprindiol
+190,ethinylestradiol/norethisterone acetate,121,Estrostep
+191,exagamglogene autotemcel,64,CTX001
+191,exagamglogene autotemcel,377,exa-cel
+192,"fecal microbiota spores, live",249,SER-109
+192,"fecal microbiota spores, live",299,Vowst
+192,"fecal microbiota spores, live",379,"fecal microbiota spores, live-brpk"
+194,fexofenadine/pseudoephedrine,29,Allegra-D
+198,fremanezumab,27,Ajovy
+198,fremanezumab,269,TEV-48125
+198,fremanezumab,381,fremanezumab-vfrm
+200,gadoxanum,382,gadolinium xanthan gum complex
+202,generic drug,384,generic medicine
+202,generic drug,385,generic pharmaceutical
+203,gestodene and ethinylestradiol,125,Femodene
+205,givosiran,12,ALN-AS1
+205,givosiran,136,Givlaari
+206,glofitamab,82,Columvi
+206,glofitamab,241,RO7082859
+208,glybera,28,Alipogene tiparvovec
+208,glybera,368,"dna (synthetic adeno-associated virus 1 vector amt-011), complex with protein vp1 (adeno-associated virus 1) and protein vp2 (adeno-associated virus 1) and protein vp3 (adeno-associated virus 1)"
+208,glybera,443,recombinant adeno-associated virus serotype 1 (aav1) vector expressing the s447x variant of the human lipoprotein lipase (lpl) gene
+210,gonadotropin-releasing hormone antagonist,137,GnRH Antagonist
+210,gonadotropin-releasing hormone antagonist,324,anti-gonadotropin-releasing hormones
+211,gramicidin D,51,Bacillus brevis gramicidin D
+211,gramicidin D,139,Gramicidin
+211,gramicidin D,140,Gramicidin A
+211,gramicidin D,141,Gramicidin B
+211,gramicidin D,142,Gramicidin C
+211,gramicidin D,143,Gramicidine
+213,haemaccel,433,polygeline
+214,heparin,65,Calciparine
+214,heparin,145,Hep-lock
+214,heparin,147,Heparinate
+214,heparin,148,Heparinic acid
+214,heparin,186,Liquaemin
+214,heparin,225,Panheprin
+214,heparin,260,Sodium heparin
+214,heparin,389,heparin sodium
+217,hiera picra,390,hickery-pickery
+217,hiera picra,391,hickory-pickery
+217,hiera picra,392,hierapicra
+217,hiera picra,393,higry-pigry
+218,hydrochlorothiazide / olmesartan,52,Benicar HCT
+218,hydrochlorothiazide / olmesartan,415,olmesartan/hydrochlorothiazide
+220,hydrocodone/guaifenesin,217,Obredon
+220,hydrocodone/guaifenesin,387,guaifenesin / hydrocodone
+221,hydrocodone/homatropine,281,Tussigon
+223,idecabtagene vicleucel,22,Abecma
+223,idecabtagene vicleucel,335,bb2121
+225,imlifidase,158,Idefirix
+229,interferon-alpha,162,Interferon alfa
+229,interferon-alpha,409,natural alpha interferon
+230,irbesartan / hydrochlorothiazide,165,Irbesartan Hydrochlorothiazide Zentiva (previously Irbesartan Hydrochlorothiazide Winthrop)
+231,iris root juice,380,flower de luce root juice
+231,iris root juice,402,juice of flower de luce roots
+231,iris root juice,420,orris root juice
+234,lanoteplase,49,BMS-200980
+234,lanoteplase,257,SUN 9216
+234,lanoteplase,258,SUN-9216
+235,latiglutenase,153,IMGX003
+237,lecanemab,45,BAN2401
+237,lecanemab,184,Leqembi
+237,lecanemab,244,Rechembi
+238,ledipasvir/sofosbuvir,388,harvoni
+240,lexaptepid pegol,213,NOX-H94
+242,lipegfilgrastim,403,lipegfilgrastimum
+242,lipegfilgrastim,478,xm-22
+242,lipegfilgrastim,479,xm22
+243,liquid water,476,water
+244,liraglutide/insulin degludek,400,insulin degludec / liraglutide
+245,lirentelimab,10,AK002
+247,loncastuximab tesirine,8,ADCT-402
+247,loncastuximab tesirine,305,Zynlonta
+248,lumasiran,13,ALN-GO1
+250,maftivimab,161,"Immunoglobulin G1, anti-(Zaire ebolavirus glycoprotein) (human monoclonal REGN3479 gamma1-chain), disulfide with human monoclonal REGN3479 kappa-chain, dimer"
+253,marsh mallow syrup,30,Althaea officinalis syrup
+253,marsh mallow syrup,405,marsh mallow root syrup
+253,marsh mallow syrup,406,marshmallow syrup
+253,marsh mallow syrup,459,syrup of Althaea
+253,marsh mallow syrup,462,syrup of marsh mallows
+254,mecasermin rinfabate,164,Iplex
+258,meropenem/vaborbactam,287,Vabomere
+261,mirococept,15,APT 070
+261,mirococept,16,APT-070
+261,mirococept,17,APT070
+263,model-informed precision dosing,198,MIPD
+264,mosunetuzumab,50,BTCT4465A
+264,mosunetuzumab,238,RG7828
+266,muplestim,397,human interleukin-3 (nonglycosylated)
+266,muplestim,401,interleukin-3 human (recombinant)
+267,nabilone,174,LY 109514
+267,nabilone,175,LY-109514
+268,nagrestipen,2,26-L-alaninelymphokine MIP 1alpha (human clone pAT464 macrophage inflammatory)
+268,nagrestipen,101,ECI301
+269,nartograstim,128,G-CSF
+269,nartograstim,444,recombinant granulocyte colony-stimulating factor
+270,naxitamab,91,Danyelza
+270,naxitamab,410,naxitamab-gqgk
+272,nerinetide,211,NA-1
+273,netupitant/palonosetron,412,netupitant / palonosetron hydrochloride
+274,neuromuscular-blocking drug,413,neuromuscular-blocking agent
+275,nirsevimab,195,MED-18897
+275,nirsevimab,196,MEDI8897
+277,nonacog beta pegol,210,N9-GP
+277,nonacog beta pegol,353,"coagulation factor IX (recombinant), glycopegylated"
+278,obinepitide,0,(34-L-glutamine)pancreatic hormone
+279,odesivimab,160,"Immunoglobulin G1, anti-(Zaire ebolavirus glycoprotein) (human monoclonal REGN3471 gamma1-chain), disulfide with human monoclonal REGN3471 kappa-chain, dimer"
+280,olmesartan/amlodipine/hydrochlorothiazide,32,Amlodipine / Hydrochlorothiazide / olmesartan
+280,olmesartan/amlodipine/hydrochlorothiazide,279,Tribenzor
+281,omega-3-acid ethyl esters,189,Lovaza
+281,omega-3-acid ethyl esters,376,ethyl polyenoate
+281,omega-3-acid ethyl esters,416,omega-3 ethyl ester
+281,omega-3-acid ethyl esters,417,omega-3 fatty acid ethyl esters
+282,onasemnogene abeparvovec,21,AVXS-101
+282,onasemnogene abeparvovec,303,Zolgensma
+282,onasemnogene abeparvovec,418,onasemnogene abeparvovec-xioi
+284,oral rehydration solution,216,ORS
+284,oral rehydration solution,419,oral rehydration salt formulation
+285,oral superabsorbent hydrogel,135,Gelesis100
+285,oral superabsorbent hydrogel,229,Plenity
+286,patisiran,218,Onpattro
+288,pegcetacoplan,14,APL-2
+288,pegcetacoplan,109,Empaveli
+291,pentastarch,19,ASL-607
+291,pentastarch,226,Pentaspan
+292,pepsin,399,industrial pepsin
+292,pepsin,423,pepsin A
+294,pifonakin,3,36-L-Aspartic acid-141-L-serineinterleukin 1alpha (human clone p10A)
+295,placebo,427,placebos
+296,"plasminogen, human",246,Ryplazim
+296,"plasminogen, human",431,plasminogen
+296,"plasminogen, human",432,"plasminogen, human-tvmh"
+297,polymethylsiloxane polyhydrate,112,Enterosgel
+297,polymethylsiloxane polyhydrate,434,polymetilsiloxan
+298,pozelimab,293,Veopoz
+304,pulmonary surfactant,192,Lung surfactant
+304,pulmonary surfactant,233,Pulmonary Surfactants
+304,pulmonary surfactant,264,"Surfactant, Pulmonary"
+304,pulmonary surfactant,265,"Surfactants, Pulmonary"
+305,quinupristin/dalfopristin,359,dalfopristin/quinupristin
+308,realgar/indigo naturalis,83,Compound Huangdai
+308,realgar/indigo naturalis,239,RIF
+308,realgar/indigo naturalis,240,RIF oral arsenic formulation
+313,rhatany,441,ratany
+313,rhatany,442,rattany
+315,rindopepimut,57,CDX-110
+318,rosiglitazone / metformin,43,Avandamet
+318,rosiglitazone / metformin,204,Metformin / rosiglitazone
+323,satralizumab,247,SA237
+323,satralizumab,449,sapelizumab
+324,scabious flower water,450,scabiosa flower water
+327,sebelipase alfa,172,Kanuma
+328,secobarbital/brallobarbital/hydroxyzine,294,Vesparax
+332,sodium oligomannate,132,GV-971
+332,sodium oligomannate,133,GV971
+334,sofosbuvir/velpatasvir,113,Epclusa
+334,sofosbuvir/velpatasvir,261,Sofosvel
+334,sofosbuvir/velpatasvir,290,Velasof
+334,sofosbuvir/velpatasvir,291,Velpanat
+338,spesolimab,47,BI 655130
+338,spesolimab,262,Spevigo
+339,spodium,456,spodion
+340,stem bromelain,339,bromelain stem bromelain
+340,stem bromelain,361,debrase
+340,stem bromelain,369,ec 3.4.22.32
+340,stem bromelain,425,pineapple stem bromelain
+341,sucroferric oxyhydroxide,292,Velphoro
+342,sulfonated phenolics,424,phenolsulfonic acid
+343,sulfonated phenolics/sulfuric acid,92,Debacterol
+343,sulfonated phenolics/sulfuric acid,263,Sulfonated Phenolics and Sulfuric Acid
+345,syrup of hyssop and horehound,394,horehound and hyssop syrup
+345,syrup of hyssop and horehound,398,hyssop and horehound syrup
+345,syrup of hyssop and horehound,461,syrup of horehound and hyssop
+347,tacrolimus ointment,437,protopic ointment
+348,tafasitamab,205,Minjuvi
+349,tagraxofusp-erzs,107,Elzonris
+349,tagraxofusp-erzs,253,SL-401
+349,tagraxofusp-erzs,463,tagraxofusp
+350,talimogene laherparepvec,266,T-Vec
+351,tebentafusp,151,IMCgp100
+351,tebentafusp,173,Kimmtrak
+351,tebentafusp,464,tebentafusp-tebn
+352,teceleukin,446,recombinant human interleukin-2
+353,teclistamab,168,JNJ-64007957
+354,telmisartan / amlodipine,33,Amlodipine / telmisartan
+354,telmisartan / amlodipine,465,telmisartan / amlodipine besilate
+357,tipiracil / trifluridine,267,TAS-102
+357,tipiracil / trifluridine,280,Trifluridine / tipiracil
+357,tipiracil / trifluridine,471,trifluridine / tipiracil hydrochloride
+358,tisagenlecleucel,62,CTL019
+358,tisagenlecleucel,170,KYMRIAH
+358,tisagenlecleucel,404,marketed as Kymriah
+359,tislelizumab,46,BGB-A317
+360,tisotumab vedotin,276,Tivdak
+362,toripalimab,187,Loqtorzi
+364,trafermin,54,CAB-2001
+364,trafermin,126,Fiblast
+364,trafermin,445,recombinant human basic fibroblast growth factor
+364,trafermin,448,rhbFGF
+365,trandolapril/verapamil,270,Tarka
+367,trastuzumab deruxtecan,89,DS-8201
+367,trastuzumab deruxtecan,90,DS-8201a
+367,trastuzumab deruxtecan,110,Enhertu
+367,trastuzumab deruxtecan,378,fam-trastuzumab deruxtecan
+369,turoctocog alfa pegol,115,Esperoct
+369,turoctocog alfa pegol,209,N8-GP
+369,turoctocog alfa pegol,328,"antihemophilic factor (recombinant), glycopegylated-exei"
+371,undecoylium chloride iodine complex,472,undecoylinium chloride-iodine
+371,undecoylium chloride iodine complex,473,undecoylium chloride complex with iodine
+371,undecoylium chloride iodine complex,474,undecoylium chloride-iodine
+371,undecoylium chloride iodine complex,475,virac
+372,uterotonic,370,ecbolic
+374,vanutide cridificar,6,ACC-001
+376,vildagliptin / metformin,157,Icandra
+376,vildagliptin / metformin,295,Vildagliptin / metformin hydrochloride Novartis
+378,volume expander,338,blood volume expansion solution
+378,volume expander,428,plasma expander
+378,volume expander,429,plasma substitute
+378,volume expander,430,plasma volume expander
+380,vutrisiran,11,ALN-65492
+380,vutrisiran,35,Amvuttra

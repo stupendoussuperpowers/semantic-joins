@@ -1,0 +1,12 @@
+{
+ "source": "wikidata",
+ "mismatch_type": "alias",
+ "group": "football_clubs",
+ "fetched_at": "2026-11-26T19:24:14+00:00",
+ "raw_sha256": "0c6354294bfd6715bb4788562828c8209661793d63904a3ae142a1724cfe9402",
+ "query_sha256": "6cc1b98eca95a25b1c3818539a3d3bdb6049883a1c2db9afab3756aae43b69d3",
+ "endpoint": "qlever",
+ "seed": 0,
+ "max_entities": 400,
+ "sample_fraction": 0.6
+}
